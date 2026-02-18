@@ -60,14 +60,14 @@ window._portfolioObserver = new IntersectionObserver(
     { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
 );
 
-document.querySelectorAll('.animate-on-scroll').forEach(el => {
+document.querySelectorAll('.animate-on-scroll, .animate-from-left, .animate-from-right, .animate-scale').forEach(el => {
     window._portfolioObserver.observe(el);
 });
 
 // Animation failsafe — reveal all animated elements after 2s
 // in case IntersectionObserver doesn't fire (e.g. slow load, edge cases)
 setTimeout(() => {
-    document.querySelectorAll('.animate-on-scroll:not(.visible)').forEach(el => {
+    document.querySelectorAll('.animate-on-scroll:not(.visible), .animate-from-left:not(.visible), .animate-from-right:not(.visible), .animate-scale:not(.visible)').forEach(el => {
         el.classList.add('visible');
     });
 }, 2000);

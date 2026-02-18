@@ -431,9 +431,7 @@ ul {
     color: var(--color-text);
 }
 
-.section-title::after {
-    display: none;
-}
+/* Section title ::after is handled in the Animations section */
 
 section {
     padding: var(--section-padding);
@@ -1314,7 +1312,9 @@ section {
 }
 
 .badge {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     padding: 10px 22px;
     background: var(--color-accent-muted);
     border: 1px solid rgba(99, 102, 241, 0.25);
@@ -2089,10 +2089,68 @@ footer {
 }
 
 /* ===== Animations ===== */
+
+/* --- Keyframes --- */
+@keyframes hero-fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes hero-scale-in {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes glow-pulse {
+    0%, 100% { box-shadow: 0 0 60px rgba(99, 102, 241, 0.08), 0 12px 40px rgba(0, 0, 0, 0.35); }
+    50% { box-shadow: 0 0 80px rgba(99, 102, 241, 0.2), 0 12px 40px rgba(0, 0, 0, 0.35); }
+}
+
+@keyframes underline-grow {
+    from { width: 0; }
+    to { width: 40px; }
+}
+
+/* --- Hero entrance (plays once on load) --- */
+.hero-kicker {
+    opacity: 0;
+    animation: hero-fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
+}
+
+#hero h1 {
+    opacity: 0;
+    animation: hero-fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+}
+
+.hero-sub {
+    opacity: 0;
+    animation: hero-fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.35s forwards;
+}
+
+.hero-actions {
+    opacity: 0;
+    animation: hero-fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.45s forwards;
+}
+
+.hero-headshot-wrap {
+    opacity: 0;
+    animation: hero-scale-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+}
+
+.hero-headshot {
+    animation: glow-pulse 4s ease-in-out infinite;
+}
+
+.social-proof-bar {
+    opacity: 0;
+    animation: hero-fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.6s forwards;
+}
+
+/* --- Scroll-triggered animations (improved) --- */
 .animate-on-scroll {
     opacity: 0;
-    transform: translateY(12px);
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    transform: translateY(24px);
+    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .animate-on-scroll.visible {
@@ -2100,11 +2158,123 @@ footer {
     transform: translateY(0);
 }
 
+/* Direction variants */
+.animate-from-left {
+    opacity: 0;
+    transform: translateX(-24px);
+    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-from-right {
+    opacity: 0;
+    transform: translateX(24px);
+    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-scale {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-from-left.visible,
+.animate-from-right.visible,
+.animate-scale.visible {
+    opacity: 1;
+    transform: none;
+}
+
+/* Stagger delays for child cards in grids */
+.stagger-children > :nth-child(1) { transition-delay: 0s; }
+.stagger-children > :nth-child(2) { transition-delay: 0.1s; }
+.stagger-children > :nth-child(3) { transition-delay: 0.2s; }
+.stagger-children > :nth-child(4) { transition-delay: 0.3s; }
+
+/* --- Section title animated underline --- */
+.section-title.animate-on-scroll::after,
+.section-title.animate-from-left::after,
+.section-title.animate-from-right::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: var(--color-accent);
+    border-radius: 2px;
+    margin-top: 8px;
+    transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.2s;
+}
+
+.section-title.animate-on-scroll.visible::after,
+.section-title.animate-from-left.visible::after,
+.section-title.animate-from-right.visible::after {
+    width: 40px;
+}
+
+/* --- Micro-interactions --- */
+
+/* YT card thumbnail zoom on hover */
+.yt-card-thumb img {
+    transition: transform 0.3s ease;
+}
+
+.yt-card:hover .yt-card-thumb img {
+    transform: scale(1.05);
+}
+
+/* Timeline logo hover */
+.timeline-logo {
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.timeline-item:hover .timeline-logo {
+    transform: scale(1.15);
+    border-color: var(--color-accent);
+}
+
+/* Contact item icon scale */
+.contact-item svg {
+    transition: transform 0.2s ease;
+}
+
+.contact-item:hover svg {
+    transform: scale(1.15);
+}
+
+/* Contact item lift */
+.contact-item {
+    transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.contact-item:hover {
+    transform: translateY(-2px);
+}
+
+/* Explore card icon subtle rotate */
+.explore-card:hover .explore-card-icon {
+    transform: rotate(-5deg);
+}
+
+.explore-card-icon {
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+/* --- Reduced motion & fallbacks --- */
 @media (prefers-reduced-motion: reduce) {
-    .animate-on-scroll {
+    .animate-on-scroll,
+    .animate-from-left,
+    .animate-from-right,
+    .animate-scale {
         opacity: 1;
         transform: none;
         transition: none;
+    }
+    .hero-kicker, #hero h1, .hero-sub, .hero-actions,
+    .hero-headshot-wrap, .social-proof-bar {
+        opacity: 1;
+        animation: none;
+    }
+    .hero-headshot {
+        animation: none;
     }
     html {
         scroll-behavior: auto;
@@ -2113,7 +2283,10 @@ footer {
 
 /* Fallback for no JS */
 @media (scripting: none) {
-    .animate-on-scroll {
+    .animate-on-scroll,
+    .animate-from-left,
+    .animate-from-right,
+    .animate-scale {
         opacity: 1;
         transform: none;
     }
