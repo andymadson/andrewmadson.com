@@ -181,18 +181,18 @@ ul {
 }
 
 .hero-kicker {
-    font-size: 0.85rem;
+    font-size: clamp(1.15rem, 2vw, 1.4rem);
     font-weight: 600;
-    color: var(--color-accent);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-bottom: 16px;
+    color: var(--color-text-secondary);
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+    line-height: 1.4;
 }
 
 #hero h1 {
     font-size: clamp(2.5rem, 5vw, 3.75rem);
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     letter-spacing: -0.03em;
     line-height: 1.1;
 }
@@ -1887,12 +1887,12 @@ footer {
 }
 
 /* --- Hero entrance (plays once on load) --- */
-.hero-kicker {
+#hero h1 {
     opacity: 0;
     animation: hero-fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
 }
 
-#hero h1 {
+.hero-kicker {
     opacity: 0;
     animation: hero-fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
 }
