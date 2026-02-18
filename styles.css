@@ -294,6 +294,36 @@ ul {
     background-color: var(--color-border);
 }
 
+.social-proof-follow {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.libutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    width: 200px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #0A66C2;
+    font-family: "SF Pro Text", Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: background-color var(--transition);
+}
+
+.libutton:hover {
+    background-color: #004182;
+}
+
 /* Social links (kept for backward compat but no longer in hero) */
 .social-links {
     display: flex;
@@ -460,7 +490,7 @@ section {
 
 .timeline {
     position: relative;
-    padding-left: 48px;
+    padding-left: 40px;
     margin-bottom: 48px;
 }
 
@@ -486,22 +516,13 @@ section {
 .timeline-dot {
     position: absolute;
     left: -48px;
-    top: 2px;
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
-    background-color: var(--color-card);
-    border: 2px solid var(--color-border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.timeline-dot img {
-    width: 22px;
-    height: 22px;
-    object-fit: contain;
+    top: 6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--color-accent);
+    border: 3px solid var(--color-surface);
+    box-shadow: 0 0 0 1px var(--color-border);
 }
 
 .timeline-content h3 {
@@ -560,23 +581,26 @@ section {
 
 .education-list li {
     color: var(--color-text-secondary);
-    padding: 12px 0;
+    padding: 14px 0;
     border-bottom: 1px solid var(--color-border);
     display: flex;
     align-items: center;
     gap: 14px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.education-list li::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-accent);
+    flex-shrink: 0;
 }
 
 .education-list li:last-child {
     border-bottom: none;
-}
-
-.education-list li img {
-    width: 28px;
-    height: 28px;
-    object-fit: contain;
-    flex-shrink: 0;
-    border-radius: 4px;
 }
 
 .education-extras {
