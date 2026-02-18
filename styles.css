@@ -294,6 +294,25 @@ ul {
     background-color: var(--color-border);
 }
 
+.award-icon-sm {
+    width: 28px;
+    height: 35px;
+    flex-shrink: 0;
+    filter: drop-shadow(0 1px 3px rgba(180, 130, 20, 0.3));
+}
+
+.social-proof-award .stat-number.award-text {
+    color: #FBBF24;
+}
+
+.social-proof-award .stat-label.award-text {
+    color: #D97706;
+}
+
+.social-proof-award:hover .stat-number.award-text {
+    color: #FDE68A;
+}
+
 .social-proof-follow {
     display: flex;
     align-items: center;
