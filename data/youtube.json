@@ -1,0 +1,1897 @@
+{
+  "generated_at": "2026-02-18T18:58:34.256153+00:00",
+  "full_length": [
+    {
+      "id": "M-1wD_Cm1M4",
+      "title": "Insights x Design Ep. 18 (@statquest with Josh Starmer)",
+      "thumbnail": "https://i.ytimg.com/vi/M-1wD_Cm1M4/mqdefault.jpg",
+      "views": 58993,
+      "published": "2024-04-24T16:00:58Z",
+      "is_short": false
+    },
+    {
+      "id": "KZc-W72iTMM",
+      "title": "Insights x Design Ep. 20 (Andrew Ojeda - Google Tableau Leader)",
+      "thumbnail": "https://i.ytimg.com/vi/KZc-W72iTMM/mqdefault.jpg",
+      "views": 33850,
+      "published": "2024-05-15T18:29:32Z",
+      "is_short": false
+    },
+    {
+      "id": "0kWEk8QTUGQ",
+      "title": "Insights x Design Ep. 17 (Aurélien Vautier)",
+      "thumbnail": "https://i.ytimg.com/vi/0kWEk8QTUGQ/mqdefault.jpg",
+      "views": 32005,
+      "published": "2024-04-16T23:56:49Z",
+      "is_short": false
+    },
+    {
+      "id": "H70cZelkkPc",
+      "title": "Insights x Design Ep.  6 (Alli Torban)",
+      "thumbnail": "https://i.ytimg.com/vi/H70cZelkkPc/mqdefault.jpg",
+      "views": 31422,
+      "published": "2024-01-29T06:54:51Z",
+      "is_short": false
+    },
+    {
+      "id": "4E2wn4MrJwg",
+      "title": "IxD - Ep. 23 (@LightsOnData George Firican)",
+      "thumbnail": "https://i.ytimg.com/vi/4E2wn4MrJwg/mqdefault.jpg",
+      "views": 26429,
+      "published": "2024-05-30T21:41:34Z",
+      "is_short": false
+    },
+    {
+      "id": "rhTpTz2-Xr0",
+      "title": "Insights x Design Ep. 22 (Dr. Santona Tuli - Head of Data)",
+      "thumbnail": "https://i.ytimg.com/vi/rhTpTz2-Xr0/mqdefault.jpg",
+      "views": 24776,
+      "published": "2024-05-21T23:24:51Z",
+      "is_short": false
+    },
+    {
+      "id": "_JW_hkkHYnE",
+      "title": "Insights x Design Ep. 21 (Conor Grennan - Chief AI Architect)",
+      "thumbnail": "https://i.ytimg.com/vi/_JW_hkkHYnE/mqdefault.jpg",
+      "views": 14306,
+      "published": "2024-05-15T03:26:33Z",
+      "is_short": false
+    },
+    {
+      "id": "ly4WLW3O4vI",
+      "title": "Insights x Design Ep. 25 (Joe Dery - VP, Dean School of IT at WGU )",
+      "thumbnail": "https://i.ytimg.com/vi/ly4WLW3O4vI/mqdefault.jpg",
+      "views": 13199,
+      "published": "2024-07-02T23:28:09Z",
+      "is_short": false
+    },
+    {
+      "id": "bZj696GiTM4",
+      "title": "Insights x Design Ep. 24 (Susan Walsh - The Classification Guru)",
+      "thumbnail": "https://i.ytimg.com/vi/bZj696GiTM4/mqdefault.jpg",
+      "views": 12854,
+      "published": "2024-06-21T06:19:40Z",
+      "is_short": false
+    },
+    {
+      "id": "55aqEYRIhME",
+      "title": "Insights x Design Ep. 19 (Alex Merced)",
+      "thumbnail": "https://i.ytimg.com/vi/55aqEYRIhME/mqdefault.jpg",
+      "views": 10564,
+      "published": "2024-05-03T20:19:07Z",
+      "is_short": false
+    },
+    {
+      "id": "YbC5iyvAwtk",
+      "title": "Insights x Design Ep. 16 (Ken Jee)",
+      "thumbnail": "https://i.ytimg.com/vi/YbC5iyvAwtk/mqdefault.jpg",
+      "views": 9066,
+      "published": "2024-04-11T04:18:31Z",
+      "is_short": false
+    },
+    {
+      "id": "tVOlwZuKRwg",
+      "title": "IxD Ep. 27 (Yan Holtz - Data Viz Engineer)",
+      "thumbnail": "https://i.ytimg.com/vi/tVOlwZuKRwg/mqdefault.jpg",
+      "views": 6914,
+      "published": "2024-08-08T18:32:21Z",
+      "is_short": false
+    },
+    {
+      "id": "iFbXTeriFVw",
+      "title": "Insights x Design Ep. 12 (Eli Holder)",
+      "thumbnail": "https://i.ytimg.com/vi/iFbXTeriFVw/mqdefault.jpg",
+      "views": 4223,
+      "published": "2024-03-12T23:44:58Z",
+      "is_short": false
+    },
+    {
+      "id": "EOEJSl2xPow",
+      "title": "IxD Ep. 29 (Hugo Lu - Founder of Orchestra)",
+      "thumbnail": "https://i.ytimg.com/vi/EOEJSl2xPow/mqdefault.jpg",
+      "views": 3303,
+      "published": "2024-11-07T02:29:31Z",
+      "is_short": false
+    },
+    {
+      "id": "4gPUehLj2oQ",
+      "title": "IxD Ep. 30 (Mark Freeman - Gable AI)",
+      "thumbnail": "https://i.ytimg.com/vi/4gPUehLj2oQ/mqdefault.jpg",
+      "views": 2950,
+      "published": "2024-11-19T00:46:59Z",
+      "is_short": false
+    },
+    {
+      "id": "4efLTzmXdtE",
+      "title": "Insights x Design Ep. 26 (Nisar Ahmed - Lead Decision Scientist at CVS)",
+      "thumbnail": "https://i.ytimg.com/vi/4efLTzmXdtE/mqdefault.jpg",
+      "views": 2934,
+      "published": "2024-08-02T00:32:10Z",
+      "is_short": false
+    },
+    {
+      "id": "Qn0gwqggH8E",
+      "title": "Insights x Design Ep. 28 (Harpreet Sahota - AI Hacker)",
+      "thumbnail": "https://i.ytimg.com/vi/Qn0gwqggH8E/mqdefault.jpg",
+      "views": 2082,
+      "published": "2024-10-31T03:42:17Z",
+      "is_short": false
+    },
+    {
+      "id": "4tmh5hw0PBg",
+      "title": "Insights x Design Ep. 7 (AI Global Impact!)",
+      "thumbnail": "https://i.ytimg.com/vi/4tmh5hw0PBg/mqdefault.jpg",
+      "views": 1064,
+      "published": "2024-02-05T04:11:30Z",
+      "is_short": false
+    },
+    {
+      "id": "_93FudjAWTY",
+      "title": "Insights x Design Ep.  4 (AI - UX - Analytics)",
+      "thumbnail": "https://i.ytimg.com/vi/_93FudjAWTY/mqdefault.jpg",
+      "views": 623,
+      "published": "2024-01-17T06:33:58Z",
+      "is_short": false
+    },
+    {
+      "id": "0HvlmOtEEMU",
+      "title": "Why Kafka Connect gets you into Iceberg fast",
+      "thumbnail": "https://i.ytimg.com/vi/0HvlmOtEEMU/mqdefault.jpg",
+      "views": 324,
+      "published": "2026-02-14T20:23:25Z",
+      "is_short": false
+    },
+    {
+      "id": "tIa3lYcYc_g",
+      "title": "How StarRocks reads Iceberg: metadata and pruning",
+      "thumbnail": "https://i.ytimg.com/vi/tIa3lYcYc_g/mqdefault.jpg",
+      "views": 284,
+      "published": "2026-02-14T20:23:42Z",
+      "is_short": false
+    },
+    {
+      "id": "BvwLJ6Fz0KI",
+      "title": "Why Iceberg matters for AI agents",
+      "thumbnail": "https://i.ytimg.com/vi/BvwLJ6Fz0KI/mqdefault.jpg",
+      "views": 263,
+      "published": "2026-02-14T20:23:03Z",
+      "is_short": false
+    },
+    {
+      "id": "Gw4ZuYZs46o",
+      "title": "Postgres + Iceberg: the practical split",
+      "thumbnail": "https://i.ytimg.com/vi/Gw4ZuYZs46o/mqdefault.jpg",
+      "views": 238,
+      "published": "2026-02-14T20:22:47Z",
+      "is_short": false
+    },
+    {
+      "id": "XDrH4b-fkLg",
+      "title": "Live demo: granting table access with Lakekeeper",
+      "thumbnail": "https://i.ytimg.com/vi/XDrH4b-fkLg/mqdefault.jpg",
+      "views": 196,
+      "published": "2026-02-14T20:22:45Z",
+      "is_short": false
+    },
+    {
+      "id": "_KKRJySXcfo",
+      "title": "What is query federation and why it matters",
+      "thumbnail": "https://i.ytimg.com/vi/_KKRJySXcfo/mqdefault.jpg",
+      "views": 117,
+      "published": "2026-02-14T20:23:47Z",
+      "is_short": false
+    },
+    {
+      "id": "iB22kKTEZQQ",
+      "title": "Iceberg metadata explained: manifests, lists, and snapshots",
+      "thumbnail": "https://i.ytimg.com/vi/iB22kKTEZQQ/mqdefault.jpg",
+      "views": 87,
+      "published": "2026-02-14T20:23:13Z",
+      "is_short": false
+    },
+    {
+      "id": "jGXFw-0z2BE",
+      "title": "IxD Ep. 31 - Solomon Kahn (Delivery Layer CEO)",
+      "thumbnail": "https://i.ytimg.com/vi/jGXFw-0z2BE/mqdefault.jpg",
+      "views": 82,
+      "published": "2024-12-09T04:01:33Z",
+      "is_short": false
+    },
+    {
+      "id": "5GEu81v42C8",
+      "title": "Catalog as a central control plane for governance",
+      "thumbnail": "https://i.ytimg.com/vi/5GEu81v42C8/mqdefault.jpg",
+      "views": 72,
+      "published": "2026-02-14T20:24:20Z",
+      "is_short": false
+    },
+    {
+      "id": "rQHSGM1OT6w",
+      "title": "StarRocks optimizations when federating to Iceberg",
+      "thumbnail": "https://i.ytimg.com/vi/rQHSGM1OT6w/mqdefault.jpg",
+      "views": 59,
+      "published": "2026-02-14T20:24:44Z",
+      "is_short": false
+    },
+    {
+      "id": "aSAvEyFY36k",
+      "title": "Developer Flow - LoFi Beats #5",
+      "thumbnail": "https://i.ytimg.com/vi/aSAvEyFY36k/mqdefault.jpg",
+      "views": 57,
+      "published": "2025-08-28T00:00:38Z",
+      "is_short": false
+    },
+    {
+      "id": "PYODIF3b8DA",
+      "title": "How Iceberg deletion files work: positional vs equality",
+      "thumbnail": "https://i.ytimg.com/vi/PYODIF3b8DA/mqdefault.jpg",
+      "views": 48,
+      "published": "2026-02-14T20:25:04Z",
+      "is_short": false
+    },
+    {
+      "id": "nhuMGzDoyoY",
+      "title": "Insights x Design - Dashboard Doctor #dataanalytics #ai #data #dataculture #podcast #sql #uxdesign",
+      "thumbnail": "https://i.ytimg.com/vi/nhuMGzDoyoY/mqdefault.jpg",
+      "views": 41,
+      "published": "2024-01-19T06:38:29Z",
+      "is_short": false
+    },
+    {
+      "id": "5qKu5w9o_2Y",
+      "title": "Four AI capabilities — why context matters for generative AI",
+      "thumbnail": "https://i.ytimg.com/vi/5qKu5w9o_2Y/mqdefault.jpg",
+      "views": 27,
+      "published": "2026-02-14T20:23:53Z",
+      "is_short": false
+    },
+    {
+      "id": "9BL1Uu08560",
+      "title": "Copy-on-write vs merge-on-read: Iceberg delete strategies",
+      "thumbnail": "https://i.ytimg.com/vi/9BL1Uu08560/mqdefault.jpg",
+      "views": 20,
+      "published": "2026-02-14T20:24:24Z",
+      "is_short": false
+    },
+    {
+      "id": "pMl-XUa74Qs",
+      "title": "How compaction reconciles delete files in Iceberg",
+      "thumbnail": "https://i.ytimg.com/vi/pMl-XUa74Qs/mqdefault.jpg",
+      "views": 19,
+      "published": "2026-02-14T20:24:17Z",
+      "is_short": false
+    },
+    {
+      "id": "x6lem1ijz5E",
+      "title": "Attribute-based access with Cedar policies",
+      "thumbnail": "https://i.ytimg.com/vi/x6lem1ijz5E/mqdefault.jpg",
+      "views": 14,
+      "published": "2026-02-14T20:24:36Z",
+      "is_short": false
+    }
+  ],
+  "shorts": [
+    {
+      "id": "mYYlHFpL2ss",
+      "title": "5 levels of apache iceberg #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/mYYlHFpL2ss/mqdefault.jpg",
+      "views": 31130,
+      "published": "2025-11-14T23:51:09Z",
+      "is_short": true
+    },
+    {
+      "id": "qBYozQtqIAw",
+      "title": "What is Apache Polaris? #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/qBYozQtqIAw/mqdefault.jpg",
+      "views": 26548,
+      "published": "2025-10-16T23:51:10Z",
+      "is_short": true
+    },
+    {
+      "id": "JZKb_15MN7M",
+      "title": "MCP is Data Engineering's FUTURE! #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/JZKb_15MN7M/mqdefault.jpg",
+      "views": 4266,
+      "published": "2025-10-31T00:33:11Z",
+      "is_short": true
+    },
+    {
+      "id": "33EtK0FwjIw",
+      "title": "Don't Be An AI Slop Monster #ai #data #genai",
+      "thumbnail": "https://i.ytimg.com/vi/33EtK0FwjIw/mqdefault.jpg",
+      "views": 2236,
+      "published": "2025-09-04T01:27:31Z",
+      "is_short": true
+    },
+    {
+      "id": "Z6C0Ef67z1Q",
+      "title": "SQLMesh is changing the game!",
+      "thumbnail": "https://i.ytimg.com/vi/Z6C0Ef67z1Q/mqdefault.jpg",
+      "views": 1863,
+      "published": "2025-06-17T21:00:43Z",
+      "is_short": true
+    },
+    {
+      "id": "1kSjUuzp-e0",
+      "title": "A Day in the Life of Netflix (FUNNY) #ai #funny #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/1kSjUuzp-e0/mqdefault.jpg",
+      "views": 1236,
+      "published": "2025-09-05T01:40:27Z",
+      "is_short": true
+    },
+    {
+      "id": "3qi4ua6q9h0",
+      "title": "Why does Apache Iceberg Exist? #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/3qi4ua6q9h0/mqdefault.jpg",
+      "views": 1216,
+      "published": "2025-10-22T19:53:39Z",
+      "is_short": true
+    },
+    {
+      "id": "yjPcLy-MVis",
+      "title": "your data lake on ACID #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/yjPcLy-MVis/mqdefault.jpg",
+      "views": 1202,
+      "published": "2025-10-21T01:40:47Z",
+      "is_short": true
+    },
+    {
+      "id": "TSYkWEvzwsA",
+      "title": "Not So Spooky APIs #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/TSYkWEvzwsA/mqdefault.jpg",
+      "views": 1157,
+      "published": "2025-10-24T00:10:05Z",
+      "is_short": true
+    },
+    {
+      "id": "JiGZxUZmDVA",
+      "title": "Use AI to Build Data Pipelines For AI!! #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/JiGZxUZmDVA/mqdefault.jpg",
+      "views": 1122,
+      "published": "2025-10-22T18:12:22Z",
+      "is_short": true
+    },
+    {
+      "id": "zcLReMVO7qo",
+      "title": "@statquest  - Demystifying Data Science #datascience #statistics #ai",
+      "thumbnail": "https://i.ytimg.com/vi/zcLReMVO7qo/mqdefault.jpg",
+      "views": 948,
+      "published": "2024-05-03T19:34:54Z",
+      "is_short": true
+    },
+    {
+      "id": "3wTyoRMwgNw",
+      "title": "Projects get you hired!",
+      "thumbnail": "https://i.ytimg.com/vi/3wTyoRMwgNw/mqdefault.jpg",
+      "views": 671,
+      "published": "2024-03-28T02:10:24Z",
+      "is_short": true
+    },
+    {
+      "id": "ZQfN_nhyOSA",
+      "title": "WILL AI REPLACE DATA ANALYSTS? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
+      "thumbnail": "https://i.ytimg.com/vi/ZQfN_nhyOSA/mqdefault.jpg",
+      "views": 653,
+      "published": "2024-03-15T00:34:44Z",
+      "is_short": true
+    },
+    {
+      "id": "rYtzZo8QLEk",
+      "title": "Santona Tuli - Head of Data on Creating an Award-Winning Science Movie",
+      "thumbnail": "https://i.ytimg.com/vi/rYtzZo8QLEk/mqdefault.jpg",
+      "views": 619,
+      "published": "2024-05-22T00:21:54Z",
+      "is_short": true
+    },
+    {
+      "id": "ZMQC0bW9InI",
+      "title": "Does AI-generated content need to be disclosed? #ai #governance",
+      "thumbnail": "https://i.ytimg.com/vi/ZMQC0bW9InI/mqdefault.jpg",
+      "views": 601,
+      "published": "2024-02-06T17:00:28Z",
+      "is_short": true
+    },
+    {
+      "id": "-_eBYVZ_wFk",
+      "title": "Skills Data Scientists and Data Analysts Need!",
+      "thumbnail": "https://i.ytimg.com/vi/-_eBYVZ_wFk/mqdefault.jpg",
+      "views": 596,
+      "published": "2024-03-29T04:34:02Z",
+      "is_short": true
+    },
+    {
+      "id": "rXAFjJ2Lkbs",
+      "title": "Skills from My Early Career That Shaped My CEO Journey",
+      "thumbnail": "https://i.ytimg.com/vi/rXAFjJ2Lkbs/mqdefault.jpg",
+      "views": 541,
+      "published": "2024-11-07T02:57:42Z",
+      "is_short": true
+    },
+    {
+      "id": "zD4Y5z7Xmzw",
+      "title": "Introducing Josh Starmer: Simplifying Data Science and Machine Learning",
+      "thumbnail": "https://i.ytimg.com/vi/zD4Y5z7Xmzw/mqdefault.jpg",
+      "views": 533,
+      "published": "2024-08-12T21:51:13Z",
+      "is_short": true
+    },
+    {
+      "id": "RT0zVHCZUkM",
+      "title": "The Future of AI: Building Smaller, Efficient Models",
+      "thumbnail": "https://i.ytimg.com/vi/RT0zVHCZUkM/mqdefault.jpg",
+      "views": 518,
+      "published": "2024-11-07T18:30:42Z",
+      "is_short": true
+    },
+    {
+      "id": "R5a4IZ5D7N4",
+      "title": "Common Misconceptions in Data Work: Setting the Record Straight",
+      "thumbnail": "https://i.ytimg.com/vi/R5a4IZ5D7N4/mqdefault.jpg",
+      "views": 509,
+      "published": "2024-11-07T02:52:36Z",
+      "is_short": true
+    },
+    {
+      "id": "dcI1iGylbc0",
+      "title": "The Power of Academic Training: A Scientific Approach to Client Projects",
+      "thumbnail": "https://i.ytimg.com/vi/dcI1iGylbc0/mqdefault.jpg",
+      "views": 508,
+      "published": "2024-08-06T22:05:23Z",
+      "is_short": true
+    },
+    {
+      "id": "flpIuoujYq4",
+      "title": "The Power of Open Source Data! #dataanalytics #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/flpIuoujYq4/mqdefault.jpg",
+      "views": 508,
+      "published": "2024-05-07T19:09:24Z",
+      "is_short": true
+    },
+    {
+      "id": "HsYQry-A-9U",
+      "title": "SQLMesh: Stop Data Pipeline Breakage with Virtual Environments",
+      "thumbnail": "https://i.ytimg.com/vi/HsYQry-A-9U/mqdefault.jpg",
+      "views": 504,
+      "published": "2025-06-11T22:52:05Z",
+      "is_short": true
+    },
+    {
+      "id": "wKndW-P7K6I",
+      "title": "Mastering the Art of Business Influence: Building Strong Mathematical Foundations",
+      "thumbnail": "https://i.ytimg.com/vi/wKndW-P7K6I/mqdefault.jpg",
+      "views": 485,
+      "published": "2024-07-03T04:04:49Z",
+      "is_short": true
+    },
+    {
+      "id": "gXqtJdNnFcw",
+      "title": "Data Transformation is Broken #dataengineering #sqlmesh #dataanalysis #datatransformation #data",
+      "thumbnail": "https://i.ytimg.com/vi/gXqtJdNnFcw/mqdefault.jpg",
+      "views": 483,
+      "published": "2025-06-18T22:25:49Z",
+      "is_short": true
+    },
+    {
+      "id": "lPsLFbw7TEE",
+      "title": "Automate TPS Reports in Less Than 30 Minutes! #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/lPsLFbw7TEE/mqdefault.jpg",
+      "views": 479,
+      "published": "2025-09-16T16:23:56Z",
+      "is_short": true
+    },
+    {
+      "id": "ZFHdarUsixs",
+      "title": "Unlocking Chart-Making Secrets: Inspiring Free Resources for the Community",
+      "thumbnail": "https://i.ytimg.com/vi/ZFHdarUsixs/mqdefault.jpg",
+      "views": 475,
+      "published": "2024-08-06T22:05:46Z",
+      "is_short": true
+    },
+    {
+      "id": "GmGLw59vzxU",
+      "title": "Mastering Data Visualization: Level up your coding skills with design patterns",
+      "thumbnail": "https://i.ytimg.com/vi/GmGLw59vzxU/mqdefault.jpg",
+      "views": 473,
+      "published": "2024-08-09T04:01:27Z",
+      "is_short": true
+    },
+    {
+      "id": "kEIJQjAwysQ",
+      "title": "Exposed 😱 Data Lake Secrets   How to Protect Your Information! 🛡️ #dataanalytics #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/kEIJQjAwysQ/mqdefault.jpg",
+      "views": 473,
+      "published": "2024-05-12T04:25:53Z",
+      "is_short": true
+    },
+    {
+      "id": "MTYoeIY9PKg",
+      "title": "How Accurate Classification and Taxonomy can Save You Money",
+      "thumbnail": "https://i.ytimg.com/vi/MTYoeIY9PKg/mqdefault.jpg",
+      "views": 472,
+      "published": "2024-07-04T09:05:24Z",
+      "is_short": true
+    },
+    {
+      "id": "hDD6L56kUSE",
+      "title": "The Art and Science of Effective Analytics Dashboards in Tableau",
+      "thumbnail": "https://i.ytimg.com/vi/hDD6L56kUSE/mqdefault.jpg",
+      "views": 470,
+      "published": "2024-08-02T21:38:32Z",
+      "is_short": true
+    },
+    {
+      "id": "DwduI26ILA0",
+      "title": "The 4 types of creativity! #dataanalytics #creativity #datavisualization #data",
+      "thumbnail": "https://i.ytimg.com/vi/DwduI26ILA0/mqdefault.jpg",
+      "views": 468,
+      "published": "2024-03-20T03:03:23Z",
+      "is_short": true
+    },
+    {
+      "id": "XLsi1lulYiQ",
+      "title": "Learn #sql  First! @LukeBarousse on why he made a SQL course for #dataanalytics #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/XLsi1lulYiQ/mqdefault.jpg",
+      "views": 466,
+      "published": "2024-03-21T22:07:14Z",
+      "is_short": true
+    },
+    {
+      "id": "9FbSFGsMJns",
+      "title": "The Art of Creating Interactive Data Visualizations",
+      "thumbnail": "https://i.ytimg.com/vi/9FbSFGsMJns/mqdefault.jpg",
+      "views": 460,
+      "published": "2024-08-12T21:42:54Z",
+      "is_short": true
+    },
+    {
+      "id": "4ZdT-Rt57Fk",
+      "title": "Unveiling the Role of a Director of Data Strategy and Products",
+      "thumbnail": "https://i.ytimg.com/vi/4ZdT-Rt57Fk/mqdefault.jpg",
+      "views": 453,
+      "published": "2024-08-08T19:18:54Z",
+      "is_short": true
+    },
+    {
+      "id": "wuRUI21hFsI",
+      "title": "Being a data analyst for @MrBeast! #data #dataanalytics #datascience #analytics #youtubeshorts",
+      "thumbnail": "https://i.ytimg.com/vi/wuRUI21hFsI/mqdefault.jpg",
+      "views": 453,
+      "published": "2024-03-20T20:56:32Z",
+      "is_short": true
+    },
+    {
+      "id": "NNo_IqkEXsk",
+      "title": "Lessons Learned: Embracing Imperfection in Presentations",
+      "thumbnail": "https://i.ytimg.com/vi/NNo_IqkEXsk/mqdefault.jpg",
+      "views": 444,
+      "published": "2024-07-27T23:44:29Z",
+      "is_short": true
+    },
+    {
+      "id": "qt86Dm7tAf0",
+      "title": "Engaging Presentations 101 -  How to Captivate Your Audience and Ditch the Boring Slides",
+      "thumbnail": "https://i.ytimg.com/vi/qt86Dm7tAf0/mqdefault.jpg",
+      "views": 443,
+      "published": "2024-06-21T07:01:37Z",
+      "is_short": true
+    },
+    {
+      "id": "BFN5Xch5U2Q",
+      "title": "Staying Ahead of Data Trends in 2024  #podcast #dataanalytics #dataanalysis #dataengineering #ai",
+      "thumbnail": "https://i.ytimg.com/vi/BFN5Xch5U2Q/mqdefault.jpg",
+      "views": 442,
+      "published": "2024-06-19T18:41:59Z",
+      "is_short": true
+    },
+    {
+      "id": "pj0X91iMnZA",
+      "title": "Do we read too much into data? #podcast #dataanalytics #ai #datavisualization #data #dashboarddesign",
+      "thumbnail": "https://i.ytimg.com/vi/pj0X91iMnZA/mqdefault.jpg",
+      "views": 441,
+      "published": "2024-03-10T21:04:20Z",
+      "is_short": true
+    },
+    {
+      "id": "2CNeWJA5MIg",
+      "title": "Do you need to be a leader to make $$$ in data? @MattMike weighs in! #dataanalytics #data #career",
+      "thumbnail": "https://i.ytimg.com/vi/2CNeWJA5MIg/mqdefault.jpg",
+      "views": 440,
+      "published": "2024-03-15T23:29:48Z",
+      "is_short": true
+    },
+    {
+      "id": "hby4OFgtPME",
+      "title": "From Social Sciences to Tech: Scaling Social Impact and Helping People at Scale",
+      "thumbnail": "https://i.ytimg.com/vi/hby4OFgtPME/mqdefault.jpg",
+      "views": 439,
+      "published": "2024-08-08T14:53:08Z",
+      "is_short": true
+    },
+    {
+      "id": "K9jpwVYc6wc",
+      "title": "How will AI Change Your Life?",
+      "thumbnail": "https://i.ytimg.com/vi/K9jpwVYc6wc/mqdefault.jpg",
+      "views": 439,
+      "published": "2024-05-15T04:07:32Z",
+      "is_short": true
+    },
+    {
+      "id": "_MZuFtbT1_Y",
+      "title": "Does urgency reinforce existing power structures?  #podcast #dataanalytics #ai #dataculture #dataviz",
+      "thumbnail": "https://i.ytimg.com/vi/_MZuFtbT1_Y/mqdefault.jpg",
+      "views": 439,
+      "published": "2024-03-12T04:55:44Z",
+      "is_short": true
+    },
+    {
+      "id": "Ao-ySS9CRtQ",
+      "title": "Present Data Like A Pro! #dataanalytics #datavisualization #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/Ao-ySS9CRtQ/mqdefault.jpg",
+      "views": 435,
+      "published": "2024-05-06T05:08:45Z",
+      "is_short": true
+    },
+    {
+      "id": "DFxJc7Xvy_8",
+      "title": "@AlexTheAnalyst predict the impact of #ai on #dataanalytics #podcast #datascience #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/DFxJc7Xvy_8/mqdefault.jpg",
+      "views": 435,
+      "published": "2024-03-14T20:11:40Z",
+      "is_short": true
+    },
+    {
+      "id": "J035Wz28uwA",
+      "title": "Optimize Your Data: Consistency is Key for SEO Success",
+      "thumbnail": "https://i.ytimg.com/vi/J035Wz28uwA/mqdefault.jpg",
+      "views": 434,
+      "published": "2024-07-03T17:09:15Z",
+      "is_short": true
+    },
+    {
+      "id": "xiXs2zQaAAk",
+      "title": "The Power of Open Source: Shaping the Future of AI and ML",
+      "thumbnail": "https://i.ytimg.com/vi/xiXs2zQaAAk/mqdefault.jpg",
+      "views": 432,
+      "published": "2024-06-24T20:13:08Z",
+      "is_short": true
+    },
+    {
+      "id": "nQ6gTyzqQNc",
+      "title": "Is your data visualization biased?  #dataanalytics #ai #data #dataanalytics #datavisualization",
+      "thumbnail": "https://i.ytimg.com/vi/nQ6gTyzqQNc/mqdefault.jpg",
+      "views": 431,
+      "published": "2024-03-11T02:53:03Z",
+      "is_short": true
+    },
+    {
+      "id": "AUuy8FJ8rU4",
+      "title": "Revolutionary Data Contracts: Build or Buy? 🤔✨",
+      "thumbnail": "https://i.ytimg.com/vi/AUuy8FJ8rU4/mqdefault.jpg",
+      "views": 429,
+      "published": "2024-11-19T21:37:34Z",
+      "is_short": true
+    },
+    {
+      "id": "ZdMZ0Y6Uqs8",
+      "title": "Unlocking the Power of Online Courses: Lessons Learned from Content Creation",
+      "thumbnail": "https://i.ytimg.com/vi/ZdMZ0Y6Uqs8/mqdefault.jpg",
+      "views": 429,
+      "published": "2024-08-08T14:55:15Z",
+      "is_short": true
+    },
+    {
+      "id": "x5s1KLyDbVc",
+      "title": "What is Analyst Builder? @AlexTheAnalyst  explains!  #podcast #dataanalytics #ai #datavisualization",
+      "thumbnail": "https://i.ytimg.com/vi/x5s1KLyDbVc/mqdefault.jpg",
+      "views": 428,
+      "published": "2024-03-15T21:52:27Z",
+      "is_short": true
+    },
+    {
+      "id": "i8zCgl2Hw9s",
+      "title": "How can you build strong data teams?  #dataanalytics #ai #datascience #datavisualization",
+      "thumbnail": "https://i.ytimg.com/vi/i8zCgl2Hw9s/mqdefault.jpg",
+      "views": 424,
+      "published": "2024-03-11T03:24:46Z",
+      "is_short": true
+    },
+    {
+      "id": "6eNhKVN9-7k",
+      "title": "Stand Out in the Job Market: Degrees and Certificates for Data Science Roles",
+      "thumbnail": "https://i.ytimg.com/vi/6eNhKVN9-7k/mqdefault.jpg",
+      "views": 418,
+      "published": "2024-07-02T04:15:23Z",
+      "is_short": true
+    },
+    {
+      "id": "NmrUzBefuWc",
+      "title": "Unleashing the Entrepreneurial Mindset: Bold Moves and Career Advice",
+      "thumbnail": "https://i.ytimg.com/vi/NmrUzBefuWc/mqdefault.jpg",
+      "views": 416,
+      "published": "2024-08-08T14:52:57Z",
+      "is_short": true
+    },
+    {
+      "id": "nAT6ncp-qek",
+      "title": "From Doubt to Stardom: How Lip Syncs on LinkedIn Became a Lockdown Sensation #podcast #dataanalytics",
+      "thumbnail": "https://i.ytimg.com/vi/nAT6ncp-qek/mqdefault.jpg",
+      "views": 413,
+      "published": "2024-06-21T04:33:39Z",
+      "is_short": true
+    },
+    {
+      "id": "IgPrXhk0t3k",
+      "title": "Data Engineer Haunted House #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/IgPrXhk0t3k/mqdefault.jpg",
+      "views": 408,
+      "published": "2025-10-24T22:57:28Z",
+      "is_short": true
+    },
+    {
+      "id": "N2oxwMUigFk",
+      "title": "Unlocking New Skills: Go-To Resources for Upskilling",
+      "thumbnail": "https://i.ytimg.com/vi/N2oxwMUigFk/mqdefault.jpg",
+      "views": 386,
+      "published": "2024-08-12T21:51:19Z",
+      "is_short": true
+    },
+    {
+      "id": "ZICSMe5JY7A",
+      "title": "Is Open Source Just a Marketing Strategy?",
+      "thumbnail": "https://i.ytimg.com/vi/ZICSMe5JY7A/mqdefault.jpg",
+      "views": 349,
+      "published": "2024-11-07T18:27:46Z",
+      "is_short": true
+    },
+    {
+      "id": "ZTJu6f9r_9s",
+      "title": "The Power of Customer Service: Lessons Learned from Retail",
+      "thumbnail": "https://i.ytimg.com/vi/ZTJu6f9r_9s/mqdefault.jpg",
+      "views": 345,
+      "published": "2024-07-03T16:25:17Z",
+      "is_short": true
+    },
+    {
+      "id": "icYm0KtIMLM",
+      "title": "What's a Tech Evangelist??? #ai #dataengineering #datascience",
+      "thumbnail": "https://i.ytimg.com/vi/icYm0KtIMLM/mqdefault.jpg",
+      "views": 339,
+      "published": "2024-05-06T00:17:24Z",
+      "is_short": true
+    },
+    {
+      "id": "eo6cTrZTZd0",
+      "title": "Why are Apache Iceberg Data Lakehouses so awesome?  #dataengineering #dataanalytics",
+      "thumbnail": "https://i.ytimg.com/vi/eo6cTrZTZd0/mqdefault.jpg",
+      "views": 332,
+      "published": "2024-05-04T02:03:32Z",
+      "is_short": true
+    },
+    {
+      "id": "kGwbRZxklog",
+      "title": "Data Engineering with Seattle Data Guy! #podcast #dataanalytics #dataengineering #dataquality",
+      "thumbnail": "https://i.ytimg.com/vi/kGwbRZxklog/mqdefault.jpg",
+      "views": 314,
+      "published": "2024-03-01T05:48:54Z",
+      "is_short": true
+    },
+    {
+      "id": "VWXSGFq6wN4",
+      "title": "Misinformation vs. Disinformation? #ai #data #governance",
+      "thumbnail": "https://i.ytimg.com/vi/VWXSGFq6wN4/mqdefault.jpg",
+      "views": 287,
+      "published": "2024-02-06T16:53:45Z",
+      "is_short": true
+    },
+    {
+      "id": "Tbfe3Fo8WhU",
+      "title": "WILL AI REPLACE DATA ANALYSTS? @AlexTheAnalyst GIVES HIS PREDICTION! #ai #dataanalytics #chatgpt",
+      "thumbnail": "https://i.ytimg.com/vi/Tbfe3Fo8WhU/mqdefault.jpg",
+      "views": 258,
+      "published": "2024-03-18T17:53:25Z",
+      "is_short": true
+    },
+    {
+      "id": "tWhQgA9_goU",
+      "title": "Data Quality - BIGGEST concern for AI #podcast #ai #dataanalytics #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/tWhQgA9_goU/mqdefault.jpg",
+      "views": 252,
+      "published": "2024-03-02T17:08:38Z",
+      "is_short": true
+    },
+    {
+      "id": "9hEjCD5e42g",
+      "title": "WILL AI CHANGE DATA VISUALIZATION? @allitorban6185 Weighs in! #ai #dataanalytics #datavisualization",
+      "thumbnail": "https://i.ytimg.com/vi/9hEjCD5e42g/mqdefault.jpg",
+      "views": 246,
+      "published": "2024-03-16T00:17:43Z",
+      "is_short": true
+    },
+    {
+      "id": "uu8VeSY2TSg",
+      "title": "What is an Iceberg REST Catalog? #shorts",
+      "thumbnail": "https://i.ytimg.com/vi/uu8VeSY2TSg/mqdefault.jpg",
+      "views": 239,
+      "published": "2025-10-30T04:29:27Z",
+      "is_short": true
+    },
+    {
+      "id": "tFsTzKqaKgY",
+      "title": "Futuristic AI Trends: RAG and Multimodal Magic! 🤖✨",
+      "thumbnail": "https://i.ytimg.com/vi/tFsTzKqaKgY/mqdefault.jpg",
+      "views": 219,
+      "published": "2024-10-31T04:04:07Z",
+      "is_short": true
+    },
+    {
+      "id": "Zy2c1LZfeEs",
+      "title": "How to Get Started with Data Governance with New AI Regulations",
+      "thumbnail": "https://i.ytimg.com/vi/Zy2c1LZfeEs/mqdefault.jpg",
+      "views": 210,
+      "published": "2024-05-31T23:18:35Z",
+      "is_short": true
+    },
+    {
+      "id": "xEmkVS-mf6E",
+      "title": "Reducing ETL From 90 Days to 3 Hours!",
+      "thumbnail": "https://i.ytimg.com/vi/xEmkVS-mf6E/mqdefault.jpg",
+      "views": 204,
+      "published": "2024-05-06T18:18:57Z",
+      "is_short": true
+    },
+    {
+      "id": "RSszkxnm9vg",
+      "title": "Unlocking Data Privacy: Strategies for Analytics Products",
+      "thumbnail": "https://i.ytimg.com/vi/RSszkxnm9vg/mqdefault.jpg",
+      "views": 200,
+      "published": "2024-07-27T23:44:35Z",
+      "is_short": true
+    },
+    {
+      "id": "AN_bFFuJjB4",
+      "title": "Are Dashboards Dead? #dataanalytics #datavisualization #dataanalyst",
+      "thumbnail": "https://i.ytimg.com/vi/AN_bFFuJjB4/mqdefault.jpg",
+      "views": 197,
+      "published": "2024-04-17T18:54:52Z",
+      "is_short": true
+    },
+    {
+      "id": "xz3Nakq7xfI",
+      "title": "Data Engineers Should Write! (@KenJee_ds)",
+      "thumbnail": "https://i.ytimg.com/vi/xz3Nakq7xfI/mqdefault.jpg",
+      "views": 179,
+      "published": "2024-04-11T23:05:11Z",
+      "is_short": true
+    },
+    {
+      "id": "blHzPl_xlwk",
+      "title": "10 Things Three Blue One Brown Didn't Discuss",
+      "thumbnail": "https://i.ytimg.com/vi/blHzPl_xlwk/mqdefault.jpg",
+      "views": 172,
+      "published": "2024-05-31T22:05:48Z",
+      "is_short": true
+    },
+    {
+      "id": "ikV2wajxLHE",
+      "title": "Mastering Data Presentations! #dataanalytics #presentation #datascience",
+      "thumbnail": "https://i.ytimg.com/vi/ikV2wajxLHE/mqdefault.jpg",
+      "views": 170,
+      "published": "2024-05-13T00:54:19Z",
+      "is_short": true
+    },
+    {
+      "id": "g0VwFnH19Xg",
+      "title": "Unlocking the Power of Top Data Experts: How 5 More Could Transform Your Team",
+      "thumbnail": "https://i.ytimg.com/vi/g0VwFnH19Xg/mqdefault.jpg",
+      "views": 148,
+      "published": "2024-08-08T19:24:44Z",
+      "is_short": true
+    },
+    {
+      "id": "_9D7-pFdCTc",
+      "title": "Epic Career Transformation: From Doubt to Expert! 🚀✨",
+      "thumbnail": "https://i.ytimg.com/vi/_9D7-pFdCTc/mqdefault.jpg",
+      "views": 147,
+      "published": "2024-11-19T21:31:47Z",
+      "is_short": true
+    },
+    {
+      "id": "jzwyTS-nhgc",
+      "title": "AI Requires Data Quality and Trust!#ai #dataanalytics #datascience #dataengineering @SeattleDataGuy",
+      "thumbnail": "https://i.ytimg.com/vi/jzwyTS-nhgc/mqdefault.jpg",
+      "views": 145,
+      "published": "2024-03-03T07:14:55Z",
+      "is_short": true
+    },
+    {
+      "id": "eULaIHJ9sRk",
+      "title": "Be a SQL Hero! Optimize Your Dashboard #dataanalytics #dataengineering #datascience #sql",
+      "thumbnail": "https://i.ytimg.com/vi/eULaIHJ9sRk/mqdefault.jpg",
+      "views": 140,
+      "published": "2024-05-08T21:00:15Z",
+      "is_short": true
+    },
+    {
+      "id": "A37ZsPjGtUg",
+      "title": "Unleashing the Power of Data Products in Data Analytics #dataanalytics #dataengineering  #data",
+      "thumbnail": "https://i.ytimg.com/vi/A37ZsPjGtUg/mqdefault.jpg",
+      "views": 138,
+      "published": "2024-05-12T04:32:46Z",
+      "is_short": true
+    },
+    {
+      "id": "KThzxupsRoQ",
+      "title": "Unveiling Cutting-Edge Techniques: Exploring Original Manuscripts in Science",
+      "thumbnail": "https://i.ytimg.com/vi/KThzxupsRoQ/mqdefault.jpg",
+      "views": 137,
+      "published": "2024-08-12T21:51:52Z",
+      "is_short": true
+    },
+    {
+      "id": "pQfMmFV0hrM",
+      "title": "Unveiling the Truth: Should Programs Embrace Transparency in Sharing Painful Data?",
+      "thumbnail": "https://i.ytimg.com/vi/pQfMmFV0hrM/mqdefault.jpg",
+      "views": 137,
+      "published": "2024-07-02T04:15:14Z",
+      "is_short": true
+    },
+    {
+      "id": "NSUMto0YW8c",
+      "title": "What is Apache Iceberg and the metadata layer?",
+      "thumbnail": "https://i.ytimg.com/vi/NSUMto0YW8c/mqdefault.jpg",
+      "views": 136,
+      "published": "2026-02-14T20:23:51Z",
+      "is_short": true
+    },
+    {
+      "id": "bt0j3AQDs6g",
+      "title": "IS SQL HERE TO STAY? #dataanalytics #dataengineering #sql",
+      "thumbnail": "https://i.ytimg.com/vi/bt0j3AQDs6g/mqdefault.jpg",
+      "views": 136,
+      "published": "2024-05-15T19:42:41Z",
+      "is_short": true
+    },
+    {
+      "id": "oLw6fIFncPQ",
+      "title": "How should data analysts give feedback on visualizations?  #dataanalytics #datavisualization",
+      "thumbnail": "https://i.ytimg.com/vi/oLw6fIFncPQ/mqdefault.jpg",
+      "views": 136,
+      "published": "2024-02-23T01:42:12Z",
+      "is_short": true
+    },
+    {
+      "id": "WcMRgxIW9GI",
+      "title": "AI Robocalls Used by Candidates? #podcast #dataanalytics #ai #politics",
+      "thumbnail": "https://i.ytimg.com/vi/WcMRgxIW9GI/mqdefault.jpg",
+      "views": 135,
+      "published": "2024-02-07T17:23:12Z",
+      "is_short": true
+    },
+    {
+      "id": "NnSbC8_Hd44",
+      "title": "Why Data Analysts Need Domain Expertise to Stand Out! with @MattMike",
+      "thumbnail": "https://i.ytimg.com/vi/NnSbC8_Hd44/mqdefault.jpg",
+      "views": 134,
+      "published": "2024-02-08T20:41:44Z",
+      "is_short": true
+    },
+    {
+      "id": "3ByPxq_qvio",
+      "title": "AI Expert Jaeden Schafer Weighs in on AI Robo-Calls! #ai #podcast #data #dataanalytics",
+      "thumbnail": "https://i.ytimg.com/vi/3ByPxq_qvio/mqdefault.jpg",
+      "views": 128,
+      "published": "2024-02-14T16:23:10Z",
+      "is_short": true
+    },
+    {
+      "id": "AnU-FdwdXXw",
+      "title": "Designing Effective Visualizations: Best Practices for Tableau Dashboards",
+      "thumbnail": "https://i.ytimg.com/vi/AnU-FdwdXXw/mqdefault.jpg",
+      "views": 127,
+      "published": "2024-08-02T21:49:24Z",
+      "is_short": true
+    },
+    {
+      "id": "ERucaZjBHLY",
+      "title": "HOW CAN ANALYSTS USE AI? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
+      "thumbnail": "https://i.ytimg.com/vi/ERucaZjBHLY/mqdefault.jpg",
+      "views": 121,
+      "published": "2024-03-15T04:23:39Z",
+      "is_short": true
+    },
+    {
+      "id": "Ck1bBOsKlCA",
+      "title": "AI IN POLITICS  That's Suspicious! #podcast #dataanalytics #business #politics #ai",
+      "thumbnail": "https://i.ytimg.com/vi/Ck1bBOsKlCA/mqdefault.jpg",
+      "views": 121,
+      "published": "2024-02-07T17:30:23Z",
+      "is_short": true
+    },
+    {
+      "id": "nWQh19Pq5A0",
+      "title": "How to Handle Chaos in Dashboard Design! #dataanalytics #dashboarddesign #ux",
+      "thumbnail": "https://i.ytimg.com/vi/nWQh19Pq5A0/mqdefault.jpg",
+      "views": 120,
+      "published": "2024-04-17T00:23:43Z",
+      "is_short": true
+    },
+    {
+      "id": "3BMVH5fdXZ8",
+      "title": "GenAI - The Hype, Evolution, and Future Explained  #podcast #ai #dataanalytics #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/3BMVH5fdXZ8/mqdefault.jpg",
+      "views": 115,
+      "published": "2024-06-21T22:21:35Z",
+      "is_short": true
+    },
+    {
+      "id": "82VUv8nYPkA",
+      "title": "How to Get Hired at Google! #dataanalytics #dataengineering #datavisualization",
+      "thumbnail": "https://i.ytimg.com/vi/82VUv8nYPkA/mqdefault.jpg",
+      "views": 114,
+      "published": "2024-05-08T02:44:15Z",
+      "is_short": true
+    },
+    {
+      "id": "myHvU15IIWo",
+      "title": "Unlocking the Creative Power of Mathematics: Visualizing Equations in New Ways",
+      "thumbnail": "https://i.ytimg.com/vi/myHvU15IIWo/mqdefault.jpg",
+      "views": 111,
+      "published": "2024-08-12T21:51:19Z",
+      "is_short": true
+    },
+    {
+      "id": "G8vZVHRqrQk",
+      "title": "How to Stand Out and Attract Ideal Clients with Personalized Content",
+      "thumbnail": "https://i.ytimg.com/vi/G8vZVHRqrQk/mqdefault.jpg",
+      "views": 109,
+      "published": "2024-07-04T07:05:35Z",
+      "is_short": true
+    },
+    {
+      "id": "QUyEyMLBz3M",
+      "title": "How Startups Use AI to SCALE!",
+      "thumbnail": "https://i.ytimg.com/vi/QUyEyMLBz3M/mqdefault.jpg",
+      "views": 107,
+      "published": "2024-02-16T17:39:35Z",
+      "is_short": true
+    },
+    {
+      "id": "g9YKqGaBzE4",
+      "title": "How AI Companies Can Provide Great Service! #podcast #ai #softwareengineering #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/g9YKqGaBzE4/mqdefault.jpg",
+      "views": 106,
+      "published": "2024-02-12T19:27:16Z",
+      "is_short": true
+    },
+    {
+      "id": "NYtNtrI10ac",
+      "title": "Can Statistics 🎲 Propel Healthcare Data Science to New Heights? 🚀",
+      "thumbnail": "https://i.ytimg.com/vi/NYtNtrI10ac/mqdefault.jpg",
+      "views": 99,
+      "published": "2024-11-19T21:35:16Z",
+      "is_short": true
+    },
+    {
+      "id": "FEfYjwHZ-yY",
+      "title": "SQL JOINS ARE CRITICAL FOR DATA ANALYSTS #dataanalytics #sql #data",
+      "thumbnail": "https://i.ytimg.com/vi/FEfYjwHZ-yY/mqdefault.jpg",
+      "views": 98,
+      "published": "2023-12-21T06:34:27Z",
+      "is_short": true
+    },
+    {
+      "id": "WNoR1_i21o8",
+      "title": "Ultimate Lip Sync Dream: Robbie Williams Reacts to My Videos! #podcast #dataanalytics #dataquality",
+      "thumbnail": "https://i.ytimg.com/vi/WNoR1_i21o8/mqdefault.jpg",
+      "views": 97,
+      "published": "2024-06-21T04:33:55Z",
+      "is_short": true
+    },
+    {
+      "id": "eewWOcb99OI",
+      "title": "Will AI Replace You? #ai #datascience",
+      "thumbnail": "https://i.ytimg.com/vi/eewWOcb99OI/mqdefault.jpg",
+      "views": 90,
+      "published": "2024-05-04T18:23:50Z",
+      "is_short": true
+    },
+    {
+      "id": "yFKm56vjftQ",
+      "title": "POST OFFICE AI BOT  #ai #dataanalytics #podcast #politics #government",
+      "thumbnail": "https://i.ytimg.com/vi/yFKm56vjftQ/mqdefault.jpg",
+      "views": 90,
+      "published": "2024-02-07T17:39:09Z",
+      "is_short": true
+    },
+    {
+      "id": "jXLI3_dbFkQ",
+      "title": "Which to choose: Spark, Flink, or Kafka Connect?",
+      "thumbnail": "https://i.ytimg.com/vi/jXLI3_dbFkQ/mqdefault.jpg",
+      "views": 89,
+      "published": "2026-02-14T20:22:56Z",
+      "is_short": true
+    },
+    {
+      "id": "kHMT2HRF_3k",
+      "title": "Discover How to Save Money on Food Delivery and Optimize Data with Code Methodology",
+      "thumbnail": "https://i.ytimg.com/vi/kHMT2HRF_3k/mqdefault.jpg",
+      "views": 87,
+      "published": "2024-07-05T11:01:41Z",
+      "is_short": true
+    },
+    {
+      "id": "sUkB8k0xMqo",
+      "title": "Discover How to Save Money on Food Delivery and Optimize Data with Code Methodology",
+      "thumbnail": "https://i.ytimg.com/vi/sUkB8k0xMqo/mqdefault.jpg",
+      "views": 87,
+      "published": "2024-07-05T07:00:31Z",
+      "is_short": true
+    },
+    {
+      "id": "H2_LcWIu4uA",
+      "title": "TOP DATA ANALYST SKILLS! #dataanalytics #data #dataanalyst #career #datavisualization",
+      "thumbnail": "https://i.ytimg.com/vi/H2_LcWIu4uA/mqdefault.jpg",
+      "views": 87,
+      "published": "2024-03-22T21:41:16Z",
+      "is_short": true
+    },
+    {
+      "id": "ITlFotftmh8",
+      "title": "What are data visualization pitfalls, and how can you avoid them? @allitorban6185  explains!",
+      "thumbnail": "https://i.ytimg.com/vi/ITlFotftmh8/mqdefault.jpg",
+      "views": 86,
+      "published": "2024-01-30T17:16:45Z",
+      "is_short": true
+    },
+    {
+      "id": "Jhf4OqbIK0U",
+      "title": "Designing for Small Screens: Overcoming Challenges and Optimizing UX/UI",
+      "thumbnail": "https://i.ytimg.com/vi/Jhf4OqbIK0U/mqdefault.jpg",
+      "views": 85,
+      "published": "2024-08-06T22:05:31Z",
+      "is_short": true
+    },
+    {
+      "id": "GJv2_3AhHtE",
+      "title": "What's a Data Lakehouse? #dataanalytics #datascience #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/GJv2_3AhHtE/mqdefault.jpg",
+      "views": 84,
+      "published": "2024-04-18T22:10:26Z",
+      "is_short": true
+    },
+    {
+      "id": "BOHnaXp-0uY",
+      "title": "Unleash the Power of AI!",
+      "thumbnail": "https://i.ytimg.com/vi/BOHnaXp-0uY/mqdefault.jpg",
+      "views": 74,
+      "published": "2024-05-31T23:01:08Z",
+      "is_short": true
+    },
+    {
+      "id": "LxgzlcrWhH4",
+      "title": "Unlocking the Future: AI-Driven Metadata Optimization",
+      "thumbnail": "https://i.ytimg.com/vi/LxgzlcrWhH4/mqdefault.jpg",
+      "views": 71,
+      "published": "2024-11-19T21:39:46Z",
+      "is_short": true
+    },
+    {
+      "id": "vielyDEMI0Y",
+      "title": "What is SQL? #sql #dataanalytics #dataanalyst #data #sqlserver",
+      "thumbnail": "https://i.ytimg.com/vi/vielyDEMI0Y/mqdefault.jpg",
+      "views": 71,
+      "published": "2024-03-15T22:57:13Z",
+      "is_short": true
+    },
+    {
+      "id": "rFUntENshI4",
+      "title": "Key Considerations for Prospective Students: Standing Out in a Competitive Job Market",
+      "thumbnail": "https://i.ytimg.com/vi/rFUntENshI4/mqdefault.jpg",
+      "views": 69,
+      "published": "2024-07-02T04:15:19Z",
+      "is_short": true
+    },
+    {
+      "id": "LjXRMWgnLIs",
+      "title": "Data Modeling Is Making a Comeback!  #podcast #dataanalytics #dataengineering #datamodeling",
+      "thumbnail": "https://i.ytimg.com/vi/LjXRMWgnLIs/mqdefault.jpg",
+      "views": 68,
+      "published": "2024-03-01T16:51:21Z",
+      "is_short": true
+    },
+    {
+      "id": "F1HFCZ6zuLE",
+      "title": "How the Best AI Companies Get Feedback #podcast #ai #dataengineering #softwareengineering",
+      "thumbnail": "https://i.ytimg.com/vi/F1HFCZ6zuLE/mqdefault.jpg",
+      "views": 67,
+      "published": "2024-02-12T19:18:36Z",
+      "is_short": true
+    },
+    {
+      "id": "t55mbsblILg",
+      "title": "How data analysts can deliver what stakeholders NEED! with @allitorban6185",
+      "thumbnail": "https://i.ytimg.com/vi/t55mbsblILg/mqdefault.jpg",
+      "views": 67,
+      "published": "2024-02-08T20:36:19Z",
+      "is_short": true
+    },
+    {
+      "id": "eN2tTbUvBgQ",
+      "title": "Winning Back Public Trust: The Key to Transparency and Intentionality in Higher Education",
+      "thumbnail": "https://i.ytimg.com/vi/eN2tTbUvBgQ/mqdefault.jpg",
+      "views": 66,
+      "published": "2024-07-02T04:15:24Z",
+      "is_short": true
+    },
+    {
+      "id": "LFJuphlOGeg",
+      "title": "The power of being a great data analyst! with @MattMike",
+      "thumbnail": "https://i.ytimg.com/vi/LFJuphlOGeg/mqdefault.jpg",
+      "views": 66,
+      "published": "2024-02-08T20:53:12Z",
+      "is_short": true
+    },
+    {
+      "id": "7AmxPIZcEXE",
+      "title": "How to Avoid Information Overload",
+      "thumbnail": "https://i.ytimg.com/vi/7AmxPIZcEXE/mqdefault.jpg",
+      "views": 64,
+      "published": "2024-05-31T22:57:07Z",
+      "is_short": true
+    },
+    {
+      "id": "s0oK2Mvlc70",
+      "title": "The Best Statistics Resources",
+      "thumbnail": "https://i.ytimg.com/vi/s0oK2Mvlc70/mqdefault.jpg",
+      "views": 64,
+      "published": "2024-05-31T22:54:18Z",
+      "is_short": true
+    },
+    {
+      "id": "TPwHr9bcrvk",
+      "title": "Discover How to Save Money on Food Delivery and Optimize Data with Code Methodology",
+      "thumbnail": "https://i.ytimg.com/vi/TPwHr9bcrvk/mqdefault.jpg",
+      "views": 63,
+      "published": "2024-07-03T17:05:11Z",
+      "is_short": true
+    },
+    {
+      "id": "UlfgxS84wxQ",
+      "title": "The Key to Authenticity: Growing Your Business on YouTube",
+      "thumbnail": "https://i.ytimg.com/vi/UlfgxS84wxQ/mqdefault.jpg",
+      "views": 62,
+      "published": "2024-07-03T16:31:22Z",
+      "is_short": true
+    },
+    {
+      "id": "UQ0z7BsPMHs",
+      "title": "How S3 separated storage from compute — and why it matters",
+      "thumbnail": "https://i.ytimg.com/vi/UQ0z7BsPMHs/mqdefault.jpg",
+      "views": 61,
+      "published": "2026-02-14T20:24:38Z",
+      "is_short": true
+    },
+    {
+      "id": "jPYBtCu5oRI",
+      "title": "Unlock Your Passion: Learn While Having Fun! 🎉✨",
+      "thumbnail": "https://i.ytimg.com/vi/jPYBtCu5oRI/mqdefault.jpg",
+      "views": 59,
+      "published": "2024-11-19T21:31:08Z",
+      "is_short": true
+    },
+    {
+      "id": "ShcDNM4dZW0",
+      "title": "Choosing between Spark, Flink, and Kafka Connect",
+      "thumbnail": "https://i.ytimg.com/vi/ShcDNM4dZW0/mqdefault.jpg",
+      "views": 58,
+      "published": "2026-02-14T20:24:01Z",
+      "is_short": true
+    },
+    {
+      "id": "z4C_fYOJHz0",
+      "title": "Mastering Content Creation with Keynote",
+      "thumbnail": "https://i.ytimg.com/vi/z4C_fYOJHz0/mqdefault.jpg",
+      "views": 57,
+      "published": "2024-05-31T22:51:08Z",
+      "is_short": true
+    },
+    {
+      "id": "qLh4v1lFFhw",
+      "title": "Apache Iceberg: treating data lake files as durable tables",
+      "thumbnail": "https://i.ytimg.com/vi/qLh4v1lFFhw/mqdefault.jpg",
+      "views": 56,
+      "published": "2026-02-14T20:22:36Z",
+      "is_short": true
+    },
+    {
+      "id": "ERgorZzCPnQ",
+      "title": "Creating Free Resources for the Data Visualization Community",
+      "thumbnail": "https://i.ytimg.com/vi/ERgorZzCPnQ/mqdefault.jpg",
+      "views": 53,
+      "published": "2024-08-09T18:36:33Z",
+      "is_short": true
+    },
+    {
+      "id": "2f7AdtobsJM",
+      "title": "What is Data Literacy, and why is it important? @allitorban6185  explains!",
+      "thumbnail": "https://i.ytimg.com/vi/2f7AdtobsJM/mqdefault.jpg",
+      "views": 50,
+      "published": "2024-01-30T17:15:21Z",
+      "is_short": true
+    },
+    {
+      "id": "441HoKBK728",
+      "title": "Unlocking LinkedIn Success: Lip Syncs for Professional Growth",
+      "thumbnail": "https://i.ytimg.com/vi/441HoKBK728/mqdefault.jpg",
+      "views": 49,
+      "published": "2024-07-01T23:12:02Z",
+      "is_short": true
+    },
+    {
+      "id": "4Lbt8RD1uqw",
+      "title": "Mastering the Art of Addressing Past Job Loss in Interviews",
+      "thumbnail": "https://i.ytimg.com/vi/4Lbt8RD1uqw/mqdefault.jpg",
+      "views": 48,
+      "published": "2024-08-08T19:25:10Z",
+      "is_short": true
+    },
+    {
+      "id": "n645haraIFU",
+      "title": "Optimize Your Data: Consistency is Key for SEO Success",
+      "thumbnail": "https://i.ytimg.com/vi/n645haraIFU/mqdefault.jpg",
+      "views": 48,
+      "published": "2024-07-03T17:09:50Z",
+      "is_short": true
+    },
+    {
+      "id": "5-gSd58Fmzg",
+      "title": "How much do tools matter in Data Analytics? with @MattMike",
+      "thumbnail": "https://i.ytimg.com/vi/5-gSd58Fmzg/mqdefault.jpg",
+      "views": 47,
+      "published": "2024-02-08T20:48:02Z",
+      "is_short": true
+    },
+    {
+      "id": "VonBIKo8-vU",
+      "title": "The Truth About AI: Why Your Projects Still Take Weeks or Months",
+      "thumbnail": "https://i.ytimg.com/vi/VonBIKo8-vU/mqdefault.jpg",
+      "views": 46,
+      "published": "2024-07-03T23:53:57Z",
+      "is_short": true
+    },
+    {
+      "id": "McbErYtyujQ",
+      "title": "How can Data Analysts be more creative? with @allitorban6185",
+      "thumbnail": "https://i.ytimg.com/vi/McbErYtyujQ/mqdefault.jpg",
+      "views": 45,
+      "published": "2024-02-08T20:34:32Z",
+      "is_short": true
+    },
+    {
+      "id": "MxQhNBuOpz0",
+      "title": "Innovate By Building on Existing Projects",
+      "thumbnail": "https://i.ytimg.com/vi/MxQhNBuOpz0/mqdefault.jpg",
+      "views": 43,
+      "published": "2024-05-31T22:47:56Z",
+      "is_short": true
+    },
+    {
+      "id": "mMpZzrfEt9M",
+      "title": "Transforming Your PowerPoint Presentations",
+      "thumbnail": "https://i.ytimg.com/vi/mMpZzrfEt9M/mqdefault.jpg",
+      "views": 43,
+      "published": "2024-05-31T22:25:25Z",
+      "is_short": true
+    },
+    {
+      "id": "PoifRYkxHhM",
+      "title": "Unlock the Power of Analytics: Connect with a Passionate Data Enthusiast!",
+      "thumbnail": "https://i.ytimg.com/vi/PoifRYkxHhM/mqdefault.jpg",
+      "views": 42,
+      "published": "2024-07-02T04:15:32Z",
+      "is_short": true
+    },
+    {
+      "id": "e_ZS-ipU7zU",
+      "title": "A Mentor Makes All The Difference in Success",
+      "thumbnail": "https://i.ytimg.com/vi/e_ZS-ipU7zU/mqdefault.jpg",
+      "views": 40,
+      "published": "2024-05-31T22:28:49Z",
+      "is_short": true
+    },
+    {
+      "id": "3cPW2X9706A",
+      "title": "Is AI Affecting Politics? #ai #politices #data #governance",
+      "thumbnail": "https://i.ytimg.com/vi/3cPW2X9706A/mqdefault.jpg",
+      "views": 39,
+      "published": "2024-02-06T16:52:12Z",
+      "is_short": true
+    },
+    {
+      "id": "GDrsNFGiNIw",
+      "title": "How Music Can Help Your Data Career",
+      "thumbnail": "https://i.ytimg.com/vi/GDrsNFGiNIw/mqdefault.jpg",
+      "views": 38,
+      "published": "2024-05-31T22:44:45Z",
+      "is_short": true
+    },
+    {
+      "id": "gVCV_NVYRyA",
+      "title": "Trustworthy Data: The Key to Success in Data Quality",
+      "thumbnail": "https://i.ytimg.com/vi/gVCV_NVYRyA/mqdefault.jpg",
+      "views": 37,
+      "published": "2024-07-03T23:50:29Z",
+      "is_short": true
+    },
+    {
+      "id": "kZ7OxZMtpt8",
+      "title": "Can you tell if your LLM is amazing...or garbage?",
+      "thumbnail": "https://i.ytimg.com/vi/kZ7OxZMtpt8/mqdefault.jpg",
+      "views": 37,
+      "published": "2023-11-06T19:09:06Z",
+      "is_short": true
+    },
+    {
+      "id": "fFo66oFeqds",
+      "title": "Unlocking the Power of Gen AI: Embrace the Future of Technology",
+      "thumbnail": "https://i.ytimg.com/vi/fFo66oFeqds/mqdefault.jpg",
+      "views": 35,
+      "published": "2024-07-03T04:00:24Z",
+      "is_short": true
+    },
+    {
+      "id": "3Q1CA5qIH_A",
+      "title": "Insights x Design - UX Principles #podcast #dataculture #dataanalytics #uxdesign #ai",
+      "thumbnail": "https://i.ytimg.com/vi/3Q1CA5qIH_A/mqdefault.jpg",
+      "views": 35,
+      "published": "2024-01-19T06:08:25Z",
+      "is_short": true
+    },
+    {
+      "id": "QbLUB3LHVNY",
+      "title": "Authenticity - The Key to Success",
+      "thumbnail": "https://i.ytimg.com/vi/QbLUB3LHVNY/mqdefault.jpg",
+      "views": 34,
+      "published": "2024-05-31T22:39:46Z",
+      "is_short": true
+    },
+    {
+      "id": "wHSSXOJuyGU",
+      "title": "Using Data Avengers to Classify Data: Expert Tips and Recommendations",
+      "thumbnail": "https://i.ytimg.com/vi/wHSSXOJuyGU/mqdefault.jpg",
+      "views": 33,
+      "published": "2024-07-03T16:20:19Z",
+      "is_short": true
+    },
+    {
+      "id": "1m3fnyAxlUQ",
+      "title": "How outside experience sets you apart in Data Analytics! with @MattMike",
+      "thumbnail": "https://i.ytimg.com/vi/1m3fnyAxlUQ/mqdefault.jpg",
+      "views": 33,
+      "published": "2024-02-08T20:42:12Z",
+      "is_short": true
+    },
+    {
+      "id": "P8Eo6c4GQ74",
+      "title": "Insights x Design Ep. 4  #dataanalytics #ai #data #dataculture #podcast #sql #uxdesign #dataproducts",
+      "thumbnail": "https://i.ytimg.com/vi/P8Eo6c4GQ74/mqdefault.jpg",
+      "views": 33,
+      "published": "2024-01-19T06:36:45Z",
+      "is_short": true
+    },
+    {
+      "id": "5OQhGahEXCk",
+      "title": "Unlocking Creativity with Constraints",
+      "thumbnail": "https://i.ytimg.com/vi/5OQhGahEXCk/mqdefault.jpg",
+      "views": 31,
+      "published": "2024-05-31T22:21:38Z",
+      "is_short": true
+    },
+    {
+      "id": "Kz8qJ3ESTh0",
+      "title": "Insights x Design | Dashboard Doctor Shorts",
+      "thumbnail": "https://i.ytimg.com/vi/Kz8qJ3ESTh0/mqdefault.jpg",
+      "views": 31,
+      "published": "2024-01-19T06:45:59Z",
+      "is_short": true
+    },
+    {
+      "id": "m2VhpTUxOY0",
+      "title": "Unveiling the Power of BAM in Statistics",
+      "thumbnail": "https://i.ytimg.com/vi/m2VhpTUxOY0/mqdefault.jpg",
+      "views": 30,
+      "published": "2024-05-31T21:49:04Z",
+      "is_short": true
+    },
+    {
+      "id": "trBrGGJ_rqc",
+      "title": "The Key to Authenticity: Growing Your Business on YouTube",
+      "thumbnail": "https://i.ytimg.com/vi/trBrGGJ_rqc/mqdefault.jpg",
+      "views": 29,
+      "published": "2024-07-03T16:45:29Z",
+      "is_short": true
+    },
+    {
+      "id": "YFdedwQho-8",
+      "title": "Getting into data analytics isn't complicated 🙌",
+      "thumbnail": "https://i.ytimg.com/vi/YFdedwQho-8/mqdefault.jpg",
+      "views": 29,
+      "published": "2023-10-26T20:29:15Z",
+      "is_short": true
+    },
+    {
+      "id": "RpmZTB5FD9A",
+      "title": "Ensuring Data Governance: A Crucial Step in Product Development",
+      "thumbnail": "https://i.ytimg.com/vi/RpmZTB5FD9A/mqdefault.jpg",
+      "views": 28,
+      "published": "2024-07-27T23:44:31Z",
+      "is_short": true
+    },
+    {
+      "id": "rMhAtdA-oYg",
+      "title": "The Power of Asking Basic Questions",
+      "thumbnail": "https://i.ytimg.com/vi/rMhAtdA-oYg/mqdefault.jpg",
+      "views": 28,
+      "published": "2024-05-31T22:13:48Z",
+      "is_short": true
+    },
+    {
+      "id": "buXDwht8X1o",
+      "title": "Boost Your YouTube SEO with Gradient Boosting Algorithm",
+      "thumbnail": "https://i.ytimg.com/vi/buXDwht8X1o/mqdefault.jpg",
+      "views": 28,
+      "published": "2024-05-31T21:30:30Z",
+      "is_short": true
+    },
+    {
+      "id": "fwEXFxa0dRs",
+      "title": "Data Science For Beginners #dataanalytics #datascience #dataengineering #machinelearning",
+      "thumbnail": "https://i.ytimg.com/vi/fwEXFxa0dRs/mqdefault.jpg",
+      "views": 27,
+      "published": "2024-05-31T21:22:30Z",
+      "is_short": true
+    },
+    {
+      "id": "RFmamnvPoI0",
+      "title": "Post Office AI Bot? #ai",
+      "thumbnail": "https://i.ytimg.com/vi/RFmamnvPoI0/mqdefault.jpg",
+      "views": 27,
+      "published": "2024-02-06T17:02:51Z",
+      "is_short": true
+    },
+    {
+      "id": "Cde69kN2aDs",
+      "title": "Unlocking the Power of Data Science for Non-Experts: Meet Infer!",
+      "thumbnail": "https://i.ytimg.com/vi/Cde69kN2aDs/mqdefault.jpg",
+      "views": 26,
+      "published": "2024-08-08T19:32:47Z",
+      "is_short": true
+    },
+    {
+      "id": "-1RC8AzAib8",
+      "title": "From UNC to Neural Networks!",
+      "thumbnail": "https://i.ytimg.com/vi/-1RC8AzAib8/mqdefault.jpg",
+      "views": 26,
+      "published": "2024-05-31T22:33:16Z",
+      "is_short": true
+    },
+    {
+      "id": "-8KxoOaCS3Q",
+      "title": "Is AI OVERLY Scrutinized? #ai #governance",
+      "thumbnail": "https://i.ytimg.com/vi/-8KxoOaCS3Q/mqdefault.jpg",
+      "views": 26,
+      "published": "2024-02-06T16:56:21Z",
+      "is_short": true
+    },
+    {
+      "id": "Cwv3Y5jbHBk",
+      "title": "Unlocking New Possibilities with AI Technology",
+      "thumbnail": "https://i.ytimg.com/vi/Cwv3Y5jbHBk/mqdefault.jpg",
+      "views": 25,
+      "published": "2024-05-31T21:25:34Z",
+      "is_short": true
+    },
+    {
+      "id": "0BNMM0DNgl8",
+      "title": "Discover Infer: Unleash the Power of Lead Scoring with HubSpot and More!",
+      "thumbnail": "https://i.ytimg.com/vi/0BNMM0DNgl8/mqdefault.jpg",
+      "views": 22,
+      "published": "2024-08-08T19:32:31Z",
+      "is_short": true
+    },
+    {
+      "id": "miJ635vgQbg",
+      "title": "The Power of Music in Learning",
+      "thumbnail": "https://i.ytimg.com/vi/miJ635vgQbg/mqdefault.jpg",
+      "views": 22,
+      "published": "2024-05-31T22:17:11Z",
+      "is_short": true
+    },
+    {
+      "id": "0X3CUDFhGlg",
+      "title": "Unlocking Customer Insights: Focusing on Outcome-driven Segmentation",
+      "thumbnail": "https://i.ytimg.com/vi/0X3CUDFhGlg/mqdefault.jpg",
+      "views": 21,
+      "published": "2024-08-08T19:32:37Z",
+      "is_short": true
+    },
+    {
+      "id": "yG9nq9QCL1w",
+      "title": "Meet Ryan: Co-founder of Infer, Former Data Scientist, and Exoplanet Enthusiast!",
+      "thumbnail": "https://i.ytimg.com/vi/yG9nq9QCL1w/mqdefault.jpg",
+      "views": 20,
+      "published": "2024-08-08T19:32:31Z",
+      "is_short": true
+    },
+    {
+      "id": "QbSn1Aj7Hmo",
+      "title": "Unlocking LinkedIn Success: Lip Syncs for Social Media Growth",
+      "thumbnail": "https://i.ytimg.com/vi/QbSn1Aj7Hmo/mqdefault.jpg",
+      "views": 20,
+      "published": "2024-07-03T16:18:49Z",
+      "is_short": true
+    },
+    {
+      "id": "ErJsNQ_bBkg",
+      "title": "From Astrophysics to Deepfakes: A Journey into Data Science",
+      "thumbnail": "https://i.ytimg.com/vi/ErJsNQ_bBkg/mqdefault.jpg",
+      "views": 19,
+      "published": "2024-08-08T19:32:42Z",
+      "is_short": true
+    },
+    {
+      "id": "ya_qi6F-Y_I",
+      "title": "AI Manipulating Politics? #podcast #ai #politics  #dataanalytics #data",
+      "thumbnail": "https://i.ytimg.com/vi/ya_qi6F-Y_I/mqdefault.jpg",
+      "views": 19,
+      "published": "2024-02-07T17:03:02Z",
+      "is_short": true
+    },
+    {
+      "id": "yRiNjzJM_KM",
+      "title": "What the heck is a data persona and why is it critical?",
+      "thumbnail": "https://i.ytimg.com/vi/yRiNjzJM_KM/mqdefault.jpg",
+      "views": 19,
+      "published": "2023-12-19T08:26:32Z",
+      "is_short": true
+    },
+    {
+      "id": "Scg-ccU7bPI",
+      "title": "Does UX need a human in the loop to avoid the uncanny valley? #ux #ai #dataanalytics",
+      "thumbnail": "https://i.ytimg.com/vi/Scg-ccU7bPI/mqdefault.jpg",
+      "views": 18,
+      "published": "2023-12-29T17:06:03Z",
+      "is_short": true
+    },
+    {
+      "id": "oHMxF5AGaUU",
+      "title": "5 Common Chart Mistakes You Must Avoid! 🚫📊🔴",
+      "thumbnail": "https://i.ytimg.com/vi/oHMxF5AGaUU/mqdefault.jpg",
+      "views": 17,
+      "published": "2024-08-08T19:42:58Z",
+      "is_short": true
+    },
+    {
+      "id": "MzHtCAht7H0",
+      "title": "Mobile vs Desktop: The Impact on Chart Interactivity",
+      "thumbnail": "https://i.ytimg.com/vi/MzHtCAht7H0/mqdefault.jpg",
+      "views": 17,
+      "published": "2024-08-06T22:05:09Z",
+      "is_short": true
+    },
+    {
+      "id": "eTAlzMob-qg",
+      "title": "What are personas, and how are they used in the real world?",
+      "thumbnail": "https://i.ytimg.com/vi/eTAlzMob-qg/mqdefault.jpg",
+      "views": 17,
+      "published": "2023-12-19T08:21:16Z",
+      "is_short": true
+    },
+    {
+      "id": "mKlpBIRF7U0",
+      "title": "Relax and Unwind with the Soothing Logarithmic Base E Song",
+      "thumbnail": "https://i.ytimg.com/vi/mKlpBIRF7U0/mqdefault.jpg",
+      "views": 16,
+      "published": "2024-05-31T21:53:30Z",
+      "is_short": true
+    },
+    {
+      "id": "wdx4Oj8bcgs",
+      "title": "Do you need a certification to break into UX in 2024? #ux #dataanalytics #data",
+      "thumbnail": "https://i.ytimg.com/vi/wdx4Oj8bcgs/mqdefault.jpg",
+      "views": 16,
+      "published": "2023-12-29T17:09:02Z",
+      "is_short": true
+    },
+    {
+      "id": "JNPumjmL9fQ",
+      "title": "Unlocking Your Creative Power  Drawing Equations for Visual Learners",
+      "thumbnail": "https://i.ytimg.com/vi/JNPumjmL9fQ/mqdefault.jpg",
+      "views": 15,
+      "published": "2024-05-31T21:29:11Z",
+      "is_short": true
+    },
+    {
+      "id": "_HWOFfqeAS4",
+      "title": "How will AI disrupt UX in 2024? #ai #dataanalytics #ux",
+      "thumbnail": "https://i.ytimg.com/vi/_HWOFfqeAS4/mqdefault.jpg",
+      "views": 15,
+      "published": "2023-12-29T17:03:02Z",
+      "is_short": true
+    },
+    {
+      "id": "GP4tQZQsFZc",
+      "title": "Will AI transform data governance in 2024? #ai #data #dataanalytics #governance",
+      "thumbnail": "https://i.ytimg.com/vi/GP4tQZQsFZc/mqdefault.jpg",
+      "views": 13,
+      "published": "2023-12-29T17:00:19Z",
+      "is_short": true
+    },
+    {
+      "id": "X9hRAdxg3TA",
+      "title": "Who will be UX leaders in 2024? #ux #data #predictions #dataanalytics",
+      "thumbnail": "https://i.ytimg.com/vi/X9hRAdxg3TA/mqdefault.jpg",
+      "views": 13,
+      "published": "2023-12-29T16:57:41Z",
+      "is_short": true
+    },
+    {
+      "id": "4cZ0bMoeeVM",
+      "title": "From Doubt to Expert: Solving Business Problems with Data",
+      "thumbnail": "https://i.ytimg.com/vi/4cZ0bMoeeVM/mqdefault.jpg",
+      "views": 12,
+      "published": "2024-08-08T14:52:48Z",
+      "is_short": true
+    },
+    {
+      "id": "ypLblQUBXsk",
+      "title": "Where is UX going in 2024? #ux #ui #data #dataanalytics",
+      "thumbnail": "https://i.ytimg.com/vi/ypLblQUBXsk/mqdefault.jpg",
+      "views": 12,
+      "published": "2023-12-29T16:48:42Z",
+      "is_short": true
+    },
+    {
+      "id": "NbTrDoMXKlY",
+      "title": "Learning from Challenging Projects and Senior Executives: Finding Inspiration in Leadership",
+      "thumbnail": "https://i.ytimg.com/vi/NbTrDoMXKlY/mqdefault.jpg",
+      "views": 11,
+      "published": "2024-08-08T19:18:40Z",
+      "is_short": true
+    },
+    {
+      "id": "dielxgi8Pog",
+      "title": "Unlocking Value: Why Gen AI Isn't Always the First Step for Data Teams",
+      "thumbnail": "https://i.ytimg.com/vi/dielxgi8Pog/mqdefault.jpg",
+      "views": 10,
+      "published": "2024-08-08T19:18:40Z",
+      "is_short": true
+    },
+    {
+      "id": "ROsXr1bqSSU",
+      "title": "Unlocking Growth: The Power of RevOps Explained",
+      "thumbnail": "https://i.ytimg.com/vi/ROsXr1bqSSU/mqdefault.jpg",
+      "views": 8,
+      "published": "2024-08-08T19:32:40Z",
+      "is_short": true
+    },
+    {
+      "id": "2QQ4ycauHeY",
+      "title": "How to break into UX in 2024? Specialize! #data #dataanalytics #ux #breakintotech",
+      "thumbnail": "https://i.ytimg.com/vi/2QQ4ycauHeY/mqdefault.jpg",
+      "views": 7,
+      "published": "2023-12-29T16:54:36Z",
+      "is_short": true
+    },
+    {
+      "id": "xax7gSvB1cE",
+      "title": "Will UX specialize in 2024? #data #ux #dataanalytics #predictions",
+      "thumbnail": "https://i.ytimg.com/vi/xax7gSvB1cE/mqdefault.jpg",
+      "views": 5,
+      "published": "2023-12-29T16:49:49Z",
+      "is_short": true
+    },
+    {
+      "id": "ZAJE1ITOgP8",
+      "title": "Will UX bridge the gap between physical and digital experiences? #ux #trends #dataanalytics #data",
+      "thumbnail": "https://i.ytimg.com/vi/ZAJE1ITOgP8/mqdefault.jpg",
+      "views": 3,
+      "published": "2023-12-29T16:52:36Z",
+      "is_short": true
+    }
+  ],
+  "interviews": [
+    {
+      "id": "gOBUW7YVv7I",
+      "title": "I Asked Hiring Managers How to Land a Data Job: Here's What They Said",
+      "thumbnail": "https://i.ytimg.com/vi/gOBUW7YVv7I/mqdefault.jpg",
+      "views": 24078,
+      "published": "2024-12-03T16:30:13Z",
+      "is_short": false
+    },
+    {
+      "id": "DDXDPK1fdl4",
+      "title": "Exploring Data Science and Analytics: Insights with Tech Evangelist Andrew Madson.",
+      "thumbnail": "https://i.ytimg.com/vi/DDXDPK1fdl4/mqdefault.jpg",
+      "views": 21812,
+      "published": "2024-07-09T00:15:12Z",
+      "is_short": false
+    },
+    {
+      "id": "WXPw3BZPHv0",
+      "title": "Future-proofing your career is understanding what value you bring! #data",
+      "thumbnail": "https://i.ytimg.com/vi/WXPw3BZPHv0/mqdefault.jpg",
+      "views": 2058,
+      "published": "2025-06-03T14:00:50Z",
+      "is_short": false
+    },
+    {
+      "id": "XUlgempr-ao",
+      "title": "Get Hired as a Data Analyst w/ Hiring Manager Andrew Madson",
+      "thumbnail": "https://i.ytimg.com/vi/XUlgempr-ao/mqdefault.jpg",
+      "views": 915,
+      "published": "2023-08-16T14:00:19Z",
+      "is_short": false
+    },
+    {
+      "id": "THM5K8M8qA0",
+      "title": "Transitioning to Analytics when You're Established, Experienced, and Possibly Well-Paid",
+      "thumbnail": "https://i.ytimg.com/vi/THM5K8M8qA0/mqdefault.jpg",
+      "views": 873,
+      "published": "2025-08-01T16:00:06Z",
+      "is_short": false
+    },
+    {
+      "id": "d2PPwgI8BNw",
+      "title": "Navigating Your Data Career: Advancing From Entry Level To Senior Positions",
+      "thumbnail": "https://i.ytimg.com/vi/d2PPwgI8BNw/mqdefault.jpg",
+      "views": 505,
+      "published": "2024-11-04T17:00:42Z",
+      "is_short": false
+    },
+    {
+      "id": "TJ0igbeVe6I",
+      "title": "Andrew Madson - Data-Centric AI: Accelerate Success with Apache Iceberg Data Products",
+      "thumbnail": "https://i.ytimg.com/vi/TJ0igbeVe6I/mqdefault.jpg",
+      "views": 140,
+      "published": "2025-04-05T10:12:48Z",
+      "is_short": false
+    },
+    {
+      "id": "KQAc4vylgmI",
+      "title": "Remove friction between information & insight with people first analytics | Andrew Madson | MDS Fest",
+      "thumbnail": "https://i.ytimg.com/vi/KQAc4vylgmI/mqdefault.jpg",
+      "views": 122,
+      "published": "2024-04-15T20:27:11Z",
+      "is_short": false
+    },
+    {
+      "id": "8QzlrZ3a4cQ",
+      "title": "Getting data right for AI + Fivetran buying spree with Andrew Madson",
+      "thumbnail": "https://i.ytimg.com/vi/8QzlrZ3a4cQ/mqdefault.jpg",
+      "views": 95,
+      "published": "2025-10-03T05:08:25Z",
+      "is_short": false
+    }
+  ]
+}
