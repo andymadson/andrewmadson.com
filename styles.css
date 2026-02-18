@@ -989,6 +989,15 @@ footer p {
     pointer-events: none;
 }
 
+.page-header .page-headshot {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 16px;
+    position: relative;
+}
+
 .page-header h1 {
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 700;
