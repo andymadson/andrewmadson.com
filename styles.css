@@ -734,38 +734,33 @@ section {
 
 .featured-video-layout {
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr 260px;
     gap: 24px;
-    align-items: stretch;
-}
-
-.featured-video-main .video-card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.featured-video-main .video-embed {
-    flex: 1;
-    min-height: 0;
+    align-items: start;
 }
 
 .featured-video-sidebar {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
 }
 
 .featured-video-sidebar .video-card {
     border-radius: 12px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+}
+
+.featured-video-sidebar .video-card h3 {
+    font-size: 0.9rem;
+    padding: 10px 14px 2px;
+}
+
+.featured-video-sidebar .video-card .card-meta {
+    font-size: 0.75rem;
+    padding: 0 14px 12px;
 }
 
 .featured-video-sidebar .video-short {
-    padding-bottom: 100%;
-    flex: 1;
+    padding-bottom: 110%;
 }
 
 .section-cta {
