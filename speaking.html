@@ -375,8 +375,6 @@
               const roleClass = event.role === 'Keynote Speaker' ? 'role-keynote' : 'role-speaker';
               const statusBadge = eventIsPast ? '<span class="events-status-past">Past</span>' : '';
               const dateStr = formatDate(event.date, event.endDate);
-              const linkText = eventIsPast ? 'View' : 'Register';
-
               item.innerHTML = `
                 <div class="events-dot"></div>
                 <div class="events-content">
@@ -390,7 +388,6 @@
                     <span class="events-separator">&bull;</span>
                     <span class="events-city">${event.city}</span>
                   </p>
-                  <a href="${event.url}" target="_blank" rel="noopener" class="card-link events-link">${linkText} &rarr;</a>
                 </div>
               `;
 
