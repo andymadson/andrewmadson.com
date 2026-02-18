@@ -558,22 +558,27 @@ section {
     background-color: var(--color-surface);
 }
 
-/* ===== Speaking ===== */
-.speaking-content {
-    max-width: 800px;
+/* ===== Speaking & Events ===== */
+.speaking-intro {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
 }
 
-.speaking-content p {
+.speaking-desc {
     color: var(--color-text-secondary);
     font-size: 1.05rem;
     line-height: 1.75;
-    margin-bottom: 16px;
+    flex: 1;
+    min-width: 200px;
+    margin: 0;
 }
 
 .speaking-badges {
     display: flex;
     gap: 12px;
-    margin-bottom: 24px;
     flex-wrap: wrap;
 }
 
@@ -586,13 +591,6 @@ section {
     font-size: 0.9rem;
     font-weight: 600;
     color: var(--color-accent);
-}
-
-.speaking-ctas {
-    display: flex;
-    gap: 16px;
-    margin-top: 32px;
-    flex-wrap: wrap;
 }
 
 /* ===== Featured Content / Videos ===== */
@@ -664,7 +662,7 @@ section {
 }
 
 /* ===== Events ===== */
-#events {
+#speaking {
     background-color: var(--color-surface);
 }
 
