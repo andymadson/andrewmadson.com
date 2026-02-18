@@ -228,15 +228,50 @@
           return end < new Date();
         }
 
-        const sorted = EVENTS.sort((a, b) => new Date(a.date) - new Date(b.date));
+        // Sort newest first for display
+        const sorted = EVENTS.sort((a, b) => new Date(b.date) - new Date(a.date));
         const upcoming = sorted.filter(e => !isPast(e));
         const past = sorted.filter(e => isPast(e));
-        const displayEvents = upcoming.length > 0 ? upcoming : past.slice(-6);
+        const displayEvents = [...upcoming, ...past];
 
         const canvas = document.getElementById('events-globe');
         if (canvas) {
           let currentPhi = 0;
+          let currentTheta = 0.3;
           let currentFocus = null;
+          let pointerInteracting = false;
+          let pointerInteractionMovement = 0;
+          let dragStartPhi = 0;
+          let dragStartTheta = 0;
+          let dragStartX = 0;
+          let dragStartY = 0;
+
+          // Drag-to-rotate handlers
+          canvas.addEventListener('pointerdown', (e) => {
+            pointerInteracting = true;
+            currentFocus = null;
+            dragStartX = e.clientX;
+            dragStartY = e.clientY;
+            dragStartPhi = currentPhi;
+            dragStartTheta = currentTheta;
+            canvas.style.cursor = 'grabbing';
+          });
+
+          window.addEventListener('pointerup', () => {
+            pointerInteracting = false;
+            canvas.style.cursor = 'grab';
+          });
+
+          window.addEventListener('pointermove', (e) => {
+            if (!pointerInteracting) return;
+            const dx = e.clientX - dragStartX;
+            const dy = e.clientY - dragStartY;
+            currentPhi = dragStartPhi - dy * 0.005;
+            currentTheta = dragStartTheta + dx * 0.005;
+          });
+
+          // Prevent scroll-jacking on touch devices
+          canvas.addEventListener('touchmove', (e) => { e.preventDefault(); }, { passive: false });
 
           function latLngToSpherical(lat, lng) {
             return {
@@ -267,12 +302,13 @@
               markers,
               onRender(state) {
                 if (currentFocus) {
-                  state.phi += (currentFocus.phi - state.phi) * 0.05;
-                  state.theta += (currentFocus.theta - state.theta) * 0.05;
-                } else {
-                  state.phi = currentPhi;
+                  currentPhi += (currentFocus.phi - currentPhi) * 0.05;
+                  currentTheta += (currentFocus.theta - currentTheta) * 0.05;
+                } else if (!pointerInteracting) {
                   currentPhi += 0.003;
                 }
+                state.phi = currentPhi;
+                state.theta = currentTheta;
                 state.width = canvas.offsetWidth * Math.min(window.devicePixelRatio, 2);
                 state.height = canvas.offsetHeight * Math.min(window.devicePixelRatio, 2);
               },

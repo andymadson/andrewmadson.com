@@ -1454,6 +1454,23 @@ section {
 
 .events-list-panel {
     padding-top: 8px;
+    max-height: 500px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-accent) transparent;
+}
+
+.events-list-panel::-webkit-scrollbar {
+    width: 6px;
+}
+
+.events-list-panel::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.events-list-panel::-webkit-scrollbar-thumb {
+    background-color: var(--color-accent);
+    border-radius: 3px;
 }
 
 .events-timeline {
