@@ -330,7 +330,7 @@ ul {
 .btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #f97316;
+    background-color: var(--color-accent);
     color: #fff !important;
     border-radius: 8px;
     font-weight: 600;
@@ -341,8 +341,16 @@ ul {
 }
 
 .btn:hover {
-    background-color: #ea580c;
+    background-color: var(--color-accent-hover);
     color: #fff !important;
+}
+
+.btn-orange {
+    background-color: #f97316;
+}
+
+.btn-orange:hover {
+    background-color: #ea580c;
 }
 
 .btn-outline {
