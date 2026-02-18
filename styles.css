@@ -527,14 +527,14 @@ section {
 
 .timeline {
     position: relative;
-    padding-left: 40px;
+    padding-left: 48px;
     margin-bottom: 48px;
 }
 
 .timeline::before {
     content: '';
     position: absolute;
-    left: 7px;
+    left: 15px;
     top: 8px;
     bottom: 8px;
     width: 2px;
@@ -552,7 +552,7 @@ section {
 
 .timeline-dot {
     position: absolute;
-    left: -48px;
+    left: -40px;
     top: 6px;
     width: 16px;
     height: 16px;
@@ -560,6 +560,28 @@ section {
     background-color: var(--color-accent);
     border: 3px solid var(--color-surface);
     box-shadow: 0 0 0 1px var(--color-border);
+}
+
+.timeline-logo {
+    position: absolute;
+    left: -48px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.timeline-logo img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 .timeline-content h3 {
