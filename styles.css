@@ -1833,6 +1833,11 @@ footer {
     color: #e2e8f0;
 }
 
+.blog-card-source.source-linkedin {
+    background-color: rgba(10, 102, 194, 0.15);
+    color: #4d9de0;
+}
+
 /* "Read on Source →" link at bottom of card */
 .blog-card-read {
     margin-top: auto;
@@ -1865,6 +1870,10 @@ footer {
 
 .blog-card:hover.blog-card:has(.source-medium) {
     border-top-color: #e2e8f0;
+}
+
+.blog-card:hover.blog-card:has(.source-linkedin) {
+    border-top-color: #4d9de0;
 }
 
 /* Pill count badge inside filter buttons */
