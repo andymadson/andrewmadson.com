@@ -81,7 +81,7 @@
             </div>
         </section>
 
-        <!-- Social Proof Bar (replaces banner image) -->
+        <!-- Social Proof Bar -->
         <div class="social-proof-bar">
             <div class="container">
                 <div class="social-proof-inner">
@@ -104,6 +104,7 @@
                     </a>
                     <div class="social-proof-divider"></div>
                     <a href="https://sessionize.com/andrew-madson/" target="_blank" rel="noopener" class="social-proof-stat">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
                         <span class="stat-number">50+</span>
                         <span class="stat-label">Keynotes</span>
                     </a>
@@ -111,91 +112,117 @@
             </div>
         </div>
 
-        <!-- Highlights -->
-        <section>
-            <div class="container">
-                <div class="about-highlights animate-on-scroll">
-                    <a href="https://www.linkedin.com/in/andrew-madson/" target="_blank" rel="noopener" class="highlight-card">
-                        <span class="highlight-number">95K+</span>
-                        <span class="highlight-label">LinkedIn Followers</span>
-                    </a>
-                    <a href="https://www.youtube.com/@andrew-madson" target="_blank" rel="noopener" class="highlight-card">
-                        <span class="highlight-number">110K+</span>
-                        <span class="highlight-label">YouTube Subscribers</span>
-                    </a>
-                    <a href="https://sessionize.com/andrew-madson/" target="_blank" rel="noopener" class="highlight-card">
-                        <span class="highlight-number">50+</span>
-                        <span class="highlight-label">Keynote Presentations</span>
-                    </a>
-                    <a href="https://substack.com/@andrewmadson" target="_blank" rel="noopener" class="highlight-card">
-                        <span class="highlight-number">30K+</span>
-                        <span class="highlight-label">Newsletter Subscribers</span>
-                    </a>
-                    <a href="books.html" class="highlight-card">
-                        <span class="highlight-number">3</span>
-                        <span class="highlight-label">Published &amp; Upcoming Books</span>
-                    </a>
-                    <a href="https://www.linkedin.com/learning/instructors/dremio" target="_blank" rel="noopener" class="highlight-card">
-                        <span class="highlight-number">18K+</span>
-                        <span class="highlight-label">LinkedIn Learning Learners</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Featured Work -->
-        <section style="background-color: var(--color-surface);">
-            <div class="container">
-                <h2 class="section-title">Featured Work</h2>
-                <p class="section-subtitle">Books, courses, and speaking highlights.</p>
-                <div class="card-grid featured-grid animate-on-scroll">
-                    <a href="https://www.oreilly.com/library/view/apache-polaris-the/9798341608139/" target="_blank" rel="noopener" class="card">
-                        <div class="card-badge published">Published</div>
-                        <h3>Apache Polaris: The Definitive Guide</h3>
-                        <p>O'Reilly Media, 2025</p>
-                        <span class="card-link">View on O'Reilly &rarr;</span>
-                    </a>
-                    <a href="https://www.linkedin.com/learning/fundamentals-of-apache-iceberg" target="_blank" rel="noopener" class="card">
-                        <h3>Fundamentals of Apache Iceberg</h3>
-                        <p>LinkedIn Learning &bull; 18K+ learners</p>
-                        <span class="card-link">View Course &rarr;</span>
-                    </a>
-                    <a href="speaking.html" class="card">
-                        <h3>50+ Keynote Presentations</h3>
-                        <p>Global technology conferences on data engineering, AI, and lakehouse architecture.</p>
-                        <span class="card-link">See Events &rarr;</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Featured Content (Videos) -->
-        <section>
+        <!-- Featured Video — full width hero-style -->
+        <section class="featured-video-section">
             <div class="container">
                 <h2 class="section-title">Featured Content</h2>
                 <p class="section-subtitle">Videos, interviews, and highlights.</p>
-                <div class="videos-grid animate-on-scroll">
-                    <div class="video-card">
-                        <div class="video-embed video-landscape">
-                            <iframe src="https://www.youtube.com/embed/M-1wD_Cm1M4" title="Insights x Design Ep. 18 — StatQuest with Josh Starmer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                <div class="featured-video-layout animate-on-scroll">
+                    <div class="featured-video-main">
+                        <div class="video-card">
+                            <div class="video-embed video-landscape">
+                                <iframe src="https://www.youtube.com/embed/M-1wD_Cm1M4" title="Insights x Design Ep. 18 — StatQuest with Josh Starmer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                            </div>
+                            <h3>Insights x Design Ep. 18</h3>
+                            <p class="card-meta">with Josh Starmer (@StatQuest)</p>
                         </div>
-                        <h3>Insights x Design Ep. 18</h3>
-                        <p class="card-meta">with Josh Starmer (@StatQuest)</p>
                     </div>
-                    <div class="video-card">
-                        <div class="video-embed video-short">
-                            <iframe src="https://www.youtube.com/embed/mYYlHFpL2ss" title="5 Levels of Apache Iceberg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                    <div class="featured-video-sidebar">
+                        <div class="video-card">
+                            <div class="video-embed video-short">
+                                <iframe src="https://www.youtube.com/embed/mYYlHFpL2ss" title="5 Levels of Apache Iceberg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                            </div>
+                            <h3>5 Levels of Apache Iceberg</h3>
+                            <p class="card-meta">#1 Apache Iceberg Short</p>
                         </div>
-                        <h3>5 Levels of Apache Iceberg</h3>
-                        <p class="card-meta">#1 Apache Iceberg Short on the Internet</p>
-                    </div>
-                    <div class="video-card">
-                        <div class="video-embed video-short">
-                            <iframe src="https://www.youtube.com/embed/qBYozQtqIAw" title="What is Apache Polaris?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        <div class="video-card">
+                            <div class="video-embed video-short">
+                                <iframe src="https://www.youtube.com/embed/qBYozQtqIAw" title="What is Apache Polaris?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                            </div>
+                            <h3>What is Apache Polaris?</h3>
+                            <p class="card-meta">#1 Polaris Video</p>
                         </div>
-                        <h3>What is Apache Polaris?</h3>
-                        <p class="card-meta">#1 Apache Polaris Video on the Internet</p>
                     </div>
+                </div>
+                <div class="section-cta animate-on-scroll">
+                    <a href="https://www.youtube.com/@andrew-madson" target="_blank" rel="noopener" class="btn btn-outline">View All on YouTube &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Work — book + course + speaking -->
+        <section class="featured-work-section">
+            <div class="container">
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-subtitle">Books, courses, and speaking highlights.</p>
+                <div class="featured-work-grid animate-on-scroll">
+                    <a href="https://www.oreilly.com/library/view/apache-polaris-the/9798341608139/" target="_blank" rel="noopener" class="fw-card fw-card--book">
+                        <div class="fw-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+                        </div>
+                        <div class="fw-card-badge published">Published</div>
+                        <h3>Apache Polaris: The Definitive Guide</h3>
+                        <p>O'Reilly Media, 2025</p>
+                        <span class="fw-card-link">View on O'Reilly &rarr;</span>
+                    </a>
+                    <a href="https://www.linkedin.com/learning/fundamentals-of-apache-iceberg" target="_blank" rel="noopener" class="fw-card fw-card--course">
+                        <div class="fw-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                        </div>
+                        <h3>Fundamentals of Apache Iceberg</h3>
+                        <p>LinkedIn Learning &bull; 18K+ learners</p>
+                        <span class="fw-card-link">View Course &rarr;</span>
+                    </a>
+                    <a href="speaking.html" class="fw-card fw-card--speaking">
+                        <div class="fw-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/><path d="M19 10v2a7 7 0 01-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                        </div>
+                        <h3>50+ Keynote Presentations</h3>
+                        <p>Global conferences on data engineering, AI, and lakehouse architecture.</p>
+                        <span class="fw-card-link">See Events &rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Explore — visual navigation cards -->
+        <section class="explore-section">
+            <div class="container">
+                <h2 class="section-title">Explore</h2>
+                <p class="section-subtitle">Dive deeper into my work.</p>
+                <div class="explore-grid animate-on-scroll">
+                    <a href="blog.html" class="explore-card">
+                        <div class="explore-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                        </div>
+                        <h3>Writing</h3>
+                        <p>55+ articles across Medium, Fivetran, Tobiko Data, and Dremio.</p>
+                        <span class="explore-card-link">Read Articles &rarr;</span>
+                    </a>
+                    <a href="books.html" class="explore-card">
+                        <div class="explore-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+                        </div>
+                        <h3>Books &amp; Courses</h3>
+                        <p>Published and upcoming books from O'Reilly, plus LinkedIn Learning courses.</p>
+                        <span class="explore-card-link">View All &rarr;</span>
+                    </a>
+                    <a href="speaking.html" class="explore-card">
+                        <div class="explore-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/><path d="M19 10v2a7 7 0 01-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                        </div>
+                        <h3>Speaking</h3>
+                        <p>50+ keynotes at global technology conferences worldwide.</p>
+                        <span class="explore-card-link">See Events &rarr;</span>
+                    </a>
+                    <a href="about-me.html" class="explore-card">
+                        <div class="explore-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
+                        <h3>About Me</h3>
+                        <p>Background, experience, education, and the journey so far.</p>
+                        <span class="explore-card-link">Learn More &rarr;</span>
+                    </a>
                 </div>
             </div>
         </section>
