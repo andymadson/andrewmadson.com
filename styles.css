@@ -130,7 +130,7 @@ ul {
 
 .nav-cta {
     padding: 8px 16px;
-    background-color: var(--color-accent);
+    background-color: #f97316;
     color: #fff !important;
     border-radius: 6px;
     font-size: 0.875rem;
@@ -141,7 +141,7 @@ ul {
 }
 
 .nav-cta:hover {
-    background-color: var(--color-accent-hover);
+    background-color: #ea580c;
     color: #fff !important;
 }
 
@@ -235,50 +235,6 @@ ul {
     object-fit: cover;
     border: none;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-}
-
-/* ===== Credibility Bar ===== */
-.credibility-bar {
-    padding: 24px 0;
-    background-color: var(--color-bg);
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-}
-
-.credibility-inner {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-}
-
-.credibility-label {
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--color-text-tertiary);
-    white-space: nowrap;
-    flex-shrink: 0;
-}
-
-.credibility-logos {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    flex-wrap: wrap;
-}
-
-.credibility-logos img {
-    height: 24px;
-    width: auto;
-    object-fit: contain;
-    opacity: 0.45;
-    filter: grayscale(100%) brightness(2);
-    transition: opacity var(--transition);
-}
-
-.credibility-logos img:hover {
-    opacity: 0.75;
 }
 
 /* Social proof bar */
@@ -1956,11 +1912,6 @@ footer {
     animation: hero-scale-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
 }
 
-.credibility-bar {
-    opacity: 0;
-    animation: hero-fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
-}
-
 .social-proof-bar {
     opacity: 0;
     animation: hero-fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.6s forwards;
@@ -2076,7 +2027,7 @@ footer {
         transition: none;
     }
     .hero-kicker, #hero h1, .hero-sub, .hero-actions,
-    .hero-headshot-wrap, .credibility-bar, .social-proof-bar {
+    .hero-headshot-wrap, .social-proof-bar {
         opacity: 1;
         animation: none;
     }
@@ -2160,7 +2111,7 @@ footer {
         text-align: center;
         margin-top: 16px;
         padding: 12px 24px;
-        background-color: var(--color-accent);
+        background-color: #f97316;
         color: #fff !important;
         border-radius: 8px;
         font-weight: 600;
@@ -2201,17 +2152,6 @@ footer {
 
     .hero-kicker {
         text-align: center;
-    }
-
-    /* Credibility bar */
-    .credibility-inner {
-        flex-direction: column;
-        gap: 16px;
-    }
-
-    .credibility-logos {
-        gap: 24px;
-        justify-content: center;
     }
 
     /* Social proof bar */
@@ -2299,7 +2239,4 @@ footer {
         font-size: 0.7rem;
     }
 
-    .credibility-logos img {
-        height: 20px;
-    }
 }
