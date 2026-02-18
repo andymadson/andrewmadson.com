@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | Andrew Madson</title>
-    <meta name="description" content="Blog posts by Andrew Madson from Fivetran, Dremio, Tobiko Data, Substack, and more.">
+    <title>Writing | Andrew Madson</title>
+    <meta name="description" content="Blog posts and newsletters by Andrew Madson from Fivetran, Dremio, Tobiko Data, Medium, Substack, and more.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -21,30 +21,54 @@
                 <span></span>
             </button>
             <ul class="nav-links">
-                <li><a href="about-me.html">About Me</a></li>
-                <li><a href="books.html">Books</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="newsletters.html">Newsletters</a></li>
-                <li><a href="speaking.html">Speaking &amp; Events</a></li>
-                <li><a href="videos.html">Featured Content</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about-me.html">About</a></li>
+                <li><a href="books.html">Books &amp; Courses</a></li>
+                <li><a href="speaking.html">Speaking</a></li>
+                <li><a href="blog.html">Writing</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHYfOCD4GqT7gGfpkM9jqjr7KVi7chFpqvv8XWhYHjovkC3w/viewform" target="_blank" rel="noopener" class="nav-cta">Get in Touch</a>
         </nav>
     </header>
     <!-- SHARED NAV END -->
 
     <main>
         <div class="page-header">
-            <img src="images/headshot.png" alt="Andrew Madson" class="page-headshot">
-            <h2 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text-secondary); margin-bottom: 8px; position: relative;">Andrew Madson</h2>
-            <h1>Blog</h1>
-            <p>Articles and posts from Fivetran, Dremio, Tobiko Data, Substack, and more.</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHYfOCD4GqT7gGfpkM9jqjr7KVi7chFpqvv8XWhYHjovkC3w/viewform" target="_blank" rel="noopener" class="btn btn-accent" style="margin-top: 20px;">Work with Me!</a>
+            <h1>Writing</h1>
+            <p>Articles, newsletters, and posts from Fivetran, Dremio, Tobiko Data, Medium, Substack, and more.</p>
         </div>
 
+        <!-- Newsletters -->
+        <section style="background-color: var(--color-surface);">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Newsletters</h2>
+                <div class="card-grid newsletters-grid">
+                    <div class="card animate-on-scroll">
+                        <img src="images/odai-logo.jpg" alt="Open Data + AI" class="card-logo">
+                        <h3>Open Data + AI</h3>
+                        <p class="card-meta">Substack</p>
+                        <p>Data + AI + Industry Insights. Deep dives into the latest trends in data engineering, AI systems, and open source technology.</p>
+                        <a href="https://substack.com/@andrewmadson" target="_blank" rel="noopener" class="card-link">Subscribe on Substack &rarr;</a>
+                    </div>
+                    <div class="card animate-on-scroll">
+                        <h3>Your Daily Data</h3>
+                        <p class="card-meta">LinkedIn Newsletter</p>
+                        <p>Your data news and insights to help you succeed as a data professional. Published weekly on LinkedIn. 30,000+ subscribers.</p>
+                        <a href="https://www.linkedin.com/newsletters/6941413315042566144/" target="_blank" rel="noopener" class="card-link">Subscribe on LinkedIn &rarr;</a>
+                    </div>
+                </div>
+                <div class="subscribe-embed animate-on-scroll">
+                    <h3>Subscribe to Open Data + AI</h3>
+                    <p>Get data, AI, and industry insights delivered to your inbox.</p>
+                    <iframe src="https://andrewmadson.substack.com/embed" width="100%" height="150" style="border:none; background:transparent;" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts -->
         <section>
             <div class="container">
+                <h2 class="section-title animate-on-scroll">Blog Posts</h2>
                 <div class="blog-controls">
                     <input type="text" class="blog-search" id="blog-search" placeholder="Search posts by title, source, or tag...">
                     <div class="blog-filters" id="blog-filters">
@@ -63,23 +87,406 @@
         //  BLOG POST DATA — edit this array to add/remove posts
         // ============================================================
         const POSTS = [
+          // ── Medium ─────────────────────────────────────────
           {
-            title: "Sample Blog Post — Add Your Posts Here",
-            source: "Substack",
-            date: "2026-01-15",
-            url: "https://substack.com/@andrewmadson",
-            tags: ["Data Engineering", "Getting Started"],
-            description: "This is a sample blog post. Replace this array with your actual blog posts from Fivetran, Dremio, Tobiko Data, Substack, and other publications."
+            title: "ODBC and JDBC: Row-Oriented Relics and the Rise of ADBC",
+            source: "Medium",
+            date: "2026-02-17",
+            url: "https://medium.com/@andymadson/odbc-and-jdbc-row-oriented-relics-and-the-rise-of-adbc-9d049c459902",
+            tags: ["ODBC", "JDBC", "ADBC"],
           },
           {
-            title: "Another Example Post",
+            title: "The Four Pillars of AI Systems and the Data They Need",
+            source: "Medium",
+            date: "2026-02-12",
+            url: "https://medium.com/@andymadson/the-four-pillars-of-ai-systems-and-the-data-they-need-21ba99406874",
+            tags: ["AI", "Data Strategy"],
+          },
+          {
+            title: "Lance vs Vortex: What Data Engineers Need to Know",
+            source: "Medium",
+            date: "2026-01-21",
+            url: "https://medium.com/@andymadson/lance-vs-vortex-what-data-engineers-need-to-know-e728528ebd4c",
+            tags: ["Data Formats", "Data Engineering"],
+          },
+          {
+            title: "Is Apache Iceberg Melting?",
+            source: "Medium",
+            date: "2026-01-20",
+            url: "https://medium.com/@andymadson/is-apache-iceberg-melting-c8fbb3771f52",
+            tags: ["Apache Iceberg", "Data Lakehouse"],
+          },
+          {
+            title: "Hands-On SQLMesh Using the VS Code Extension",
+            source: "Medium",
+            date: "2025-05-31",
+            url: "https://medium.com/@andymadson/hands-on-sqlmesh-using-the-vs-code-extension-131ec4a54276",
+            tags: ["SQLMesh", "VS Code", "Tutorial"],
+          },
+          {
+            title: "SQLMesh Sushi — An End-to-End Pipeline Tutorial",
+            source: "Medium",
+            date: "2025-05-17",
+            url: "https://medium.com/@andymadson/sqlmesh-sushi-an-end-to-end-pipeline-tutorial-6481e2ce6e79",
+            tags: ["SQLMesh", "Tutorial"],
+          },
+          {
+            title: "Managing Temporal Change in Data Pipelines",
+            source: "Medium",
+            date: "2025-05-16",
+            url: "https://medium.com/@andymadson/managing-temporal-change-in-data-pipelines-bc2bfaa13174",
+            tags: ["Data Pipelines", "Best Practices"],
+          },
+          {
+            title: "The Evolution of Data Pipelines: From ETL to ELT and Beyond!",
+            source: "Medium",
+            date: "2025-05-13",
+            url: "https://medium.com/@andymadson/the-evolution-of-data-pipelines-from-etl-to-elt-and-beyond-2e04deac7062",
+            tags: ["ETL", "ELT", "Data Pipelines"],
+          },
+          {
+            title: "End-to-End Tutorial: Integrating SQLMesh with DLT",
+            source: "Medium",
+            date: "2025-05-12",
+            url: "https://medium.com/@andymadson/end-to-end-tutorial-integrating-sqlmesh-with-dlt-5fa53da3f9e0",
+            tags: ["SQLMesh", "dlt", "Tutorial"],
+          },
+          {
+            title: "Versioning Data Transformations with SQLMesh: Trust, Speed, and Control",
+            source: "Medium",
+            date: "2025-04-25",
+            url: "https://medium.com/@andymadson/versioning-data-transformations-with-sqlmesh-trust-speed-and-control-31a84978a584",
+            tags: ["SQLMesh", "Data Transformation"],
+          },
+          {
+            title: "End-to-End Data Engineering Project with DuckDB + SQLMesh",
+            source: "Medium",
+            date: "2025-04-19",
+            url: "https://medium.com/@andymadson/end-to-end-data-engineering-project-with-duckdb-sqlmesh-d9ebe7d0934e",
+            tags: ["DuckDB", "SQLMesh", "Tutorial"],
+          },
+          {
+            title: "Data Modeling: A Guide for Data Analysts",
+            source: "Medium",
+            date: "2025-04-19",
+            url: "https://medium.com/@andymadson/data-modeling-a-guide-for-data-analysts-c0831c5639ab",
+            tags: ["Data Modeling", "Analytics"],
+          },
+          {
+            title: "Idempotent Data Pipelines with Spark and SQLMesh",
+            source: "Medium",
+            date: "2025-04-19",
+            url: "https://medium.com/@andymadson/idempotent-data-pipelines-with-spark-and-sqlmesh-eda8056b07c5",
+            tags: ["Spark", "SQLMesh", "Idempotency"],
+          },
+          {
+            title: "Backfilling Data Pipelines: Concepts, Examples, and Best Practices",
+            source: "Medium",
+            date: "2025-04-19",
+            url: "https://medium.com/@andymadson/backfilling-data-pipelines-concepts-examples-and-best-practices-19f7a6b20c82",
+            tags: ["Data Pipelines", "Best Practices"],
+          },
+          {
+            title: "SQLMesh Incremental Modeling with DuckDB: A Hands-On Tutorial",
+            source: "Medium",
+            date: "2025-04-19",
+            url: "https://medium.com/@andymadson/sqlmesh-incremental-modeling-with-duckdb-a-hands-on-tutorial-9cf5b11d6e80",
+            tags: ["SQLMesh", "DuckDB", "Tutorial"],
+          },
+          {
+            title: "Storytelling with Power — What Data Engineers Can Learn from D&D",
+            source: "Medium",
+            date: "2025-03-08",
+            url: "https://medium.com/@andymadson/storytelling-with-power-what-data-engineers-can-learn-from-d-d-f4c8e2d6b3a1",
+            tags: ["Communication", "Data Engineering"],
+          },
+          {
+            title: "\u201CData Mesh\u201D or \u201CData Mess\u201D?",
+            source: "Medium",
+            date: "2025-02-24",
+            url: "https://medium.com/@andymadson/data-mesh-or-data-mess-7e39800a7a7f",
+            tags: ["Data Mesh", "Architecture"],
+          },
+          {
+            title: "Enterprise Data Catalogs and Technical Metadata Catalogs: A Practical Guide",
+            source: "Medium",
+            date: "2025-02-23",
+            url: "https://medium.com/@andymadson/enterprise-data-catalogs-and-technical-metadata-catalogs-a-practical-guide-to-modern-data-c4422b44ab7f",
+            tags: ["Data Catalogs", "Metadata"],
+          },
+          {
+            title: "The Evolution of Data Storage",
+            source: "Medium",
+            date: "2025-02-20",
+            url: "https://medium.com/@andymadson/the-evolution-of-data-storage-1909a9670755",
+            tags: ["Data Storage", "Data Warehousing"],
+          },
+          {
+            title: "A/B Tests for Data Analysts",
+            source: "Medium",
+            date: "2025-02-18",
+            url: "https://medium.com/@andymadson/a-b-tests-for-data-analysts-1fde22ecd176",
+            tags: ["A/B Testing", "Analytics"],
+          },
+          {
+            title: "2025 AI Insights Report — What You Need to Know",
+            source: "Medium",
+            date: "2025-02-17",
+            url: "https://medium.com/@andymadson/2025-ai-insights-report-what-you-need-to-know-1fbe3f294509",
+            tags: ["AI", "Industry Report"],
+          },
+          {
+            title: "The Future of Data Careers: Skills You Need to Succeed in 2025",
+            source: "Medium",
+            date: "2025-02-17",
+            url: "https://medium.com/@andymadson/the-future-of-data-careers-skills-you-need-to-succeed-in-2025-cb0efe976a7e",
+            tags: ["Careers", "Data Engineering"],
+          },
+          {
+            title: "Your SQL Performance Sucks — And How to Fix It",
+            source: "Medium",
+            date: "2025-02-13",
+            url: "https://medium.com/@andymadson/your-sql-performance-sucks-and-how-to-fix-it-4c0c7d0f29b9",
+            tags: ["SQL", "Performance"],
+          },
+          {
+            title: "The Evolution of Data Processing: From ETL to ELT",
+            source: "Medium",
+            date: "2025-02-12",
+            url: "https://medium.com/@andymadson/as-a-data-leader-who-travels-the-globe-consulting-with-data-executives-ive-observed-a-fundamental-29309fdd2ee1",
+            tags: ["ETL", "ELT", "Data Processing"],
+          },
+          {
+            title: "Your Dashboard Sucks — And How to Fix It",
+            source: "Medium",
+            date: "2025-02-15",
+            url: "https://medium.com/@andymadson/introduction-b66db824c91d",
+            tags: ["Dashboards", "Data Visualization"],
+          },
+          // ── Fivetran ──────────────────────────────────────
+          {
+            title: "Data Pipeline State Management: An Underappreciated Challenge",
             source: "Fivetran",
-            date: "2026-01-10",
-            url: "https://www.fivetran.com/blog",
-            tags: ["Apache Iceberg", "Data Integration"],
-            description: "Another sample post to demonstrate the blog layout. Add your real posts by editing the POSTS array in blog.html."
+            date: "2025-12-10",
+            url: "https://www.fivetran.com/blog/data-pipeline-state-management-an-underappreciated-challenge",
+            tags: ["Data Pipelines", "State Management"],
+          },
+          {
+            title: "Monthly Merge Report for OSS Projects: November 2025",
+            source: "Fivetran",
+            date: "2025-11-28",
+            url: "https://www.fivetran.com/blog/monthly-merge-report-for-oss-projects-november-2025",
+            tags: ["Open Source", "Community"],
+          },
+          {
+            title: "Getting Started with Apache Polaris Catalog in Fivetran's Managed Data Lake Service",
+            source: "Fivetran",
+            date: "2025-11-12",
+            url: "https://www.fivetran.com/blog/getting-started-with-apache-polaris-catalog-in-fivetrans-managed-data-lake-service",
+            tags: ["Apache Polaris", "Data Lakehouse"],
+          },
+          {
+            title: "Introducing Fivetran Init: Accelerate Custom Connector Development",
+            source: "Fivetran",
+            date: "2025-10-22",
+            url: "https://www.fivetran.com/blog/introducing-fivetran-init-accelerate-custom-connector-development",
+            tags: ["Connectors", "Developer Tools"],
+          },
+          {
+            title: "Get Started with Iceberg Without the Brain Freeze",
+            source: "Fivetran",
+            date: "2025-10-08",
+            url: "https://www.fivetran.com/blog/get-started-with-iceberg-without-the-brain-freeze",
+            tags: ["Apache Iceberg", "Getting Started"],
+          },
+          // ── Tobiko Data ────────────────────────────────────
+          {
+            title: "Monthly Merge Report — September 2025",
+            source: "Tobiko Data",
+            date: "2025-09-30",
+            url: "https://www.tobikodata.com/blog/monthly-merge-report---september-2025",
+            tags: ["Open Source", "Community"],
+          },
+          {
+            title: "Monthly Merge Report — August 2025",
+            source: "Tobiko Data",
+            date: "2025-08-31",
+            url: "https://www.tobikodata.com/blog/monthly-merge-report---august-2025",
+            tags: ["Open Source", "Community"],
+          },
+          {
+            title: "Open Source AI with Spice + SQLMesh",
+            source: "Tobiko Data",
+            date: "2025-08-18",
+            url: "https://www.tobikodata.com/blog/open-source-ai-with-spice-sqlmesh",
+            tags: ["AI", "SQLMesh", "Open Source"],
+          },
+          {
+            title: "Shipped: Dev-Only VDE Mode",
+            source: "Tobiko Data",
+            date: "2025-08-05",
+            url: "https://www.tobikodata.com/blog/shipped-dev-only-vde-mode",
+            tags: ["SQLMesh", "Developer Tools"],
+          },
+          {
+            title: "K-means Clustering with SQLMesh Python Models",
+            source: "Tobiko Data",
+            date: "2025-07-22",
+            url: "https://www.tobikodata.com/blog/k-means-clustering-with-sqlmesh-python-models",
+            tags: ["SQLMesh", "Machine Learning"],
+          },
+          {
+            title: "DuckLake + SQLMesh Tutorial: Build a Modern Data Lakehouse on Your Laptop",
+            source: "Tobiko Data",
+            date: "2025-07-14",
+            url: "https://www.tobikodata.com/blog/ducklake-sqlmesh-tutorial-a-hands-on",
+            tags: ["SQLMesh", "Data Lakehouse", "Tutorial"],
+          },
+          {
+            title: "Monthly Merge Report — July 2025",
+            source: "Tobiko Data",
+            date: "2025-07-01",
+            url: "https://www.tobikodata.com/blog/monthly-merge-report---july-2025",
+            tags: ["Open Source", "Community"],
+          },
+          {
+            title: "SQLMesh FLOW Mode: Onboarding Reimagined",
+            source: "Tobiko Data",
+            date: "2025-06-18",
+            url: "https://www.tobikodata.com/blog/sqlmesh-flow-mode-onboarding-reimagined",
+            tags: ["SQLMesh", "Developer Experience"],
+          },
+          {
+            title: "SQLMesh Delivers 22x Faster Data Transformation and 10x Cost Savings vs dbt Core on Snowflake",
+            source: "Tobiko Data",
+            date: "2025-06-04",
+            url: "https://www.tobikodata.com/blog/sqlmesh-delivers-22x-faster-data-transformation-and-10x-cost-savings-vs-dbt-core-tm-on-snowflake",
+            tags: ["SQLMesh", "Performance", "Snowflake"],
+          },
+          {
+            title: "SQLMESH PLAN --EXPLAIN: Understand Your Changes Before They Happen",
+            source: "Tobiko Data",
+            date: "2025-05-20",
+            url: "https://www.tobikodata.com/blog/plan-explain-yourself",
+            tags: ["SQLMesh", "Developer Tools"],
+          },
+          {
+            title: "Is dbt Fusion the Death of dbt Core?",
+            source: "Tobiko Data",
+            date: "2025-05-06",
+            url: "https://www.tobikodata.com/blog/dbt-fusion-death-of-dbt-core",
+            tags: ["dbt", "Data Transformation"],
+          },
+          {
+            title: "A Perspective on Speed and State",
+            source: "Tobiko Data",
+            date: "2025-04-22",
+            url: "https://www.tobikodata.com/blog/perspective-on-speed-and-state",
+            tags: ["Data Engineering", "Architecture"],
+          },
+          {
+            title: "Expanding Apache Airflow with Tobiko Cloud",
+            source: "Tobiko Data",
+            date: "2025-04-08",
+            url: "https://www.tobikodata.com/blog/expanding-apache-airflow-with-tobiko-cloud",
+            tags: ["Apache Airflow", "Orchestration"],
+          },
+          {
+            title: "SQLMesh Model Blueprinting in Practice: A Hospital Network Example",
+            source: "Tobiko Data",
+            date: "2025-03-25",
+            url: "https://www.tobikodata.com/blog/sqlmesh-blueprinting",
+            tags: ["SQLMesh", "Best Practices"],
+          },
+          // ── Dremio ─────────────────────────────────────────
+          {
+            title: "Key Takeaways from the 2025 State of the Data Lakehouse Report",
+            source: "Dremio",
+            date: "2025-03-10",
+            url: "https://www.dremio.com/blog/key-takeaways-from-the-2025-state-of-the-data-lakehouse-report-navigating-the-ai-landscape/",
+            tags: ["Data Lakehouse", "Industry Report"],
+          },
+          {
+            title: "The Evolution of the Modern Data Team",
+            source: "Dremio",
+            date: "2025-02-24",
+            url: "https://www.dremio.com/blog/the-evolution-of-the-modern-data-team/",
+            tags: ["Data Teams", "Strategy"],
+          },
+          {
+            title: "Understanding Data Mesh and Data Fabric: A Guide for Data Leaders",
+            source: "Dremio",
+            date: "2025-02-10",
+            url: "https://www.dremio.com/blog/understanding-data-mesh-and-data-fabric-a-guide-for-data-leaders/",
+            tags: ["Data Mesh", "Data Fabric"],
+          },
+          {
+            title: "Simplifying Data Discovery with the Dremio Connector for Alation",
+            source: "Dremio",
+            date: "2025-01-27",
+            url: "https://www.dremio.com/blog/simplifying-data-discovery-with-the-dremio-connector-for-alation/",
+            tags: ["Data Discovery", "Partnerships"],
+          },
+          {
+            title: "Understanding Dremio's Architecture: A Game-Changing Approach to Data Lakes and Self-Service Analytics",
+            source: "Dremio",
+            date: "2025-01-13",
+            url: "https://www.dremio.com/blog/understanding-dremios-architecture-a-game-changing-approach-to-data-lakes-and-self-service-analytics/",
+            tags: ["Architecture", "Self-Service Analytics"],
+          },
+          {
+            title: "Why Your Data Strategy Needs Data Products",
+            source: "Dremio",
+            date: "2024-12-18",
+            url: "https://www.dremio.com/blog/why-your-data-strategy-needs-data-products-enabling-analytics-ai-and-business-insights/",
+            tags: ["Data Products", "Strategy"],
+          },
+          {
+            title: "Dremio and Monte Carlo — Enhanced Data Reliability for Your Data Lakehouse",
+            source: "Dremio",
+            date: "2024-12-04",
+            url: "https://www.dremio.com/blog/dremio-and-monte-carlo-enhanced-data-reliability-for-your-data-lakehouse/",
+            tags: ["Data Reliability", "Partnerships"],
+          },
+          {
+            title: "A Data Analyst's Guide to JDBC, ODBC, REST, and Arrow Flight",
+            source: "Dremio",
+            date: "2024-11-20",
+            url: "https://www.dremio.com/blog/a-data-analysts-guide-to-jdbc-odbc-rest-and-arrow-flight/",
+            tags: ["Connectivity", "Arrow Flight"],
+          },
+          {
+            title: "Lakehouse Architecture for Unified Analytics — A Data Analyst's Guide",
+            source: "Dremio",
+            date: "2024-11-06",
+            url: "https://www.dremio.com/blog/lakehouse-architecture-for-unified-analytics-a-data-analysts-guide-to-accelerated-insights/",
+            tags: ["Data Lakehouse", "Analytics"],
+          },
+          {
+            title: "Unified Semantic Layer: A Modern Solution for Self-Service Analytics",
+            source: "Dremio",
+            date: "2024-10-23",
+            url: "https://www.dremio.com/blog/unified-semantic-layer-a-modern-solution-for-self-service-analytics/",
+            tags: ["Semantic Layer", "Self-Service Analytics"],
+          },
+          {
+            title: "Dremio vs. Denodo — A Comparison",
+            source: "Dremio",
+            date: "2024-10-09",
+            url: "https://www.dremio.com/blog/dremio-vs-denodo-a-comparison/",
+            tags: ["Product Comparison", "Data Virtualization"],
           },
         ];
+
+        // ============================================================
+        //  SOURCE BRANDING — logo paths + CSS class per source
+        // ============================================================
+        const SOURCE_META = {
+          'Fivetran':     { logo: 'images/logos/fivetran.png',  cssClass: 'source-fivetran' },
+          'Tobiko Data':  { logo: 'images/logos/tobiko.svg',    cssClass: 'source-tobiko'   },
+          'Dremio':       { logo: 'images/logos/dremio.png',    cssClass: 'source-dremio'   },
+          'Medium':       { logo: 'images/logos/medium.svg',    cssClass: 'source-medium'   },
+        };
 
         // ============================================================
         //  BLOG RENDERING
@@ -94,13 +501,16 @@
         // Sort newest first
         const sortedPosts = POSTS.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-        // Build source filter pills
+        // Build source filter pills with counts
+        const sourceCounts = {};
+        sortedPosts.forEach(p => { sourceCounts[p.source] = (sourceCounts[p.source] || 0) + 1; });
         const sources = ['All', ...new Set(sortedPosts.map(p => p.source))];
         const filtersContainer = document.getElementById('blog-filters');
         sources.forEach(source => {
           const pill = document.createElement('button');
           pill.className = 'blog-filter-pill' + (source === 'All' ? ' active' : '');
-          pill.textContent = source;
+          const count = source === 'All' ? sortedPosts.length : (sourceCounts[source] || 0);
+          pill.innerHTML = `${source} <span class="pill-count">${count}</span>`;
           pill.dataset.source = source;
           pill.addEventListener('click', () => {
             document.querySelectorAll('.blog-filter-pill').forEach(p => p.classList.remove('active'));
@@ -122,7 +532,7 @@
             const matchesSource = activeSource === 'All' || post.source === activeSource;
             if (!matchesSource) return false;
             if (!query) return true;
-            const searchable = [post.title, post.source, post.description, ...post.tags].join(' ').toLowerCase();
+            const searchable = [post.title, post.source, ...post.tags].join(' ').toLowerCase();
             return searchable.includes(query);
           });
 
@@ -139,14 +549,22 @@
               card.rel = 'noopener';
               card.className = 'blog-card';
 
+              const meta = SOURCE_META[post.source] || {};
+              const logoHtml = meta.logo
+                ? `<img src="${meta.logo}" alt="${post.source}" class="blog-card-logo">`
+                : '';
+              const badgeClass = meta.cssClass || '';
               const tagsHtml = post.tags.map(t => `<span>${t}</span>`).join('');
 
               card.innerHTML = `
-                <div class="blog-card-source">${post.source}</div>
+                <div class="blog-card-header">
+                  ${logoHtml}
+                  <div class="blog-card-source ${badgeClass}">${post.source}</div>
+                </div>
                 <h3>${post.title}</h3>
                 <p class="blog-date">${formatBlogDate(post.date)}</p>
-                <p class="blog-desc">${post.description}</p>
                 <div class="blog-tags">${tagsHtml}</div>
+                <span class="blog-card-read">Read on ${post.source} &rarr;</span>
               `;
 
               grid.appendChild(card);
@@ -162,13 +580,35 @@
     <!-- SHARED FOOTER START -->
     <footer>
         <div class="container">
-            <div class="footer-social">
-                <a href="https://www.linkedin.com/in/andrew-madson/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
-                <a href="https://www.youtube.com/@andrew-madson" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
-                <a href="https://github.com/andymadson" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
-                <a href="https://x.com/andrewmadson11" target="_blank" rel="noopener" aria-label="X / Twitter"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">Andrew Madson</a>
+                    <p>Head of Developer Relations at Fivetran. Keynote speaker, author, and educator.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="about-me.html">About</a></li>
+                        <li><a href="books.html">Books &amp; Courses</a></li>
+                        <li><a href="speaking.html">Speaking</a></li>
+                        <li><a href="blog.html">Writing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/andrew-madson/" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://www.youtube.com/@andrew-madson" target="_blank" rel="noopener">YouTube</a></li>
+                        <li><a href="https://substack.com/@andrewmadson" target="_blank" rel="noopener">Substack</a></li>
+                        <li><a href="https://medium.com/@andymadson" target="_blank" rel="noopener">Medium</a></li>
+                        <li><a href="https://github.com/andymadson" target="_blank" rel="noopener">GitHub</a></li>
+                    </ul>
+                </div>
             </div>
-            <p>&copy; 2026 Andrew Madson. All rights reserved.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Andrew Madson. All rights reserved.</p>
+            </div>
         </div>
     </footer>
     <!-- SHARED FOOTER END -->
