@@ -253,6 +253,13 @@ section {
     padding: var(--section-padding);
 }
 
+.section-subtitle {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    margin-top: -36px;
+    margin-bottom: 40px;
+}
+
 /* ===== About ===== */
 .about-grid {
     display: grid;
