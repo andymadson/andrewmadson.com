@@ -183,7 +183,7 @@ ul {
 .hero-kicker {
     font-size: clamp(1.25rem, 2.2vw, 1.6rem);
     font-weight: 700;
-    color: var(--color-text);
+    color: #f97316;
     letter-spacing: -0.01em;
     margin-bottom: 24px;
     line-height: 1.3;
