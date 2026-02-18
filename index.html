@@ -119,43 +119,205 @@
             </div>
         </div>
 
-        <!-- Featured Video — full width hero-style -->
+        <!-- Featured Content — dynamic YouTube carousels -->
         <section class="featured-video-section">
             <div class="container">
                 <h2 class="section-title">Featured Content</h2>
                 <p class="section-subtitle">Videos, interviews, and highlights.</p>
-                <div class="featured-video-layout animate-on-scroll">
-                    <div class="featured-video-main">
-                        <div class="video-card">
-                            <div class="video-embed video-landscape">
-                                <iframe src="https://www.youtube.com/embed/M-1wD_Cm1M4" title="Insights x Design Ep. 18 — StatQuest with Josh Starmer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                            </div>
-                            <h3>Insights x Design Ep. 18</h3>
-                            <p class="card-meta">with Josh Starmer (@StatQuest)</p>
+
+                <!-- Full-Length Videos -->
+                <div class="carousel-section animate-on-scroll">
+                    <div class="carousel-header">
+                        <h3 class="carousel-title">Popular Videos</h3>
+                        <div class="carousel-nav">
+                            <button class="carousel-btn carousel-btn-prev" data-carousel="videos" aria-label="Scroll left">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                            </button>
+                            <button class="carousel-btn carousel-btn-next" data-carousel="videos" aria-label="Scroll right">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg>
+                            </button>
                         </div>
                     </div>
-                    <div class="featured-video-sidebar">
-                        <div class="video-card">
-                            <div class="video-embed video-short">
-                                <iframe src="https://www.youtube.com/embed/mYYlHFpL2ss" title="5 Levels of Apache Iceberg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                            </div>
-                            <h3>5 Levels of Apache Iceberg</h3>
-                            <p class="card-meta">#1 Apache Iceberg Short</p>
-                        </div>
-                        <div class="video-card">
-                            <div class="video-embed video-short">
-                                <iframe src="https://www.youtube.com/embed/qBYozQtqIAw" title="What is Apache Polaris?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                            </div>
-                            <h3>What is Apache Polaris?</h3>
-                            <p class="card-meta">#1 Polaris Video</p>
-                        </div>
+                    <div class="carousel-track" id="carousel-videos">
+                        <div class="carousel-loading">Loading videos...</div>
                     </div>
                 </div>
+
+                <!-- Shorts -->
+                <div class="carousel-section animate-on-scroll">
+                    <div class="carousel-header">
+                        <h3 class="carousel-title">Shorts</h3>
+                        <div class="carousel-nav">
+                            <button class="carousel-btn carousel-btn-prev" data-carousel="shorts" aria-label="Scroll left">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                            </button>
+                            <button class="carousel-btn carousel-btn-next" data-carousel="shorts" aria-label="Scroll right">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-track carousel-track-shorts" id="carousel-shorts">
+                        <div class="carousel-loading">Loading shorts...</div>
+                    </div>
+                </div>
+
+                <!-- Media Appearances & Interviews -->
+                <div class="carousel-section animate-on-scroll">
+                    <div class="carousel-header">
+                        <h3 class="carousel-title">Media Appearances &amp; Interviews</h3>
+                        <div class="carousel-nav">
+                            <button class="carousel-btn carousel-btn-prev" data-carousel="interviews" aria-label="Scroll left">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                            </button>
+                            <button class="carousel-btn carousel-btn-next" data-carousel="interviews" aria-label="Scroll right">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-track" id="carousel-interviews">
+                        <div class="carousel-loading">Loading interviews...</div>
+                    </div>
+                </div>
+
                 <div class="section-cta animate-on-scroll">
                     <a href="https://www.youtube.com/@andrew-madson" target="_blank" rel="noopener" class="btn btn-outline">View All on YouTube &rarr;</a>
                 </div>
             </div>
         </section>
+
+        <script>
+        (function() {
+            const API_KEY = 'AIzaSyDTYxB7UN5be5TvnHwBGJrzNR7mKPtfvVU';
+            const CHANNEL_ID = 'UCjU5frJrfgcQP3OwrU16I7g';
+            const INTERVIEWS_PLAYLIST = 'PL80OZ9pWM1bCCwUpk182E4xCHfh6lKUY_';
+
+            function formatViews(n) {
+                if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+                if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
+                return n.toString();
+            }
+
+            function renderVideoCard(video, isShort) {
+                const thumb = video.snippet.thumbnails.medium || video.snippet.thumbnails.default;
+                const title = video.snippet.title;
+                const videoId = video.id.videoId || video.snippet.resourceId?.videoId || video.id;
+                const views = video.statistics ? formatViews(parseInt(video.statistics.viewCount)) + ' views' : '';
+                const url = isShort
+                    ? 'https://www.youtube.com/shorts/' + videoId
+                    : 'https://www.youtube.com/watch?v=' + videoId;
+
+                const card = document.createElement('a');
+                card.href = url;
+                card.target = '_blank';
+                card.rel = 'noopener';
+                card.className = 'yt-card' + (isShort ? ' yt-card-short' : '');
+                card.innerHTML =
+                    '<div class="yt-card-thumb' + (isShort ? ' yt-thumb-short' : '') + '">' +
+                        '<img src="' + thumb.url + '" alt="' + title.replace(/"/g, '&quot;') + '" loading="lazy">' +
+                        '<div class="yt-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>' +
+                    '</div>' +
+                    '<div class="yt-card-info">' +
+                        '<h4>' + title + '</h4>' +
+                        (views ? '<span class="yt-card-views">' + views + '</span>' : '') +
+                    '</div>';
+                return card;
+            }
+
+            function initCarouselNav() {
+                document.querySelectorAll('.carousel-btn').forEach(function(btn) {
+                    btn.addEventListener('click', function() {
+                        var id = 'carousel-' + this.dataset.carousel;
+                        var track = document.getElementById(id);
+                        var scrollAmt = track.clientWidth * 0.75;
+                        if (this.classList.contains('carousel-btn-prev')) scrollAmt = -scrollAmt;
+                        track.scrollBy({ left: scrollAmt, behavior: 'smooth' });
+                    });
+                });
+            }
+
+            async function fetchVideos(trackId, isShort) {
+                var track = document.getElementById(trackId);
+                try {
+                    // Step 1: Search for videos from the channel, sorted by viewCount
+                    var searchUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet' +
+                        '&channelId=' + CHANNEL_ID +
+                        '&type=video' +
+                        '&order=viewCount' +
+                        '&maxResults=50' +
+                        (isShort ? '&videoDuration=short' : '&videoDuration=medium') +
+                        '&key=' + API_KEY;
+
+                    var resp = await fetch(searchUrl);
+                    var data = await resp.json();
+                    if (!data.items || data.items.length === 0) {
+                        track.innerHTML = '<p class="carousel-empty">No videos found.</p>';
+                        return;
+                    }
+
+                    // Step 2: Get view counts for sorting verification
+                    var ids = data.items.map(function(item) { return item.id.videoId; }).join(',');
+                    var statsUrl = 'https://www.googleapis.com/youtube/v3/videos?part=statistics,snippet' +
+                        '&id=' + ids + '&key=' + API_KEY;
+                    var statsResp = await fetch(statsUrl);
+                    var statsData = await statsResp.json();
+
+                    // Sort by view count descending
+                    var videos = statsData.items.sort(function(a, b) {
+                        return parseInt(b.statistics.viewCount) - parseInt(a.statistics.viewCount);
+                    });
+
+                    track.innerHTML = '';
+                    videos.forEach(function(video) {
+                        track.appendChild(renderVideoCard(video, isShort));
+                    });
+                } catch (err) {
+                    track.innerHTML = '<p class="carousel-empty">Failed to load videos.</p>';
+                }
+            }
+
+            async function fetchPlaylist(trackId, playlistId) {
+                var track = document.getElementById(trackId);
+                try {
+                    var url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet' +
+                        '&playlistId=' + playlistId +
+                        '&maxResults=50' +
+                        '&key=' + API_KEY;
+                    var resp = await fetch(url);
+                    var data = await resp.json();
+                    if (!data.items || data.items.length === 0) {
+                        track.innerHTML = '<p class="carousel-empty">No videos found.</p>';
+                        return;
+                    }
+
+                    // Get stats for sorting by popularity
+                    var ids = data.items.map(function(item) {
+                        return item.snippet.resourceId.videoId;
+                    }).join(',');
+                    var statsUrl = 'https://www.googleapis.com/youtube/v3/videos?part=statistics,snippet' +
+                        '&id=' + ids + '&key=' + API_KEY;
+                    var statsResp = await fetch(statsUrl);
+                    var statsData = await statsResp.json();
+
+                    var videos = statsData.items.sort(function(a, b) {
+                        return parseInt(b.statistics.viewCount) - parseInt(a.statistics.viewCount);
+                    });
+
+                    track.innerHTML = '';
+                    videos.forEach(function(video) {
+                        track.appendChild(renderVideoCard(video, false));
+                    });
+                } catch (err) {
+                    track.innerHTML = '<p class="carousel-empty">Failed to load videos.</p>';
+                }
+            }
+
+            // Init
+            initCarouselNav();
+            fetchVideos('carousel-videos', false);
+            fetchVideos('carousel-shorts', true);
+            fetchPlaylist('carousel-interviews', INTERVIEWS_PLAYLIST);
+        })();
+        </script>
 
         <!-- Featured Work — book + course + speaking -->
         <section class="featured-work-section">

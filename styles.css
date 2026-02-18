@@ -815,61 +815,199 @@ section {
     background-color: var(--color-surface);
 }
 
-.featured-video-layout {
-    display: grid;
-    grid-template-columns: 1fr 260px;
-    gap: 24px;
-    align-items: start;
-}
-
-.featured-video-sidebar {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.featured-video-sidebar .video-card {
-    border-radius: 12px;
-}
-
-.featured-video-sidebar .video-card h3 {
-    font-size: 0.9rem;
-    padding: 10px 14px 2px;
-}
-
-.featured-video-sidebar .video-card .card-meta {
-    font-size: 0.75rem;
-    padding: 0 14px 12px;
-}
-
-.featured-video-sidebar .video-short {
-    padding-bottom: 110%;
-}
-
 .section-cta {
     text-align: center;
     margin-top: 32px;
 }
 
-@media (max-width: 1023px) {
-    .featured-video-layout {
-        grid-template-columns: 1fr;
-    }
+/* ===== YouTube Carousel ===== */
+.carousel-section {
+    margin-bottom: 40px;
+}
 
-    .featured-video-sidebar {
-        flex-direction: row;
-    }
+.carousel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
 
-    .featured-video-sidebar .video-card {
-        flex: 1;
-    }
+.carousel-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.carousel-nav {
+    display: flex;
+    gap: 8px;
+}
+
+.carousel-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-card);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color var(--transition), color var(--transition), background-color var(--transition);
+}
+
+.carousel-btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    background-color: rgba(99, 102, 241, 0.1);
+}
+
+.carousel-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+}
+
+.carousel-track::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-loading,
+.carousel-empty {
+    color: var(--color-text-tertiary);
+    font-size: 0.9rem;
+    padding: 32px 0;
+}
+
+/* YouTube Video Card */
+.yt-card {
+    flex: 0 0 300px;
+    scroll-snap-align: start;
+    background-color: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.yt-card:hover {
+    border-color: var(--color-border-hover);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+.yt-card-thumb {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.yt-card-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.yt-play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.yt-card:hover .yt-play-icon {
+    opacity: 1;
+}
+
+.yt-play-icon svg {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    margin-left: 2px;
+}
+
+.yt-card-info {
+    padding: 12px 14px;
+}
+
+.yt-card-info h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text);
+    line-height: 1.35;
+    margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.yt-card-views {
+    font-size: 0.8rem;
+    color: var(--color-text-tertiary);
+}
+
+/* Shorts-specific card */
+.yt-card-short {
+    flex: 0 0 180px;
+}
+
+.yt-card-short .yt-card-thumb,
+.yt-thumb-short {
+    aspect-ratio: 9 / 16;
+}
+
+.yt-card-short .yt-card-info h4 {
+    font-size: 0.8rem;
+    -webkit-line-clamp: 2;
+}
+
+.yt-card-short .yt-card-views {
+    font-size: 0.75rem;
+}
+
+/* Shorts track height limit */
+.carousel-track-shorts {
+    max-height: 400px;
+}
+
+.carousel-track-shorts .yt-card-short .yt-card-thumb {
+    aspect-ratio: 9 / 14;
 }
 
 @media (max-width: 600px) {
-    .featured-video-sidebar {
-        flex-direction: column;
-        max-width: 320px;
-        margin: 0 auto;
+    .yt-card {
+        flex: 0 0 260px;
+    }
+    .yt-card-short {
+        flex: 0 0 150px;
+    }
+    .carousel-btn {
+        display: none;
     }
 }
 
@@ -1130,6 +1268,9 @@ section {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .subscribe-embed h3 {
