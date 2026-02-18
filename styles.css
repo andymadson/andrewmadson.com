@@ -227,6 +227,16 @@ ul {
     color: #fff !important;
 }
 
+.btn-accent {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    border-color: transparent;
+}
+
+.btn-accent:hover {
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    border-color: transparent;
+}
+
 /* ===== Section Titles ===== */
 .section-title {
     font-size: clamp(1.75rem, 3vw, 2.5rem);
