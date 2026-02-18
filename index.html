@@ -189,6 +189,7 @@
         (function() {
             const API_KEY = 'AIzaSyDTYxB7UN5be5TvnHwBGJrzNR7mKPtfvVU';
             const CHANNEL_ID = 'UCjU5frJrfgcQP3OwrU16I7g';
+            const UPLOADS_PLAYLIST = 'UUjU5frJrfgcQP3OwrU16I7g';
             const INTERVIEWS_PLAYLIST = 'PL80OZ9pWM1bCCwUpk182E4xCHfh6lKUY_';
 
             function formatViews(n) {
@@ -198,15 +199,15 @@
             }
 
             function renderVideoCard(video, isShort) {
-                const thumb = video.snippet.thumbnails.medium || video.snippet.thumbnails.default;
-                const title = video.snippet.title;
-                const videoId = video.id.videoId || video.snippet.resourceId?.videoId || video.id;
-                const views = video.statistics ? formatViews(parseInt(video.statistics.viewCount)) + ' views' : '';
-                const url = isShort
+                var thumb = video.snippet.thumbnails.medium || video.snippet.thumbnails.default;
+                var title = video.snippet.title;
+                var videoId = typeof video.id === 'string' ? video.id : (video.id.videoId || video.snippet.resourceId?.videoId);
+                var views = video.statistics ? formatViews(parseInt(video.statistics.viewCount)) + ' views' : '';
+                var url = isShort
                     ? 'https://www.youtube.com/shorts/' + videoId
                     : 'https://www.youtube.com/watch?v=' + videoId;
 
-                const card = document.createElement('a');
+                var card = document.createElement('a');
                 card.href = url;
                 card.target = '_blank';
                 card.rel = 'noopener';
@@ -235,44 +236,72 @@
                 });
             }
 
-            async function fetchVideos(trackId, isShort) {
-                var track = document.getElementById(trackId);
-                try {
-                    // Step 1: Search for videos from the channel, sorted by viewCount
-                    var searchUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet' +
-                        '&channelId=' + CHANNEL_ID +
-                        '&type=video' +
-                        '&order=viewCount' +
+            // Fetch all uploads, then split into videos vs shorts using duration
+            async function fetchAllUploads() {
+                var allVideoIds = [];
+                var nextPageToken = '';
+                // Fetch up to 150 uploads (3 pages of 50)
+                for (var page = 0; page < 3; page++) {
+                    var url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet' +
+                        '&playlistId=' + UPLOADS_PLAYLIST +
                         '&maxResults=50' +
-                        (isShort ? '&videoDuration=short' : '&videoDuration=medium') +
-                        '&key=' + API_KEY;
-
-                    var resp = await fetch(searchUrl);
+                        '&key=' + API_KEY +
+                        (nextPageToken ? '&pageToken=' + nextPageToken : '');
+                    var resp = await fetch(url);
                     var data = await resp.json();
-                    if (!data.items || data.items.length === 0) {
-                        track.innerHTML = '<p class="carousel-empty">No videos found.</p>';
-                        return;
-                    }
-
-                    // Step 2: Get view counts for sorting verification
-                    var ids = data.items.map(function(item) { return item.id.videoId; }).join(',');
-                    var statsUrl = 'https://www.googleapis.com/youtube/v3/videos?part=statistics,snippet' +
-                        '&id=' + ids + '&key=' + API_KEY;
-                    var statsResp = await fetch(statsUrl);
-                    var statsData = await statsResp.json();
-
-                    // Sort by view count descending
-                    var videos = statsData.items.sort(function(a, b) {
-                        return parseInt(b.statistics.viewCount) - parseInt(a.statistics.viewCount);
+                    if (!data.items) break;
+                    data.items.forEach(function(item) {
+                        allVideoIds.push(item.snippet.resourceId.videoId);
                     });
-
-                    track.innerHTML = '';
-                    videos.forEach(function(video) {
-                        track.appendChild(renderVideoCard(video, isShort));
-                    });
-                } catch (err) {
-                    track.innerHTML = '<p class="carousel-empty">Failed to load videos.</p>';
+                    nextPageToken = data.nextPageToken;
+                    if (!nextPageToken) break;
                 }
+
+                // Get details (duration + stats) in batches of 50
+                var allVideos = [];
+                for (var i = 0; i < allVideoIds.length; i += 50) {
+                    var batch = allVideoIds.slice(i, i + 50).join(',');
+                    var detailUrl = 'https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics,contentDetails' +
+                        '&id=' + batch + '&key=' + API_KEY;
+                    var detailResp = await fetch(detailUrl);
+                    var detailData = await detailResp.json();
+                    if (detailData.items) allVideos = allVideos.concat(detailData.items);
+                }
+
+                // Parse ISO 8601 duration to seconds
+                function parseDuration(iso) {
+                    var match = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+                    if (!match) return 0;
+                    return (parseInt(match[1] || 0) * 3600) + (parseInt(match[2] || 0) * 60) + parseInt(match[3] || 0);
+                }
+
+                // Split: shorts <= 60s, full-length > 60s
+                var shorts = [];
+                var fullLength = [];
+                allVideos.forEach(function(v) {
+                    var dur = parseDuration(v.contentDetails.duration);
+                    if (dur <= 60) {
+                        shorts.push(v);
+                    } else {
+                        fullLength.push(v);
+                    }
+                });
+
+                // Sort both by view count descending
+                shorts.sort(function(a, b) { return parseInt(b.statistics.viewCount) - parseInt(a.statistics.viewCount); });
+                fullLength.sort(function(a, b) { return parseInt(b.statistics.viewCount) - parseInt(a.statistics.viewCount); });
+
+                // Render full-length videos
+                var videosTrack = document.getElementById('carousel-videos');
+                videosTrack.innerHTML = '';
+                fullLength.forEach(function(v) { videosTrack.appendChild(renderVideoCard(v, false)); });
+                if (fullLength.length === 0) videosTrack.innerHTML = '<p class="carousel-empty">No videos found.</p>';
+
+                // Render shorts
+                var shortsTrack = document.getElementById('carousel-shorts');
+                shortsTrack.innerHTML = '';
+                shorts.forEach(function(v) { shortsTrack.appendChild(renderVideoCard(v, true)); });
+                if (shorts.length === 0) shortsTrack.innerHTML = '<p class="carousel-empty">No shorts found.</p>';
             }
 
             async function fetchPlaylist(trackId, playlistId) {
@@ -289,7 +318,6 @@
                         return;
                     }
 
-                    // Get stats for sorting by popularity
                     var ids = data.items.map(function(item) {
                         return item.snippet.resourceId.videoId;
                     }).join(',');
@@ -313,8 +341,7 @@
 
             // Init
             initCarouselNav();
-            fetchVideos('carousel-videos', false);
-            fetchVideos('carousel-shorts', true);
+            fetchAllUploads();
             fetchPlaylist('carousel-interviews', INTERVIEWS_PLAYLIST);
         })();
         </script>
