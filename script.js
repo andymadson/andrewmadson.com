@@ -28,12 +28,24 @@ if (navToggle && navLinks) {
 // Active nav link highlighting
 const currentPage = document.body.dataset.page;
 if (currentPage && navLinks) {
-    navLinks.querySelectorAll('a').forEach(link => {
-        const href = link.getAttribute('href');
-        if (href === currentPage + '.html' || (currentPage === 'home' && href === 'index.html')) {
-            link.classList.add('nav-active');
-        }
-    });
+    const pageMap = {
+        'home': 'index.html',
+        'about-me': 'about-me.html',
+        'books': 'books.html',
+        'courses': 'books.html',
+        'speaking': 'speaking.html',
+        'blog': 'blog.html',
+        'newsletters': 'blog.html',
+        'contact': 'contact.html',
+    };
+    const targetHref = pageMap[currentPage];
+    if (targetHref) {
+        navLinks.querySelectorAll('a').forEach(link => {
+            if (link.getAttribute('href') === targetHref) {
+                link.classList.add('nav-active');
+            }
+        });
+    }
 }
 
 // Scroll-triggered animations
@@ -51,3 +63,11 @@ window._portfolioObserver = new IntersectionObserver(
 document.querySelectorAll('.animate-on-scroll').forEach(el => {
     window._portfolioObserver.observe(el);
 });
+
+// Animation failsafe — reveal all animated elements after 2s
+// in case IntersectionObserver doesn't fire (e.g. slow load, edge cases)
+setTimeout(() => {
+    document.querySelectorAll('.animate-on-scroll:not(.visible)').forEach(el => {
+        el.classList.add('visible');
+    });
+}, 2000);
