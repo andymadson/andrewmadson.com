@@ -296,8 +296,11 @@ ul {
 
 .social-proof-follow {
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 18px;
+    gap: 24px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .libutton {
@@ -318,10 +321,22 @@ ul {
     font-weight: 600;
     letter-spacing: 0.02em;
     transition: background-color var(--transition);
+    flex-shrink: 0;
 }
 
 .libutton:hover {
     background-color: #004182;
+}
+
+.substack-embed-mini {
+    max-width: 480px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.substack-embed-mini iframe {
+    display: block;
+    max-width: 100%;
 }
 
 /* Social links (kept for backward compat but no longer in hero) */
