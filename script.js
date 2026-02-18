@@ -22,7 +22,7 @@ navLinks.querySelectorAll('a').forEach(link => {
 });
 
 // Scroll-triggered animations
-const observer = new IntersectionObserver(
+window._portfolioObserver = new IntersectionObserver(
     (entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -34,5 +34,5 @@ const observer = new IntersectionObserver(
 );
 
 document.querySelectorAll('.animate-on-scroll').forEach(el => {
-    observer.observe(el);
+    window._portfolioObserver.observe(el);
 });

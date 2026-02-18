@@ -35,6 +35,7 @@
                 <li><a href="#newsletters">Newsletters</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#speaking">Speaking</a></li>
+                <li><a href="#events">Events</a></li>
                 <li><a href="#videos">Videos</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -216,7 +217,7 @@
                     <h3>Teaching</h3>
                     <ul class="education-list">
                         <li><strong>Graduate Professor of Data Science &amp; Engineering</strong> — Western Governors University (WGU)</li>
-                        <li><strong>Graduate Professor</strong> — Southern New Hampshire University (SNHU)</li>
+                        <li><strong>Undergraduate Professor of Business Management &amp; Leadership</strong> — Southern New Hampshire University (SNHU)</li>
                         <li><strong>Graduate Professor</strong> — Grand Canyon University (GCU)</li>
                         <li><strong>Graduate Professor</strong> — University of Indianapolis</li>
                         <li><strong>Graduate Professor</strong> — Trine University</li>
@@ -251,6 +252,13 @@
                         <h3>Data Transformation: The Definitive Guide</h3>
                         <p class="card-meta">O'Reilly Media</p>
                         <p>A comprehensive guide to modern data transformation practices, tools, and architectures for data engineering teams.</p>
+                    </div>
+                    <div class="card animate-on-scroll">
+                        <div class="card-badge free">Free &bull; 10K+ Downloads</div>
+                        <h3>Which Chart When?</h3>
+                        <p class="card-meta">Gumroad &bull; Free Download</p>
+                        <p>The data analyst's guide to choosing the right charts. A practical reference for selecting the best visualization for your data.</p>
+                        <a href="https://analyticaccess.gumroad.com/" target="_blank" rel="noopener" class="card-link">Download Free on Gumroad &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -399,6 +407,183 @@
                 </div>
             </div>
         </section>
+
+        <!-- Events -->
+        <section id="events">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Events</h2>
+                <p class="section-subtitle animate-on-scroll">Upcoming conferences &amp; appearances worldwide</p>
+                <div class="events-layout animate-on-scroll">
+                    <div class="events-globe-panel">
+                        <canvas id="events-globe" width="500" height="500"></canvas>
+                        <p class="globe-label">Drag to explore</p>
+                    </div>
+                    <div class="events-list-panel">
+                        <div class="events-timeline" id="events-timeline">
+                            <!-- Populated by JS -->
+                        </div>
+                        <p class="events-empty" id="events-empty" style="display:none;">No upcoming events scheduled. Check back soon.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="module">
+        import createGlobe from 'https://cdn.jsdelivr.net/npm/cobe@0.6.3/dist/index.esm.js';
+
+        // ============================================================
+        //  EVENT DATA — edit this array to add/remove events
+        // ============================================================
+        const EVENTS = [
+          {
+            name: "Azure AI Connect",
+            role: "Speaker",
+            date: "2025-03-15",
+            dateDisplay: "Mar 2025",
+            city: "Virtual",
+            lat: 47.606, lng: -122.332,
+            url: "https://sessionize.com/andrew-madson/",
+            status: "past",
+          },
+          {
+            name: "Devnexus 2025",
+            role: "Speaker",
+            date: "2025-03-04",
+            dateDisplay: "Mar 4–6, 2025",
+            city: "Atlanta, GA",
+            lat: 33.749, lng: -84.388,
+            url: "https://devnexus.com",
+            status: "past",
+          },
+          {
+            name: "Global Power Platform Bootcamp Houston",
+            role: "Speaker",
+            date: "2025-02-22",
+            dateDisplay: "Feb 2025",
+            city: "Houston, TX",
+            lat: 29.760, lng: -95.370,
+            url: "https://sessionize.com/andrew-madson/",
+            status: "past",
+          },
+          {
+            name: "DeveloperWeek 2025",
+            role: "Speaker",
+            date: "2025-02-12",
+            dateDisplay: "Feb 12–13, 2025",
+            city: "Santa Clara, CA",
+            lat: 37.354, lng: -121.955,
+            url: "https://www.developerweek.com/",
+            status: "past",
+          },
+        ];
+
+        // ============================================================
+        //  GLOBE INITIALIZATION
+        // ============================================================
+        const canvas = document.getElementById('events-globe');
+        if (canvas) {
+          let currentPhi = 0;
+          let currentFocus = null;
+
+          function latLngToSpherical(lat, lng) {
+            return {
+              phi: (90 - lat) * (Math.PI / 180),
+              theta: (lng + 180) * (Math.PI / 180),
+            };
+          }
+
+          const allEvents = EVENTS.sort((a, b) => new Date(a.date) - new Date(b.date));
+          const upcoming = allEvents.filter(e => e.status === 'upcoming');
+          const displayEvents = upcoming.length > 0 ? upcoming : allEvents.slice(-6);
+
+          const markers = allEvents.map(e => ({
+            location: [e.lat, e.lng],
+            size: e.status === 'upcoming' ? 0.07 : 0.04,
+          }));
+
+          let globe;
+          try {
+            globe = createGlobe(canvas, {
+              devicePixelRatio: Math.min(window.devicePixelRatio, 2),
+              width: 500 * Math.min(window.devicePixelRatio, 2),
+              height: 500 * Math.min(window.devicePixelRatio, 2),
+              phi: 0,
+              theta: 0.3,
+              dark: 1,
+              diffuse: 1.2,
+              mapSamples: 16000,
+              mapBrightness: 6,
+              baseColor: [0.07, 0.09, 0.15],
+              markerColor: [0.23, 0.51, 0.96],
+              glowColor: [0.15, 0.35, 0.70],
+              markers,
+              onRender(state) {
+                if (currentFocus) {
+                  state.phi += (currentFocus.phi - state.phi) * 0.05;
+                  state.theta += (currentFocus.theta - state.theta) * 0.05;
+                } else {
+                  state.phi = currentPhi;
+                  currentPhi += 0.003;
+                }
+                state.width = canvas.offsetWidth * Math.min(window.devicePixelRatio, 2);
+                state.height = canvas.offsetHeight * Math.min(window.devicePixelRatio, 2);
+              },
+            });
+          } catch(e) {
+            // WebGL not supported — globe panel hides gracefully
+            canvas.style.display = 'none';
+          }
+
+          // ============================================================
+          //  TIMELINE RENDERING
+          // ============================================================
+          const container = document.getElementById('events-timeline');
+          const emptyMsg = document.getElementById('events-empty');
+
+          if (displayEvents.length === 0) {
+            emptyMsg.style.display = 'block';
+          } else {
+            displayEvents.forEach((event, i) => {
+              const item = document.createElement('div');
+              item.className = 'events-item animate-on-scroll';
+              item.dataset.index = i;
+
+              const roleClass = event.role === 'Keynote Speaker' ? 'role-keynote' : 'role-speaker';
+              const statusBadge = event.status === 'past' ? '<span class="events-status-past">Past</span>' : '';
+
+              item.innerHTML = `
+                <div class="events-dot"></div>
+                <div class="events-content">
+                  <div class="events-header">
+                    <span class="events-role ${roleClass}">${event.role}</span>
+                    ${statusBadge}
+                  </div>
+                  <h3 class="events-name">${event.name}</h3>
+                  <p class="events-meta">
+                    <span class="events-date">${event.dateDisplay}</span>
+                    <span class="events-separator">&bull;</span>
+                    <span class="events-city">${event.city}</span>
+                  </p>
+                  <a href="${event.url}" target="_blank" rel="noopener" class="card-link events-link">${event.status === 'upcoming' ? 'Register' : 'View'} &rarr;</a>
+                </div>
+              `;
+
+              item.addEventListener('click', () => {
+                document.querySelectorAll('.events-item').forEach(el => el.classList.remove('active'));
+                item.classList.add('active');
+                currentFocus = latLngToSpherical(event.lat, event.lng);
+              });
+
+              container.appendChild(item);
+            });
+
+            // Re-observe dynamically added elements
+            document.querySelectorAll('.events-item.animate-on-scroll').forEach(el => {
+              if (window._portfolioObserver) window._portfolioObserver.observe(el);
+            });
+          }
+        }
+        </script>
 
         <!-- Featured Content -->
         <section id="videos">
