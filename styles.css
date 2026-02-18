@@ -1323,6 +1323,11 @@ section {
     font-weight: 600;
     color: var(--color-accent);
 }
+.badge--gold {
+    background: linear-gradient(135deg, #FEF3C7, #FDE68A);
+    border: 1px solid #D97706;
+    color: #92400E;
+}
 
 .speaking-cta {
     margin-top: 4px;
