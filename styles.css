@@ -1550,12 +1550,13 @@ footer {
 }
 
 .page-header--about .about-headshot {
-    width: 200px;
-    height: 200px;
-    border-radius: 16px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
-    border: 2px solid var(--color-border);
+    border: none;
+    box-shadow: 0 0 40px rgba(99, 102, 241, 0.1), 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 /* Legacy page header elements (hidden on simplified subpages) */
@@ -1969,8 +1970,8 @@ footer {
     }
 
     .page-header--about .about-headshot {
-        width: 160px;
-        height: 160px;
+        width: 120px;
+        height: 120px;
     }
 
     /* Cards */
