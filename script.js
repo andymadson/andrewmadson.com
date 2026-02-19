@@ -23,6 +23,24 @@ if (navToggle && navLinks) {
             document.body.classList.remove('nav-open');
         });
     });
+
+    // Close mobile nav on Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && navLinks.classList.contains('open')) {
+            navLinks.classList.remove('open');
+            document.body.classList.remove('nav-open');
+        }
+    });
+
+    // Close mobile nav when clicking the backdrop overlay
+    document.addEventListener('click', (e) => {
+        if (document.body.classList.contains('nav-open') &&
+            !navLinks.contains(e.target) &&
+            !navToggle.contains(e.target)) {
+            navLinks.classList.remove('open');
+            document.body.classList.remove('nav-open');
+        }
+    });
 }
 
 // Active nav link highlighting
@@ -47,27 +65,3 @@ if (currentPage && navLinks) {
         });
     }
 }
-
-// Scroll-triggered animations
-window._portfolioObserver = new IntersectionObserver(
-    (entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-            }
-        });
-    },
-    { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
-);
-
-document.querySelectorAll('.animate-on-scroll, .animate-from-left, .animate-from-right, .animate-scale').forEach(el => {
-    window._portfolioObserver.observe(el);
-});
-
-// Animation failsafe — reveal all animated elements after 2s
-// in case IntersectionObserver doesn't fire (e.g. slow load, edge cases)
-setTimeout(() => {
-    document.querySelectorAll('.animate-on-scroll:not(.visible), .animate-from-left:not(.visible), .animate-from-right:not(.visible), .animate-scale:not(.visible)').forEach(el => {
-        el.classList.add('visible');
-    });
-}, 2000);

@@ -7,7 +7,7 @@
     <meta name="description" content="Andrew Madson's speaking engagements, keynote presentations, and upcoming events.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body data-page="speaking">
@@ -34,13 +34,15 @@
 
     <main>
         <div class="page-header">
-            <h1>Speaking</h1>
-            <p>50+ keynote presentations at global technology conferences.</p>
+            <div class="container">
+                <h1>Speaking</h1>
+                <p>50+ keynote presentations at global technology conferences.</p>
+            </div>
         </div>
 
-        <section style="background-color: var(--color-surface);">
+        <section class="section-light">
             <div class="container">
-                <div class="speaking-intro animate-on-scroll">
+                <div class="speaking-intro">
                     <div class="speaking-awards">
                         <div class="award">
                             <svg class="award-icon" viewBox="0 0 64 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,10 +77,15 @@
                     </div>
                     <p class="speaking-desc">Delivering 50+ keynote presentations at global technology conferences on data engineering, Apache Iceberg, lakehouse architecture, AI/ML, and data governance.</p>
                     <div class="speaking-cta">
-                        <a href="https://sessionize.com/andrew-madson/" target="_blank" rel="noopener" class="btn">View My Sessionize Profile</a>
+                        <a href="https://sessionize.com/andrew-madson/" target="_blank" rel="noopener" class="btn btn-outline">View My Sessionize Profile</a>
                     </div>
                 </div>
-                <div class="events-layout animate-on-scroll">
+            </div>
+        </section>
+
+        <section id="speaking">
+            <div class="container">
+                <div class="events-layout">
                     <div class="events-globe-panel">
                         <canvas id="events-globe" width="500" height="500"></canvas>
                         <p class="globe-label">Drag to explore</p>
@@ -368,7 +375,7 @@
           } else {
             displayEvents.forEach((event, i) => {
               const item = document.createElement('div');
-              item.className = 'events-item animate-on-scroll';
+              item.className = 'events-item';
               item.dataset.index = i;
 
               const eventIsPast = isPast(event);
@@ -401,16 +408,13 @@
               container.appendChild(item);
             });
 
-            document.querySelectorAll('.events-item.animate-on-scroll').forEach(el => {
-              if (window._portfolioObserver) window._portfolioObserver.observe(el);
-            });
           }
         }
         </script>
 
         <section class="about-cta-section">
             <div class="container">
-                <div class="about-cta animate-on-scroll">
+                <div class="about-cta">
                     <h2>Work with Me</h2>
                     <p>Available for consulting, speaking, sponsorships, promotions, and content collaborations.</p>
                     <div class="about-cta-actions">
@@ -428,7 +432,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="index.html" class="footer-logo">Andrew Madson</a>
-                    <p>Principal, Developer Relations at Fivetran. O'Reilly author, keynote speaker, and educator.</p>
+                    <p>Founding Head of Developer Relations at Fivetran. O'Reilly author, keynote speaker, and educator.</p>
                 </div>
                 <div class="footer-links">
                     <h4>Pages</h4>

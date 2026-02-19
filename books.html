@@ -7,7 +7,7 @@
     <meta name="description" content="Books, courses, and peer-reviewed research by Andrew Madson on data engineering, AI, and analytics.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body data-page="books">
@@ -34,15 +34,17 @@
 
     <main>
         <div class="page-header">
-            <h1>Books &amp; Courses</h1>
-            <p>Published and upcoming books, LinkedIn Learning courses, and peer-reviewed research.</p>
+            <div class="container">
+                <h1>Books &amp; Courses</h1>
+                <p>Published and upcoming books, LinkedIn Learning courses, and peer-reviewed research.</p>
+            </div>
         </div>
 
         <section>
             <div class="container">
-                <h2 class="section-title animate-on-scroll">Books</h2>
+                <h2 class="section-title">Books</h2>
                 <div class="card-grid books-grid">
-                    <div class="card animate-on-scroll">
+                    <div class="card">
                         <img src="images/apache-polaris-cover.jpg" alt="Apache Polaris: The Definitive Guide" class="card-cover">
                         <div class="card-badge published">Published</div>
                         <h3>Apache Polaris: The Definitive Guide</h3>
@@ -51,20 +53,20 @@
                         <p>A comprehensive guide to Apache Polaris, the open-source catalog for Apache Iceberg data lakehouses. Covers architecture, deployment, and integration with Spark, Snowflake, and Dremio.</p>
                         <a href="https://www.oreilly.com/library/view/apache-polaris-the/9798341608139/" target="_blank" rel="noopener" class="card-link">View on O'Reilly &rarr;</a>
                     </div>
-                    <div class="card animate-on-scroll">
+                    <div class="card">
                         <div class="card-badge in-progress">In Progress</div>
                         <h3>AI-Ready Data</h3>
                         <p class="card-meta">Wiley &bull; Forthcoming</p>
                         <p>Exploring how to prepare and architect data systems that power modern AI applications effectively and at scale.</p>
                     </div>
-                    <div class="card animate-on-scroll">
+                    <div class="card">
                         <img src="images/data-transformation-cover.png" alt="Data Transformation: The Definitive Guide" class="card-cover">
                         <div class="card-badge in-progress">In Progress</div>
                         <h3>Data Transformation: The Definitive Guide</h3>
                         <p class="card-meta">O'Reilly Media</p>
                         <p>A comprehensive guide to modern data transformation practices, tools, and architectures for data engineering teams.</p>
                     </div>
-                    <div class="card animate-on-scroll">
+                    <div class="card">
                         <div class="card-badge free">Free &bull; 10K+ Downloads</div>
                         <h3>Which Chart When?</h3>
                         <p class="card-meta">Gumroad &bull; Free Download</p>
@@ -76,32 +78,32 @@
             </div>
         </section>
 
-        <section style="background-color: var(--color-surface);">
+        <section class="section-light">
             <div class="container">
-                <h2 class="section-title animate-on-scroll">Courses</h2>
+                <h2 class="section-title">Courses</h2>
                 <p class="section-subtitle">5 courses &bull; 18,000+ learners on LinkedIn Learning.</p>
                 <div class="card-grid courses-grid">
-                    <a href="https://www.linkedin.com/learning/hands-on-sql-building-data-products-in-dremio" target="_blank" rel="noopener" class="card animate-on-scroll">
+                    <a href="https://www.linkedin.com/learning/hands-on-sql-building-data-products-in-dremio" target="_blank" rel="noopener" class="card">
                         <h3>Hands-On SQL: Building Data Products in Dremio</h3>
                         <p class="card-meta">1h 27m &bull; Mar 2025</p>
                         <span class="card-link">View Course &rarr;</span>
                     </a>
-                    <a href="https://www.linkedin.com/learning/dataops-with-apache-iceberg-using-spark-nessie-and-dremio" target="_blank" rel="noopener" class="card animate-on-scroll">
+                    <a href="https://www.linkedin.com/learning/dataops-with-apache-iceberg-using-spark-nessie-and-dremio" target="_blank" rel="noopener" class="card">
                         <h3>DataOps with Apache Iceberg using Spark, Nessie, and Dremio</h3>
                         <p class="card-meta">1h 23m &bull; Feb 2025</p>
                         <span class="card-link">View Course &rarr;</span>
                     </a>
-                    <a href="https://www.linkedin.com/learning/apache-iceberg-for-data-analytics-and-machine-learning" target="_blank" rel="noopener" class="card animate-on-scroll">
+                    <a href="https://www.linkedin.com/learning/apache-iceberg-for-data-analytics-and-machine-learning" target="_blank" rel="noopener" class="card">
                         <h3>Apache Iceberg for Data Analytics and Machine Learning</h3>
                         <p class="card-meta">48m &bull; Jan 2025</p>
                         <span class="card-link">View Course &rarr;</span>
                     </a>
-                    <a href="https://www.linkedin.com/learning/fundamentals-of-apache-iceberg" target="_blank" rel="noopener" class="card animate-on-scroll">
+                    <a href="https://www.linkedin.com/learning/fundamentals-of-apache-iceberg" target="_blank" rel="noopener" class="card">
                         <h3>Fundamentals of Apache Iceberg</h3>
                         <p class="card-meta">3h &bull; Nov 2024</p>
                         <span class="card-link">View Course &rarr;</span>
                     </a>
-                    <a href="https://www.linkedin.com/learning/hands-on-with-apache-iceberg" target="_blank" rel="noopener" class="card animate-on-scroll">
+                    <a href="https://www.linkedin.com/learning/hands-on-with-apache-iceberg" target="_blank" rel="noopener" class="card">
                         <h3>Hands-On with Apache Iceberg</h3>
                         <p class="card-meta">1h 37m &bull; Oct 2024</p>
                         <span class="card-link">View Course &rarr;</span>
@@ -112,9 +114,9 @@
 
         <section>
             <div class="container">
-                <h2 class="section-title animate-on-scroll">Peer-Reviewed Research</h2>
+                <h2 class="section-title">Peer-Reviewed Research</h2>
                 <div class="card-grid" style="max-width: 700px;">
-                    <div class="card animate-on-scroll">
+                    <div class="card">
                         <div class="card-badge published">Published</div>
                         <h3>Data Mining FDA Docket 2019-N-1482: Content, Sentiment, and Metadata</h3>
                         <p class="card-meta">AMWA Journal &bull; Vol. 38, No. 4 &bull; 2023</p>
@@ -133,7 +135,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="index.html" class="footer-logo">Andrew Madson</a>
-                    <p>Principal, Developer Relations at Fivetran. O'Reilly author, keynote speaker, and educator.</p>
+                    <p>Founding Head of Developer Relations at Fivetran. O'Reilly author, keynote speaker, and educator.</p>
                 </div>
                 <div class="footer-links">
                     <h4>Pages</h4>
