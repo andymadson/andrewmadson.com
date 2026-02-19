@@ -487,6 +487,13 @@ ul {
     background-color: #004182;
 }
 
+.hero-libutton {
+    height: auto;
+    padding: 12px 28px;
+    font-size: 1.0625rem;
+    border-radius: var(--radius-full);
+}
+
 /* ===== Text Link ===== */
 .text-link {
     color: var(--color-text-secondary);
