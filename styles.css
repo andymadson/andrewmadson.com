@@ -288,50 +288,62 @@ ul {
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 }
 
-/* ===== Featured In ===== */
+/* ===== Featured In (writing page marquee) ===== */
+@keyframes featured-in-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
 .featured-in {
     padding: 20px 0;
     background-color: var(--color-surface);
+    overflow: hidden;
+    border-bottom: 1px solid var(--color-border);
     text-align: center;
-}
-
-.featured-in .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 28px;
-    flex-wrap: wrap;
+    position: relative;
+    mask-image: linear-gradient(to right, transparent, black 60px, black calc(100% - 60px), transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 60px, black calc(100% - 60px), transparent);
 }
 
 .featured-in-label {
     font-size: 0.65rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--color-text-secondary);
-    letter-spacing: 0.12em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    white-space: nowrap;
-    opacity: 0.6;
+    margin-bottom: 12px;
+    opacity: 0.7;
 }
 
-.featured-in-logos {
+.featured-in-track {
     display: flex;
     align-items: center;
-    gap: 28px;
-    flex-wrap: wrap;
-    justify-content: center;
+    gap: 48px;
+    width: max-content;
+    animation: featured-in-scroll 30s linear infinite;
 }
 
-.featured-in-logos img {
-    height: 18px;
+.featured-in:hover .featured-in-track {
+    animation-play-state: paused;
+}
+
+.featured-in-track img {
+    flex-shrink: 0;
+    height: 22px;
     width: auto;
     object-fit: contain;
-    filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.3);
     mix-blend-mode: multiply;
-    opacity: 0.4;
+    opacity: 0.55;
+    transition: opacity 0.3s ease;
 }
 
-.featured-in-logos img.logo-invert {
-    filter: invert(1) grayscale(100%) contrast(1.2);
+.featured-in-track img:hover {
+    opacity: 0.85;
+}
+
+.featured-in-track img.logo-invert {
+    filter: invert(1) grayscale(100%) contrast(1.3);
 }
 
 /* ===== Social Proof Bar ===== */
@@ -1990,7 +2002,8 @@ footer {
         opacity: 1;
         animation: none;
     }
-    .logo-bar-track {
+    .logo-bar-track,
+    .featured-in-track {
         animation: none;
     }
     html {
@@ -2166,17 +2179,12 @@ footer {
         align-items: center;
     }
 
-    .featured-in .container {
-        flex-direction: column;
-        gap: 12px;
+    .featured-in-track {
+        gap: 36px;
     }
 
-    .featured-in-logos {
-        gap: 16px 20px;
-    }
-
-    .featured-in-logos img {
-        height: 14px;
+    .featured-in-track img {
+        height: 18px;
     }
 
     .hero-sub {
