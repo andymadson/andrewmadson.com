@@ -328,18 +328,22 @@ ul {
 }
 
 .featured-in-track img {
+    display: inline-block;
     flex-shrink: 0;
-    height: 22px;
+    max-height: 28px;
+    max-width: 120px;
     width: auto;
+    height: auto;
     object-fit: contain;
     filter: grayscale(100%) contrast(1.3);
     mix-blend-mode: multiply;
-    opacity: 0.55;
-    transition: opacity 0.3s ease;
+    opacity: 0.5;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .featured-in-track img:hover {
     opacity: 0.85;
+    transform: scale(1.1);
 }
 
 .featured-in-track img.logo-invert {
@@ -2184,7 +2188,8 @@ footer {
     }
 
     .featured-in-track img {
-        height: 18px;
+        max-height: 22px;
+        max-width: 90px;
     }
 
     .hero-sub {
