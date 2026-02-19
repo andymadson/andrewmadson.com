@@ -288,53 +288,62 @@ ul {
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 }
 
-/* ===== Featured In ===== */
-.featured-in {
-    padding: 32px 0;
-    background-color: #EEEEF0;
-    text-align: center;
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
+/* ===== Featured In (writing page marquee) ===== */
+@keyframes featured-in-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
 }
 
-.featured-in .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    flex-wrap: wrap;
+.featured-in {
+    padding: 20px 0;
+    background-color: var(--color-surface);
+    overflow: hidden;
+    border-bottom: 1px solid var(--color-border);
+    text-align: center;
+    position: relative;
+    mask-image: linear-gradient(to right, transparent, black 60px, black calc(100% - 60px), transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 60px, black calc(100% - 60px), transparent);
 }
 
 .featured-in-label {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     font-weight: 700;
     color: var(--color-text-secondary);
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    white-space: nowrap;
-    opacity: 0.8;
+    margin-bottom: 12px;
+    opacity: 0.7;
 }
 
-.featured-in-logos {
+.featured-in-track {
     display: flex;
     align-items: center;
-    gap: 32px;
-    flex-wrap: wrap;
-    justify-content: center;
+    gap: 48px;
+    width: max-content;
+    animation: featured-in-scroll 30s linear infinite;
 }
 
-.featured-in-logos img {
+.featured-in:hover .featured-in-track {
+    animation-play-state: paused;
+}
+
+.featured-in-track img {
+    flex-shrink: 0;
     height: 22px;
     width: auto;
     object-fit: contain;
-    filter: grayscale(100%) contrast(1.4);
+    filter: grayscale(100%) contrast(1.3);
     mix-blend-mode: multiply;
-    opacity: 0.6;
+    opacity: 0.55;
+    transition: opacity 0.3s ease;
 }
 
-.featured-in-logos img.logo-invert {
-    filter: invert(1) grayscale(100%) contrast(1.4);
-    opacity: 0.6;
+.featured-in-track img:hover {
+    opacity: 0.85;
+}
+
+.featured-in-track img.logo-invert {
+    filter: invert(1) grayscale(100%) contrast(1.3);
 }
 
 /* ===== Social Proof Bar ===== */
@@ -1993,7 +2002,8 @@ footer {
         opacity: 1;
         animation: none;
     }
-    .logo-bar-track {
+    .logo-bar-track,
+    .featured-in-track {
         animation: none;
     }
     html {
@@ -2169,16 +2179,11 @@ footer {
         align-items: center;
     }
 
-    .featured-in .container {
-        flex-direction: column;
-        gap: 16px;
+    .featured-in-track {
+        gap: 36px;
     }
 
-    .featured-in-logos {
-        gap: 20px 24px;
-    }
-
-    .featured-in-logos img {
+    .featured-in-track img {
         height: 18px;
     }
 
