@@ -343,6 +343,66 @@ ul {
     background-color: var(--color-border);
 }
 
+/* ===== Logo Bar (scrolling marquee) ===== */
+@keyframes logo-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.logo-bar {
+    padding: 24px 0;
+    background-color: var(--color-bg);
+    overflow: hidden;
+    border-bottom: 1px solid var(--color-border);
+    mask-image: linear-gradient(to right, transparent, black 80px, black calc(100% - 80px), transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 80px, black calc(100% - 80px), transparent);
+}
+
+.logo-bar-track {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    width: max-content;
+    animation: logo-scroll 40s linear infinite;
+}
+
+.logo-bar:hover .logo-bar-track {
+    animation-play-state: paused;
+}
+
+.logo-bar-item {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.logo-bar-item:hover {
+    box-shadow: 0 0 16px rgba(52, 120, 246, 0.35), 0 0 32px rgba(52, 120, 246, 0.15);
+}
+
+.logo-bar-item img {
+    max-height: 32px;
+    max-width: 120px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(100%) contrast(1.2);
+    mix-blend-mode: multiply;
+    opacity: 0.4;
+    transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.logo-bar-item:hover img {
+    filter: grayscale(100%) contrast(2);
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
 /* ===== LinkedIn Button (blog page) ===== */
 .libutton {
     display: flex;
@@ -1884,6 +1944,9 @@ footer {
         opacity: 1;
         animation: none;
     }
+    .logo-bar-track {
+        animation: none;
+    }
     html {
         scroll-behavior: auto;
     }
@@ -2072,6 +2135,20 @@ footer {
 
     .social-proof-stat .stat-number {
         font-size: 1.1rem;
+    }
+
+    /* Logo bar */
+    .logo-bar {
+        padding: 20px 0;
+    }
+
+    .logo-bar-track {
+        gap: 36px;
+    }
+
+    .logo-bar-item img {
+        max-height: 24px;
+        max-width: 90px;
     }
 
     /* About */
