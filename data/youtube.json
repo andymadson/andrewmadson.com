@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-18T18:58:34.256153+00:00",
+  "generated_at": "2026-02-19T06:58:43.763257+00:00",
   "full_length": [
     {
       "id": "M-1wD_Cm1M4",
       "title": "Insights x Design Ep. 18 (@statquest with Josh Starmer)",
       "thumbnail": "https://i.ytimg.com/vi/M-1wD_Cm1M4/mqdefault.jpg",
-      "views": 58993,
+      "views": 58994,
       "published": "2024-04-24T16:00:58Z",
       "is_short": false
     },
@@ -229,7 +229,7 @@
       "id": "rQHSGM1OT6w",
       "title": "StarRocks optimizations when federating to Iceberg",
       "thumbnail": "https://i.ytimg.com/vi/rQHSGM1OT6w/mqdefault.jpg",
-      "views": 59,
+      "views": 60,
       "published": "2026-02-14T20:24:44Z",
       "is_short": false
     },
@@ -295,7 +295,7 @@
       "id": "mYYlHFpL2ss",
       "title": "5 levels of apache iceberg #shorts",
       "thumbnail": "https://i.ytimg.com/vi/mYYlHFpL2ss/mqdefault.jpg",
-      "views": 31130,
+      "views": 31134,
       "published": "2025-11-14T23:51:09Z",
       "is_short": true
     },
@@ -327,7 +327,7 @@
       "id": "Z6C0Ef67z1Q",
       "title": "SQLMesh is changing the game!",
       "thumbnail": "https://i.ytimg.com/vi/Z6C0Ef67z1Q/mqdefault.jpg",
-      "views": 1863,
+      "views": 1864,
       "published": "2025-06-17T21:00:43Z",
       "is_short": true
     },
@@ -375,7 +375,7 @@
       "id": "zcLReMVO7qo",
       "title": "@statquest  - Demystifying Data Science #datascience #statistics #ai",
       "thumbnail": "https://i.ytimg.com/vi/zcLReMVO7qo/mqdefault.jpg",
-      "views": 948,
+      "views": 949,
       "published": "2024-05-03T19:34:54Z",
       "is_short": true
     },
@@ -703,7 +703,7 @@
       "id": "x5s1KLyDbVc",
       "title": "What is Analyst Builder? @AlexTheAnalyst  explains!  #podcast #dataanalytics #ai #datavisualization",
       "thumbnail": "https://i.ytimg.com/vi/x5s1KLyDbVc/mqdefault.jpg",
-      "views": 428,
+      "views": 429,
       "published": "2024-03-15T21:52:27Z",
       "is_short": true
     },
@@ -1108,6 +1108,14 @@
       "is_short": true
     },
     {
+      "id": "jXLI3_dbFkQ",
+      "title": "Which to choose: Spark, Flink, or Kafka Connect?",
+      "thumbnail": "https://i.ytimg.com/vi/jXLI3_dbFkQ/mqdefault.jpg",
+      "views": 91,
+      "published": "2026-02-14T20:22:56Z",
+      "is_short": true
+    },
+    {
       "id": "eewWOcb99OI",
       "title": "Will AI Replace You? #ai #datascience",
       "thumbnail": "https://i.ytimg.com/vi/eewWOcb99OI/mqdefault.jpg",
@@ -1121,14 +1129,6 @@
       "thumbnail": "https://i.ytimg.com/vi/yFKm56vjftQ/mqdefault.jpg",
       "views": 90,
       "published": "2024-02-07T17:39:09Z",
-      "is_short": true
-    },
-    {
-      "id": "jXLI3_dbFkQ",
-      "title": "Which to choose: Spark, Flink, or Kafka Connect?",
-      "thumbnail": "https://i.ytimg.com/vi/jXLI3_dbFkQ/mqdefault.jpg",
-      "views": 89,
-      "published": "2026-02-14T20:22:56Z",
       "is_short": true
     },
     {
@@ -1276,6 +1276,14 @@
       "is_short": true
     },
     {
+      "id": "UQ0z7BsPMHs",
+      "title": "How S3 separated storage from compute — and why it matters",
+      "thumbnail": "https://i.ytimg.com/vi/UQ0z7BsPMHs/mqdefault.jpg",
+      "views": 62,
+      "published": "2026-02-14T20:24:38Z",
+      "is_short": true
+    },
+    {
       "id": "UlfgxS84wxQ",
       "title": "The Key to Authenticity: Growing Your Business on YouTube",
       "thumbnail": "https://i.ytimg.com/vi/UlfgxS84wxQ/mqdefault.jpg",
@@ -1284,11 +1292,11 @@
       "is_short": true
     },
     {
-      "id": "UQ0z7BsPMHs",
-      "title": "How S3 separated storage from compute — and why it matters",
-      "thumbnail": "https://i.ytimg.com/vi/UQ0z7BsPMHs/mqdefault.jpg",
-      "views": 61,
-      "published": "2026-02-14T20:24:38Z",
+      "id": "ShcDNM4dZW0",
+      "title": "Choosing between Spark, Flink, and Kafka Connect",
+      "thumbnail": "https://i.ytimg.com/vi/ShcDNM4dZW0/mqdefault.jpg",
+      "views": 59,
+      "published": "2026-02-14T20:24:01Z",
       "is_short": true
     },
     {
@@ -1297,14 +1305,6 @@
       "thumbnail": "https://i.ytimg.com/vi/jPYBtCu5oRI/mqdefault.jpg",
       "views": 59,
       "published": "2024-11-19T21:31:08Z",
-      "is_short": true
-    },
-    {
-      "id": "ShcDNM4dZW0",
-      "title": "Choosing between Spark, Flink, and Kafka Connect",
-      "thumbnail": "https://i.ytimg.com/vi/ShcDNM4dZW0/mqdefault.jpg",
-      "views": 58,
-      "published": "2026-02-14T20:24:01Z",
       "is_short": true
     },
     {
@@ -1825,7 +1825,7 @@
       "id": "gOBUW7YVv7I",
       "title": "I Asked Hiring Managers How to Land a Data Job: Here's What They Said",
       "thumbnail": "https://i.ytimg.com/vi/gOBUW7YVv7I/mqdefault.jpg",
-      "views": 24078,
+      "views": 24081,
       "published": "2024-12-03T16:30:13Z",
       "is_short": false
     },
@@ -1849,7 +1849,7 @@
       "id": "XUlgempr-ao",
       "title": "Get Hired as a Data Analyst w/ Hiring Manager Andrew Madson",
       "thumbnail": "https://i.ytimg.com/vi/XUlgempr-ao/mqdefault.jpg",
-      "views": 915,
+      "views": 916,
       "published": "2023-08-16T14:00:19Z",
       "is_short": false
     },
@@ -1889,7 +1889,7 @@
       "id": "8QzlrZ3a4cQ",
       "title": "Getting data right for AI + Fivetran buying spree with Andrew Madson",
       "thumbnail": "https://i.ytimg.com/vi/8QzlrZ3a4cQ/mqdefault.jpg",
-      "views": 95,
+      "views": 96,
       "published": "2025-10-03T05:08:25Z",
       "is_short": false
     }
