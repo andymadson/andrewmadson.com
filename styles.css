@@ -488,9 +488,12 @@ ul {
 }
 
 .hero-libutton {
+    width: auto;
     height: auto;
     padding: 12px 28px;
     font-size: 1.0625rem;
+    line-height: 1;
+    border: 1.5px solid transparent;
     border-radius: var(--radius-full);
 }
 
