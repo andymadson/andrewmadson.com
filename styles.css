@@ -288,6 +288,52 @@ ul {
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 }
 
+/* ===== Featured In ===== */
+.featured-in {
+    padding: 20px 0;
+    background-color: var(--color-surface);
+    text-align: center;
+}
+
+.featured-in .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.featured-in-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: 0.6;
+}
+
+.featured-in-logos {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-in-logos img {
+    height: 18px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(100%) contrast(1.2);
+    mix-blend-mode: multiply;
+    opacity: 0.4;
+}
+
+.featured-in-logos img.logo-invert {
+    filter: invert(1) grayscale(100%) contrast(1.2);
+}
+
 /* ===== Social Proof Bar ===== */
 .social-proof-bar {
     padding: 36px 0;
@@ -2118,6 +2164,19 @@ footer {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+
+    .featured-in .container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .featured-in-logos {
+        gap: 16px 20px;
+    }
+
+    .featured-in-logos img {
+        height: 14px;
     }
 
     .hero-sub {
