@@ -487,6 +487,17 @@ ul {
     background-color: #004182;
 }
 
+.hero-libutton {
+    width: auto;
+    height: auto;
+    padding: 12px 28px;
+    font-size: 1.0625rem;
+    line-height: 1;
+    border: 1.5px solid transparent;
+    border-radius: var(--radius-full);
+    gap: 8px;
+}
+
 /* ===== Text Link ===== */
 .text-link {
     color: var(--color-text-secondary);
@@ -2180,7 +2191,10 @@ footer {
     .hero-actions {
         justify-content: center;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .featured-in-track {
