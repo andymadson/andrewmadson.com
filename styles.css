@@ -11,7 +11,7 @@
     /* ── Text ── */
     --color-text: #F8FAFC;
     --color-text-secondary: #94A3B8;
-    --color-text-tertiary: #768BA2;
+    --color-text-tertiary: #64748B;
 
     /* ── Brand: Cobalt Blue ── */
     --color-accent: #2563EB;
@@ -55,33 +55,6 @@
     --radius-full: 9999px;
 }
 
-/* ===== Selection (dark-theme polish) ===== */
-::selection {
-    background-color: rgba(37, 99, 235, 0.35);
-    color: #F8FAFC;
-}
-
-/* ===== Skip-to-Content (accessibility) ===== */
-.skip-to-content {
-    position: absolute;
-    top: -100%;
-    left: 16px;
-    z-index: 9999;
-    padding: 12px 24px;
-    background-color: var(--color-accent);
-    color: #fff;
-    border-radius: var(--radius-sm);
-    font-weight: 600;
-    font-size: 0.875rem;
-    text-decoration: none;
-    transition: top 0.2s ease;
-}
-
-.skip-to-content:focus {
-    top: 12px;
-    color: #fff;
-}
-
 /* ===== Reset ===== */
 *, *::before, *::after {
     margin: 0;
@@ -112,23 +85,6 @@ a {
 
 a:hover {
     color: var(--color-accent-hover);
-}
-
-/* ===== Focus-Visible (keyboard navigation) ===== */
-a:focus-visible,
-button:focus-visible,
-input:focus-visible,
-[tabindex]:focus-visible {
-    outline: 2px solid var(--color-accent);
-    outline-offset: 3px;
-    border-radius: 4px;
-}
-
-/* Suppress focus ring on mouse clicks */
-a:focus:not(:focus-visible),
-button:focus:not(:focus-visible),
-input:focus:not(:focus-visible) {
-    outline: none;
 }
 
 img {
@@ -1020,15 +976,12 @@ section {
 
 /* ===== Expertise Cards (Editorial Grid) ===== */
 .expertise-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 32px;
-    justify-content: center;
 }
 
 .expertise-card {
-    flex: 0 1 calc((100% - 64px) / 3); /* 3 per row with 2 gaps */
-    min-width: 0;
     background-color: rgba(30, 41, 59, 0.5);
     border-radius: var(--radius-xl);
     padding: 32px;
@@ -1036,6 +989,7 @@ section {
     backdrop-filter: blur(8px);
     display: flex;
     flex-direction: column;
+    height: 100%;
     transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
 }
 
@@ -1399,12 +1353,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
-}
-
-.subscribe-embed iframe {
-    border-radius: var(--radius-sm);
-    background: transparent;
 }
 
 .subscribe-embed h3 {
@@ -1922,7 +1870,6 @@ footer {
 .blog-search:focus {
     border-color: var(--color-accent);
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
-    outline: none;
 }
 
 .blog-filters {
@@ -2250,8 +2197,8 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .expertise-card {
-        flex: 0 1 calc((100% - 32px) / 2); /* 2 per row */
+    .expertise-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .events-layout {
@@ -2435,8 +2382,8 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .expertise-card {
-        flex: 1 1 100%; /* 1 per row */
+    .expertise-grid {
+        grid-template-columns: 1fr;
     }
 
     .blog-grid {
