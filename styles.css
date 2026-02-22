@@ -1470,6 +1470,16 @@ section {
     color: #34C759;
 }
 
+.role-sponsor {
+    background-color: rgba(255, 159, 10, 0.15);
+    color: #FF9F0A;
+}
+
+.role-attendee {
+    background-color: rgba(142, 142, 147, 0.15);
+    color: #8E8E93;
+}
+
 .events-status-past {
     display: inline-block;
     padding: 2px 8px;
