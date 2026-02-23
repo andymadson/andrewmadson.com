@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-19T06:58:43.763257+00:00",
+  "generated_at": "2026-02-23T07:02:51.678812+00:00",
   "full_length": [
     {
       "id": "M-1wD_Cm1M4",
       "title": "Insights x Design Ep. 18 (@statquest with Josh Starmer)",
       "thumbnail": "https://i.ytimg.com/vi/M-1wD_Cm1M4/mqdefault.jpg",
-      "views": 58994,
+      "views": 58995,
       "published": "2024-04-24T16:00:58Z",
       "is_short": false
     },
@@ -93,7 +93,7 @@
       "id": "tVOlwZuKRwg",
       "title": "IxD Ep. 27 (Yan Holtz - Data Viz Engineer)",
       "thumbnail": "https://i.ytimg.com/vi/tVOlwZuKRwg/mqdefault.jpg",
-      "views": 6914,
+      "views": 6918,
       "published": "2024-08-08T18:32:21Z",
       "is_short": false
     },
@@ -109,7 +109,7 @@
       "id": "EOEJSl2xPow",
       "title": "IxD Ep. 29 (Hugo Lu - Founder of Orchestra)",
       "thumbnail": "https://i.ytimg.com/vi/EOEJSl2xPow/mqdefault.jpg",
-      "views": 3303,
+      "views": 3304,
       "published": "2024-11-07T02:29:31Z",
       "is_short": false
     },
@@ -157,7 +157,7 @@
       "id": "0HvlmOtEEMU",
       "title": "Why Kafka Connect gets you into Iceberg fast",
       "thumbnail": "https://i.ytimg.com/vi/0HvlmOtEEMU/mqdefault.jpg",
-      "views": 324,
+      "views": 327,
       "published": "2026-02-14T20:23:25Z",
       "is_short": false
     },
@@ -165,7 +165,7 @@
       "id": "tIa3lYcYc_g",
       "title": "How StarRocks reads Iceberg: metadata and pruning",
       "thumbnail": "https://i.ytimg.com/vi/tIa3lYcYc_g/mqdefault.jpg",
-      "views": 284,
+      "views": 290,
       "published": "2026-02-14T20:23:42Z",
       "is_short": false
     },
@@ -205,7 +205,7 @@
       "id": "iB22kKTEZQQ",
       "title": "Iceberg metadata explained: manifests, lists, and snapshots",
       "thumbnail": "https://i.ytimg.com/vi/iB22kKTEZQQ/mqdefault.jpg",
-      "views": 87,
+      "views": 90,
       "published": "2026-02-14T20:23:13Z",
       "is_short": false
     },
@@ -221,7 +221,7 @@
       "id": "5GEu81v42C8",
       "title": "Catalog as a central control plane for governance",
       "thumbnail": "https://i.ytimg.com/vi/5GEu81v42C8/mqdefault.jpg",
-      "views": 72,
+      "views": 74,
       "published": "2026-02-14T20:24:20Z",
       "is_short": false
     },
@@ -229,7 +229,7 @@
       "id": "rQHSGM1OT6w",
       "title": "StarRocks optimizations when federating to Iceberg",
       "thumbnail": "https://i.ytimg.com/vi/rQHSGM1OT6w/mqdefault.jpg",
-      "views": 60,
+      "views": 62,
       "published": "2026-02-14T20:24:44Z",
       "is_short": false
     },
@@ -245,7 +245,7 @@
       "id": "PYODIF3b8DA",
       "title": "How Iceberg deletion files work: positional vs equality",
       "thumbnail": "https://i.ytimg.com/vi/PYODIF3b8DA/mqdefault.jpg",
-      "views": 48,
+      "views": 56,
       "published": "2026-02-14T20:25:04Z",
       "is_short": false
     },
@@ -277,7 +277,7 @@
       "id": "pMl-XUa74Qs",
       "title": "How compaction reconciles delete files in Iceberg",
       "thumbnail": "https://i.ytimg.com/vi/pMl-XUa74Qs/mqdefault.jpg",
-      "views": 19,
+      "views": 20,
       "published": "2026-02-14T20:24:17Z",
       "is_short": false
     },
@@ -285,7 +285,7 @@
       "id": "x6lem1ijz5E",
       "title": "Attribute-based access with Cedar policies",
       "thumbnail": "https://i.ytimg.com/vi/x6lem1ijz5E/mqdefault.jpg",
-      "views": 14,
+      "views": 15,
       "published": "2026-02-14T20:24:36Z",
       "is_short": false
     }
@@ -303,7 +303,7 @@
       "id": "qBYozQtqIAw",
       "title": "What is Apache Polaris? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/qBYozQtqIAw/mqdefault.jpg",
-      "views": 26548,
+      "views": 26551,
       "published": "2025-10-16T23:51:10Z",
       "is_short": true
     },
@@ -327,7 +327,7 @@
       "id": "Z6C0Ef67z1Q",
       "title": "SQLMesh is changing the game!",
       "thumbnail": "https://i.ytimg.com/vi/Z6C0Ef67z1Q/mqdefault.jpg",
-      "views": 1864,
+      "views": 1866,
       "published": "2025-06-17T21:00:43Z",
       "is_short": true
     },
@@ -343,7 +343,7 @@
       "id": "3qi4ua6q9h0",
       "title": "Why does Apache Iceberg Exist? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/3qi4ua6q9h0/mqdefault.jpg",
-      "views": 1216,
+      "views": 1217,
       "published": "2025-10-22T19:53:39Z",
       "is_short": true
     },
@@ -375,7 +375,7 @@
       "id": "zcLReMVO7qo",
       "title": "@statquest  - Demystifying Data Science #datascience #statistics #ai",
       "thumbnail": "https://i.ytimg.com/vi/zcLReMVO7qo/mqdefault.jpg",
-      "views": 949,
+      "views": 956,
       "published": "2024-05-03T19:34:54Z",
       "is_short": true
     },
@@ -391,7 +391,7 @@
       "id": "ZQfN_nhyOSA",
       "title": "WILL AI REPLACE DATA ANALYSTS? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
       "thumbnail": "https://i.ytimg.com/vi/ZQfN_nhyOSA/mqdefault.jpg",
-      "views": 653,
+      "views": 656,
       "published": "2024-03-15T00:34:44Z",
       "is_short": true
     },
@@ -431,7 +431,7 @@
       "id": "zD4Y5z7Xmzw",
       "title": "Introducing Josh Starmer: Simplifying Data Science and Machine Learning",
       "thumbnail": "https://i.ytimg.com/vi/zD4Y5z7Xmzw/mqdefault.jpg",
-      "views": 533,
+      "views": 537,
       "published": "2024-08-12T21:51:13Z",
       "is_short": true
     },
@@ -476,19 +476,19 @@
       "is_short": true
     },
     {
+      "id": "gXqtJdNnFcw",
+      "title": "Data Transformation is Broken #dataengineering #sqlmesh #dataanalysis #datatransformation #data",
+      "thumbnail": "https://i.ytimg.com/vi/gXqtJdNnFcw/mqdefault.jpg",
+      "views": 485,
+      "published": "2025-06-18T22:25:49Z",
+      "is_short": true
+    },
+    {
       "id": "wKndW-P7K6I",
       "title": "Mastering the Art of Business Influence: Building Strong Mathematical Foundations",
       "thumbnail": "https://i.ytimg.com/vi/wKndW-P7K6I/mqdefault.jpg",
       "views": 485,
       "published": "2024-07-03T04:04:49Z",
-      "is_short": true
-    },
-    {
-      "id": "gXqtJdNnFcw",
-      "title": "Data Transformation is Broken #dataengineering #sqlmesh #dataanalysis #datatransformation #data",
-      "thumbnail": "https://i.ytimg.com/vi/gXqtJdNnFcw/mqdefault.jpg",
-      "views": 483,
-      "published": "2025-06-18T22:25:49Z",
       "is_short": true
     },
     {
@@ -516,19 +516,19 @@
       "is_short": true
     },
     {
+      "id": "MTYoeIY9PKg",
+      "title": "How Accurate Classification and Taxonomy can Save You Money",
+      "thumbnail": "https://i.ytimg.com/vi/MTYoeIY9PKg/mqdefault.jpg",
+      "views": 473,
+      "published": "2024-07-04T09:05:24Z",
+      "is_short": true
+    },
+    {
       "id": "kEIJQjAwysQ",
       "title": "Exposed 😱 Data Lake Secrets   How to Protect Your Information! 🛡️ #dataanalytics #dataengineering",
       "thumbnail": "https://i.ytimg.com/vi/kEIJQjAwysQ/mqdefault.jpg",
       "views": 473,
       "published": "2024-05-12T04:25:53Z",
-      "is_short": true
-    },
-    {
-      "id": "MTYoeIY9PKg",
-      "title": "How Accurate Classification and Taxonomy can Save You Money",
-      "thumbnail": "https://i.ytimg.com/vi/MTYoeIY9PKg/mqdefault.jpg",
-      "views": 472,
-      "published": "2024-07-04T09:05:24Z",
       "is_short": true
     },
     {
@@ -823,7 +823,7 @@
       "id": "9hEjCD5e42g",
       "title": "WILL AI CHANGE DATA VISUALIZATION? @allitorban6185 Weighs in! #ai #dataanalytics #datavisualization",
       "thumbnail": "https://i.ytimg.com/vi/9hEjCD5e42g/mqdefault.jpg",
-      "views": 246,
+      "views": 249,
       "published": "2024-03-16T00:17:43Z",
       "is_short": true
     },
@@ -940,6 +940,14 @@
       "is_short": true
     },
     {
+      "id": "NSUMto0YW8c",
+      "title": "What is Apache Iceberg and the metadata layer?",
+      "thumbnail": "https://i.ytimg.com/vi/NSUMto0YW8c/mqdefault.jpg",
+      "views": 137,
+      "published": "2026-02-14T20:23:51Z",
+      "is_short": true
+    },
+    {
       "id": "KThzxupsRoQ",
       "title": "Unveiling Cutting-Edge Techniques: Exploring Original Manuscripts in Science",
       "thumbnail": "https://i.ytimg.com/vi/KThzxupsRoQ/mqdefault.jpg",
@@ -953,14 +961,6 @@
       "thumbnail": "https://i.ytimg.com/vi/pQfMmFV0hrM/mqdefault.jpg",
       "views": 137,
       "published": "2024-07-02T04:15:14Z",
-      "is_short": true
-    },
-    {
-      "id": "NSUMto0YW8c",
-      "title": "What is Apache Iceberg and the metadata layer?",
-      "thumbnail": "https://i.ytimg.com/vi/NSUMto0YW8c/mqdefault.jpg",
-      "views": 136,
-      "published": "2026-02-14T20:23:51Z",
       "is_short": true
     },
     {
@@ -1015,7 +1015,7 @@
       "id": "ERucaZjBHLY",
       "title": "HOW CAN ANALYSTS USE AI? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
       "thumbnail": "https://i.ytimg.com/vi/ERucaZjBHLY/mqdefault.jpg",
-      "views": 121,
+      "views": 123,
       "published": "2024-03-15T04:23:39Z",
       "is_short": true
     },
@@ -1063,7 +1063,7 @@
       "id": "G8vZVHRqrQk",
       "title": "How to Stand Out and Attract Ideal Clients with Personalized Content",
       "thumbnail": "https://i.ytimg.com/vi/G8vZVHRqrQk/mqdefault.jpg",
-      "views": 109,
+      "views": 110,
       "published": "2024-07-04T07:05:35Z",
       "is_short": true
     },
@@ -1111,7 +1111,7 @@
       "id": "jXLI3_dbFkQ",
       "title": "Which to choose: Spark, Flink, or Kafka Connect?",
       "thumbnail": "https://i.ytimg.com/vi/jXLI3_dbFkQ/mqdefault.jpg",
-      "views": 91,
+      "views": 92,
       "published": "2026-02-14T20:22:56Z",
       "is_short": true
     },
@@ -1252,6 +1252,14 @@
       "is_short": true
     },
     {
+      "id": "ShcDNM4dZW0",
+      "title": "Choosing between Spark, Flink, and Kafka Connect",
+      "thumbnail": "https://i.ytimg.com/vi/ShcDNM4dZW0/mqdefault.jpg",
+      "views": 65,
+      "published": "2026-02-14T20:24:01Z",
+      "is_short": true
+    },
+    {
       "id": "7AmxPIZcEXE",
       "title": "How to Avoid Information Overload",
       "thumbnail": "https://i.ytimg.com/vi/7AmxPIZcEXE/mqdefault.jpg",
@@ -1289,14 +1297,6 @@
       "thumbnail": "https://i.ytimg.com/vi/UlfgxS84wxQ/mqdefault.jpg",
       "views": 62,
       "published": "2024-07-03T16:31:22Z",
-      "is_short": true
-    },
-    {
-      "id": "ShcDNM4dZW0",
-      "title": "Choosing between Spark, Flink, and Kafka Connect",
-      "thumbnail": "https://i.ytimg.com/vi/ShcDNM4dZW0/mqdefault.jpg",
-      "views": 59,
-      "published": "2026-02-14T20:24:01Z",
       "is_short": true
     },
     {
@@ -1508,19 +1508,19 @@
       "is_short": true
     },
     {
+      "id": "m2VhpTUxOY0",
+      "title": "Unveiling the Power of BAM in Statistics",
+      "thumbnail": "https://i.ytimg.com/vi/m2VhpTUxOY0/mqdefault.jpg",
+      "views": 31,
+      "published": "2024-05-31T21:49:04Z",
+      "is_short": true
+    },
+    {
       "id": "Kz8qJ3ESTh0",
       "title": "Insights x Design | Dashboard Doctor Shorts",
       "thumbnail": "https://i.ytimg.com/vi/Kz8qJ3ESTh0/mqdefault.jpg",
       "views": 31,
       "published": "2024-01-19T06:45:59Z",
-      "is_short": true
-    },
-    {
-      "id": "m2VhpTUxOY0",
-      "title": "Unveiling the Power of BAM in Statistics",
-      "thumbnail": "https://i.ytimg.com/vi/m2VhpTUxOY0/mqdefault.jpg",
-      "views": 30,
-      "published": "2024-05-31T21:49:04Z",
       "is_short": true
     },
     {
@@ -1684,6 +1684,14 @@
       "is_short": true
     },
     {
+      "id": "eTAlzMob-qg",
+      "title": "What are personas, and how are they used in the real world?",
+      "thumbnail": "https://i.ytimg.com/vi/eTAlzMob-qg/mqdefault.jpg",
+      "views": 18,
+      "published": "2023-12-19T08:21:16Z",
+      "is_short": true
+    },
+    {
       "id": "oHMxF5AGaUU",
       "title": "5 Common Chart Mistakes You Must Avoid! 🚫📊🔴",
       "thumbnail": "https://i.ytimg.com/vi/oHMxF5AGaUU/mqdefault.jpg",
@@ -1697,14 +1705,6 @@
       "thumbnail": "https://i.ytimg.com/vi/MzHtCAht7H0/mqdefault.jpg",
       "views": 17,
       "published": "2024-08-06T22:05:09Z",
-      "is_short": true
-    },
-    {
-      "id": "eTAlzMob-qg",
-      "title": "What are personas, and how are they used in the real world?",
-      "thumbnail": "https://i.ytimg.com/vi/eTAlzMob-qg/mqdefault.jpg",
-      "views": 17,
-      "published": "2023-12-19T08:21:16Z",
       "is_short": true
     },
     {
@@ -1825,7 +1825,7 @@
       "id": "gOBUW7YVv7I",
       "title": "I Asked Hiring Managers How to Land a Data Job: Here's What They Said",
       "thumbnail": "https://i.ytimg.com/vi/gOBUW7YVv7I/mqdefault.jpg",
-      "views": 24081,
+      "views": 24095,
       "published": "2024-12-03T16:30:13Z",
       "is_short": false
     },
@@ -1833,7 +1833,7 @@
       "id": "DDXDPK1fdl4",
       "title": "Exploring Data Science and Analytics: Insights with Tech Evangelist Andrew Madson.",
       "thumbnail": "https://i.ytimg.com/vi/DDXDPK1fdl4/mqdefault.jpg",
-      "views": 21812,
+      "views": 21814,
       "published": "2024-07-09T00:15:12Z",
       "is_short": false
     },
@@ -1841,7 +1841,7 @@
       "id": "WXPw3BZPHv0",
       "title": "Future-proofing your career is understanding what value you bring! #data",
       "thumbnail": "https://i.ytimg.com/vi/WXPw3BZPHv0/mqdefault.jpg",
-      "views": 2058,
+      "views": 2059,
       "published": "2025-06-03T14:00:50Z",
       "is_short": false
     },
@@ -1857,7 +1857,7 @@
       "id": "THM5K8M8qA0",
       "title": "Transitioning to Analytics when You're Established, Experienced, and Possibly Well-Paid",
       "thumbnail": "https://i.ytimg.com/vi/THM5K8M8qA0/mqdefault.jpg",
-      "views": 873,
+      "views": 877,
       "published": "2025-08-01T16:00:06Z",
       "is_short": false
     },
@@ -1881,7 +1881,7 @@
       "id": "KQAc4vylgmI",
       "title": "Remove friction between information & insight with people first analytics | Andrew Madson | MDS Fest",
       "thumbnail": "https://i.ytimg.com/vi/KQAc4vylgmI/mqdefault.jpg",
-      "views": 122,
+      "views": 124,
       "published": "2024-04-15T20:27:11Z",
       "is_short": false
     },
