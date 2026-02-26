@@ -2463,6 +2463,18 @@ html[data-theme="dark"] .featured-in-track img {
 
 html[data-theme="dark"] .nav-logo { color: var(--color-text) !important; }
 
+/* Dark mode mobile nav */
+html[data-theme="dark"] .nav-links {
+    background-color: var(--color-surface);
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3);
+}
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .nav-links {
+        background-color: var(--color-surface);
+        box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3);
+    }
+}
+
 /* Theme Toggle Button */
 .nav-actions {
     display: flex;
