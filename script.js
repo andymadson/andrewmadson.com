@@ -52,6 +52,7 @@ if (currentPage && navLinks) {
         'books': 'books.html',
         'courses': 'books.html',
         'speaking': 'speaking.html',
+        'podcast': 'podcast.html',
         'blog': 'blog.html',
         'newsletters': 'blog.html',
         'contact': 'contact.html',
