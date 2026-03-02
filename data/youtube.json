@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-26T06:58:39.070187+00:00",
+  "generated_at": "2026-03-02T06:56:29.651472+00:00",
   "full_length": [
     {
       "id": "M-1wD_Cm1M4",
       "title": "Insights x Design Ep. 18 (@statquest with Josh Starmer)",
       "thumbnail": "https://i.ytimg.com/vi/M-1wD_Cm1M4/mqdefault.jpg",
-      "views": 58997,
+      "views": 59006,
       "published": "2024-04-24T16:00:58Z",
       "is_short": false
     },
@@ -77,7 +77,7 @@
       "id": "55aqEYRIhME",
       "title": "Insights x Design Ep. 19 (Alex Merced)",
       "thumbnail": "https://i.ytimg.com/vi/55aqEYRIhME/mqdefault.jpg",
-      "views": 10564,
+      "views": 10565,
       "published": "2024-05-03T20:19:07Z",
       "is_short": false
     },
@@ -85,7 +85,7 @@
       "id": "YbC5iyvAwtk",
       "title": "Insights x Design Ep. 16 (Ken Jee)",
       "thumbnail": "https://i.ytimg.com/vi/YbC5iyvAwtk/mqdefault.jpg",
-      "views": 9066,
+      "views": 9067,
       "published": "2024-04-11T04:18:31Z",
       "is_short": false
     },
@@ -141,7 +141,7 @@
       "id": "4tmh5hw0PBg",
       "title": "Insights x Design Ep. 7 (AI Global Impact!)",
       "thumbnail": "https://i.ytimg.com/vi/4tmh5hw0PBg/mqdefault.jpg",
-      "views": 1064,
+      "views": 1065,
       "published": "2024-02-05T04:11:30Z",
       "is_short": false
     },
@@ -205,7 +205,7 @@
       "id": "iB22kKTEZQQ",
       "title": "Iceberg metadata explained: manifests, lists, and snapshots",
       "thumbnail": "https://i.ytimg.com/vi/iB22kKTEZQQ/mqdefault.jpg",
-      "views": 93,
+      "views": 94,
       "published": "2026-02-14T20:23:13Z",
       "is_short": false
     },
@@ -234,19 +234,19 @@
       "is_short": false
     },
     {
+      "id": "PYODIF3b8DA",
+      "title": "How Iceberg deletion files work: positional vs equality",
+      "thumbnail": "https://i.ytimg.com/vi/PYODIF3b8DA/mqdefault.jpg",
+      "views": 57,
+      "published": "2026-02-14T20:25:04Z",
+      "is_short": false
+    },
+    {
       "id": "aSAvEyFY36k",
       "title": "Developer Flow - LoFi Beats #5",
       "thumbnail": "https://i.ytimg.com/vi/aSAvEyFY36k/mqdefault.jpg",
       "views": 57,
       "published": "2025-08-28T00:00:38Z",
-      "is_short": false
-    },
-    {
-      "id": "PYODIF3b8DA",
-      "title": "How Iceberg deletion files work: positional vs equality",
-      "thumbnail": "https://i.ytimg.com/vi/PYODIF3b8DA/mqdefault.jpg",
-      "views": 56,
-      "published": "2026-02-14T20:25:04Z",
       "is_short": false
     },
     {
@@ -295,7 +295,7 @@
       "id": "mYYlHFpL2ss",
       "title": "5 levels of apache iceberg #shorts",
       "thumbnail": "https://i.ytimg.com/vi/mYYlHFpL2ss/mqdefault.jpg",
-      "views": 31135,
+      "views": 31136,
       "published": "2025-11-14T23:51:09Z",
       "is_short": true
     },
@@ -303,7 +303,7 @@
       "id": "qBYozQtqIAw",
       "title": "What is Apache Polaris? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/qBYozQtqIAw/mqdefault.jpg",
-      "views": 26552,
+      "views": 26553,
       "published": "2025-10-16T23:51:10Z",
       "is_short": true
     },
@@ -327,7 +327,7 @@
       "id": "Z6C0Ef67z1Q",
       "title": "SQLMesh is changing the game!",
       "thumbnail": "https://i.ytimg.com/vi/Z6C0Ef67z1Q/mqdefault.jpg",
-      "views": 1873,
+      "views": 1877,
       "published": "2025-06-17T21:00:43Z",
       "is_short": true
     },
@@ -335,7 +335,7 @@
       "id": "1kSjUuzp-e0",
       "title": "A Day in the Life of Netflix (FUNNY) #ai #funny #shorts",
       "thumbnail": "https://i.ytimg.com/vi/1kSjUuzp-e0/mqdefault.jpg",
-      "views": 1236,
+      "views": 1237,
       "published": "2025-09-05T01:40:27Z",
       "is_short": true
     },
@@ -367,7 +367,7 @@
       "id": "JiGZxUZmDVA",
       "title": "Use AI to Build Data Pipelines For AI!! #shorts",
       "thumbnail": "https://i.ytimg.com/vi/JiGZxUZmDVA/mqdefault.jpg",
-      "views": 1123,
+      "views": 1124,
       "published": "2025-10-22T18:12:22Z",
       "is_short": true
     },
@@ -375,7 +375,7 @@
       "id": "zcLReMVO7qo",
       "title": "@statquest  - Demystifying Data Science #datascience #statistics #ai",
       "thumbnail": "https://i.ytimg.com/vi/zcLReMVO7qo/mqdefault.jpg",
-      "views": 960,
+      "views": 969,
       "published": "2024-05-03T19:34:54Z",
       "is_short": true
     },
@@ -420,19 +420,19 @@
       "is_short": true
     },
     {
+      "id": "zD4Y5z7Xmzw",
+      "title": "Introducing Josh Starmer: Simplifying Data Science and Machine Learning",
+      "thumbnail": "https://i.ytimg.com/vi/zD4Y5z7Xmzw/mqdefault.jpg",
+      "views": 542,
+      "published": "2024-08-12T21:51:13Z",
+      "is_short": true
+    },
+    {
       "id": "rXAFjJ2Lkbs",
       "title": "Skills from My Early Career That Shaped My CEO Journey",
       "thumbnail": "https://i.ytimg.com/vi/rXAFjJ2Lkbs/mqdefault.jpg",
       "views": 541,
       "published": "2024-11-07T02:57:42Z",
-      "is_short": true
-    },
-    {
-      "id": "zD4Y5z7Xmzw",
-      "title": "Introducing Josh Starmer: Simplifying Data Science and Machine Learning",
-      "thumbnail": "https://i.ytimg.com/vi/zD4Y5z7Xmzw/mqdefault.jpg",
-      "views": 540,
-      "published": "2024-08-12T21:51:13Z",
       "is_short": true
     },
     {
@@ -471,7 +471,7 @@
       "id": "HsYQry-A-9U",
       "title": "SQLMesh: Stop Data Pipeline Breakage with Virtual Environments",
       "thumbnail": "https://i.ytimg.com/vi/HsYQry-A-9U/mqdefault.jpg",
-      "views": 504,
+      "views": 506,
       "published": "2025-06-11T22:52:05Z",
       "is_short": true
     },
@@ -511,7 +511,7 @@
       "id": "MTYoeIY9PKg",
       "title": "How Accurate Classification and Taxonomy can Save You Money",
       "thumbnail": "https://i.ytimg.com/vi/MTYoeIY9PKg/mqdefault.jpg",
-      "views": 474,
+      "views": 475,
       "published": "2024-07-04T09:05:24Z",
       "is_short": true
     },
@@ -543,7 +543,7 @@
       "id": "DwduI26ILA0",
       "title": "The 4 types of creativity! #dataanalytics #creativity #datavisualization #data",
       "thumbnail": "https://i.ytimg.com/vi/DwduI26ILA0/mqdefault.jpg",
-      "views": 468,
+      "views": 469,
       "published": "2024-03-20T03:03:23Z",
       "is_short": true
     },
@@ -567,7 +567,7 @@
       "id": "4ZdT-Rt57Fk",
       "title": "Unveiling the Role of a Director of Data Strategy and Products",
       "thumbnail": "https://i.ytimg.com/vi/4ZdT-Rt57Fk/mqdefault.jpg",
-      "views": 453,
+      "views": 454,
       "published": "2024-08-08T19:18:54Z",
       "is_short": true
     },
@@ -1111,8 +1111,16 @@
       "id": "jXLI3_dbFkQ",
       "title": "Which to choose: Spark, Flink, or Kafka Connect?",
       "thumbnail": "https://i.ytimg.com/vi/jXLI3_dbFkQ/mqdefault.jpg",
-      "views": 92,
+      "views": 95,
       "published": "2026-02-14T20:22:56Z",
+      "is_short": true
+    },
+    {
+      "id": "yFKm56vjftQ",
+      "title": "POST OFFICE AI BOT  #ai #dataanalytics #podcast #politics #government",
+      "thumbnail": "https://i.ytimg.com/vi/yFKm56vjftQ/mqdefault.jpg",
+      "views": 91,
+      "published": "2024-02-07T17:39:09Z",
       "is_short": true
     },
     {
@@ -1121,14 +1129,6 @@
       "thumbnail": "https://i.ytimg.com/vi/eewWOcb99OI/mqdefault.jpg",
       "views": 90,
       "published": "2024-05-04T18:23:50Z",
-      "is_short": true
-    },
-    {
-      "id": "yFKm56vjftQ",
-      "title": "POST OFFICE AI BOT  #ai #dataanalytics #podcast #politics #government",
-      "thumbnail": "https://i.ytimg.com/vi/yFKm56vjftQ/mqdefault.jpg",
-      "views": 90,
-      "published": "2024-02-07T17:39:09Z",
       "is_short": true
     },
     {
@@ -1276,19 +1276,19 @@
       "is_short": true
     },
     {
+      "id": "UQ0z7BsPMHs",
+      "title": "How S3 separated storage from compute — and why it matters",
+      "thumbnail": "https://i.ytimg.com/vi/UQ0z7BsPMHs/mqdefault.jpg",
+      "views": 63,
+      "published": "2026-02-14T20:24:38Z",
+      "is_short": true
+    },
+    {
       "id": "TPwHr9bcrvk",
       "title": "Discover How to Save Money on Food Delivery and Optimize Data with Code Methodology",
       "thumbnail": "https://i.ytimg.com/vi/TPwHr9bcrvk/mqdefault.jpg",
       "views": 63,
       "published": "2024-07-03T17:05:11Z",
-      "is_short": true
-    },
-    {
-      "id": "UQ0z7BsPMHs",
-      "title": "How S3 separated storage from compute — and why it matters",
-      "thumbnail": "https://i.ytimg.com/vi/UQ0z7BsPMHs/mqdefault.jpg",
-      "views": 62,
-      "published": "2026-02-14T20:24:38Z",
       "is_short": true
     },
     {
@@ -1524,6 +1524,14 @@
       "is_short": true
     },
     {
+      "id": "RpmZTB5FD9A",
+      "title": "Ensuring Data Governance: A Crucial Step in Product Development",
+      "thumbnail": "https://i.ytimg.com/vi/RpmZTB5FD9A/mqdefault.jpg",
+      "views": 29,
+      "published": "2024-07-27T23:44:31Z",
+      "is_short": true
+    },
+    {
       "id": "trBrGGJ_rqc",
       "title": "The Key to Authenticity: Growing Your Business on YouTube",
       "thumbnail": "https://i.ytimg.com/vi/trBrGGJ_rqc/mqdefault.jpg",
@@ -1537,14 +1545,6 @@
       "thumbnail": "https://i.ytimg.com/vi/YFdedwQho-8/mqdefault.jpg",
       "views": 29,
       "published": "2023-10-26T20:29:15Z",
-      "is_short": true
-    },
-    {
-      "id": "RpmZTB5FD9A",
-      "title": "Ensuring Data Governance: A Crucial Step in Product Development",
-      "thumbnail": "https://i.ytimg.com/vi/RpmZTB5FD9A/mqdefault.jpg",
-      "views": 28,
-      "published": "2024-07-27T23:44:31Z",
       "is_short": true
     },
     {
@@ -1825,7 +1825,7 @@
       "id": "gOBUW7YVv7I",
       "title": "I Asked Hiring Managers How to Land a Data Job: Here's What They Said",
       "thumbnail": "https://i.ytimg.com/vi/gOBUW7YVv7I/mqdefault.jpg",
-      "views": 24108,
+      "views": 24117,
       "published": "2024-12-03T16:30:13Z",
       "is_short": false
     },
@@ -1857,7 +1857,7 @@
       "id": "THM5K8M8qA0",
       "title": "Transitioning to Analytics when You're Established, Experienced, and Possibly Well-Paid",
       "thumbnail": "https://i.ytimg.com/vi/THM5K8M8qA0/mqdefault.jpg",
-      "views": 879,
+      "views": 880,
       "published": "2025-08-01T16:00:06Z",
       "is_short": false
     },
@@ -1889,7 +1889,7 @@
       "id": "8QzlrZ3a4cQ",
       "title": "Getting data right for AI + Fivetran buying spree with Andrew Madson",
       "thumbnail": "https://i.ytimg.com/vi/8QzlrZ3a4cQ/mqdefault.jpg",
-      "views": 96,
+      "views": 97,
       "published": "2025-10-03T05:08:25Z",
       "is_short": false
     }
