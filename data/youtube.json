@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-02T06:56:29.651472+00:00",
+  "generated_at": "2026-03-05T06:50:41.079910+00:00",
   "full_length": [
     {
       "id": "M-1wD_Cm1M4",
       "title": "Insights x Design Ep. 18 (@statquest with Josh Starmer)",
       "thumbnail": "https://i.ytimg.com/vi/M-1wD_Cm1M4/mqdefault.jpg",
-      "views": 59006,
+      "views": 59009,
       "published": "2024-04-24T16:00:58Z",
       "is_short": false
     },
@@ -29,7 +29,7 @@
       "id": "H70cZelkkPc",
       "title": "Insights x Design Ep.  6 (Alli Torban)",
       "thumbnail": "https://i.ytimg.com/vi/H70cZelkkPc/mqdefault.jpg",
-      "views": 31422,
+      "views": 31423,
       "published": "2024-01-29T06:54:51Z",
       "is_short": false
     },
@@ -61,7 +61,7 @@
       "id": "ly4WLW3O4vI",
       "title": "Insights x Design Ep. 25 (Joe Dery - VP, Dean School of IT at WGU )",
       "thumbnail": "https://i.ytimg.com/vi/ly4WLW3O4vI/mqdefault.jpg",
-      "views": 13199,
+      "views": 13200,
       "published": "2024-07-02T23:28:09Z",
       "is_short": false
     },
@@ -109,7 +109,7 @@
       "id": "EOEJSl2xPow",
       "title": "IxD Ep. 29 (Hugo Lu - Founder of Orchestra)",
       "thumbnail": "https://i.ytimg.com/vi/EOEJSl2xPow/mqdefault.jpg",
-      "views": 3304,
+      "views": 3305,
       "published": "2024-11-07T02:29:31Z",
       "is_short": false
     },
@@ -117,7 +117,7 @@
       "id": "4gPUehLj2oQ",
       "title": "IxD Ep. 30 (Mark Freeman - Gable AI)",
       "thumbnail": "https://i.ytimg.com/vi/4gPUehLj2oQ/mqdefault.jpg",
-      "views": 2950,
+      "views": 2951,
       "published": "2024-11-19T00:46:59Z",
       "is_short": false
     },
@@ -197,7 +197,7 @@
       "id": "_KKRJySXcfo",
       "title": "What is query federation and why it matters",
       "thumbnail": "https://i.ytimg.com/vi/_KKRJySXcfo/mqdefault.jpg",
-      "views": 117,
+      "views": 118,
       "published": "2026-02-14T20:23:47Z",
       "is_short": false
     },
@@ -205,7 +205,7 @@
       "id": "iB22kKTEZQQ",
       "title": "Iceberg metadata explained: manifests, lists, and snapshots",
       "thumbnail": "https://i.ytimg.com/vi/iB22kKTEZQQ/mqdefault.jpg",
-      "views": 94,
+      "views": 97,
       "published": "2026-02-14T20:23:13Z",
       "is_short": false
     },
@@ -229,7 +229,7 @@
       "id": "rQHSGM1OT6w",
       "title": "StarRocks optimizations when federating to Iceberg",
       "thumbnail": "https://i.ytimg.com/vi/rQHSGM1OT6w/mqdefault.jpg",
-      "views": 62,
+      "views": 64,
       "published": "2026-02-14T20:24:44Z",
       "is_short": false
     },
@@ -237,7 +237,7 @@
       "id": "PYODIF3b8DA",
       "title": "How Iceberg deletion files work: positional vs equality",
       "thumbnail": "https://i.ytimg.com/vi/PYODIF3b8DA/mqdefault.jpg",
-      "views": 57,
+      "views": 58,
       "published": "2026-02-14T20:25:04Z",
       "is_short": false
     },
@@ -303,7 +303,7 @@
       "id": "qBYozQtqIAw",
       "title": "What is Apache Polaris? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/qBYozQtqIAw/mqdefault.jpg",
-      "views": 26553,
+      "views": 26555,
       "published": "2025-10-16T23:51:10Z",
       "is_short": true
     },
@@ -327,7 +327,7 @@
       "id": "Z6C0Ef67z1Q",
       "title": "SQLMesh is changing the game!",
       "thumbnail": "https://i.ytimg.com/vi/Z6C0Ef67z1Q/mqdefault.jpg",
-      "views": 1877,
+      "views": 1879,
       "published": "2025-06-17T21:00:43Z",
       "is_short": true
     },
@@ -335,7 +335,7 @@
       "id": "1kSjUuzp-e0",
       "title": "A Day in the Life of Netflix (FUNNY) #ai #funny #shorts",
       "thumbnail": "https://i.ytimg.com/vi/1kSjUuzp-e0/mqdefault.jpg",
-      "views": 1237,
+      "views": 1238,
       "published": "2025-09-05T01:40:27Z",
       "is_short": true
     },
@@ -343,7 +343,7 @@
       "id": "3qi4ua6q9h0",
       "title": "Why does Apache Iceberg Exist? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/3qi4ua6q9h0/mqdefault.jpg",
-      "views": 1217,
+      "views": 1219,
       "published": "2025-10-22T19:53:39Z",
       "is_short": true
     },
@@ -351,7 +351,7 @@
       "id": "yjPcLy-MVis",
       "title": "your data lake on ACID #shorts",
       "thumbnail": "https://i.ytimg.com/vi/yjPcLy-MVis/mqdefault.jpg",
-      "views": 1202,
+      "views": 1203,
       "published": "2025-10-21T01:40:47Z",
       "is_short": true
     },
@@ -375,7 +375,7 @@
       "id": "zcLReMVO7qo",
       "title": "@statquest  - Demystifying Data Science #datascience #statistics #ai",
       "thumbnail": "https://i.ytimg.com/vi/zcLReMVO7qo/mqdefault.jpg",
-      "views": 969,
+      "views": 974,
       "published": "2024-05-03T19:34:54Z",
       "is_short": true
     },
@@ -391,7 +391,7 @@
       "id": "ZQfN_nhyOSA",
       "title": "WILL AI REPLACE DATA ANALYSTS? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
       "thumbnail": "https://i.ytimg.com/vi/ZQfN_nhyOSA/mqdefault.jpg",
-      "views": 660,
+      "views": 661,
       "published": "2024-03-15T00:34:44Z",
       "is_short": true
     },
@@ -452,19 +452,19 @@
       "is_short": true
     },
     {
+      "id": "flpIuoujYq4",
+      "title": "The Power of Open Source Data! #dataanalytics #dataengineering",
+      "thumbnail": "https://i.ytimg.com/vi/flpIuoujYq4/mqdefault.jpg",
+      "views": 509,
+      "published": "2024-05-07T19:09:24Z",
+      "is_short": true
+    },
+    {
       "id": "dcI1iGylbc0",
       "title": "The Power of Academic Training: A Scientific Approach to Client Projects",
       "thumbnail": "https://i.ytimg.com/vi/dcI1iGylbc0/mqdefault.jpg",
       "views": 508,
       "published": "2024-08-06T22:05:23Z",
-      "is_short": true
-    },
-    {
-      "id": "flpIuoujYq4",
-      "title": "The Power of Open Source Data! #dataanalytics #dataengineering",
-      "thumbnail": "https://i.ytimg.com/vi/flpIuoujYq4/mqdefault.jpg",
-      "views": 508,
-      "published": "2024-05-07T19:09:24Z",
       "is_short": true
     },
     {
@@ -519,7 +519,7 @@
       "id": "GmGLw59vzxU",
       "title": "Mastering Data Visualization: Level up your coding skills with design patterns",
       "thumbnail": "https://i.ytimg.com/vi/GmGLw59vzxU/mqdefault.jpg",
-      "views": 473,
+      "views": 474,
       "published": "2024-08-09T04:01:27Z",
       "is_short": true
     },
@@ -580,19 +580,19 @@
       "is_short": true
     },
     {
+      "id": "qt86Dm7tAf0",
+      "title": "Engaging Presentations 101 -  How to Captivate Your Audience and Ditch the Boring Slides",
+      "thumbnail": "https://i.ytimg.com/vi/qt86Dm7tAf0/mqdefault.jpg",
+      "views": 445,
+      "published": "2024-06-21T07:01:37Z",
+      "is_short": true
+    },
+    {
       "id": "NNo_IqkEXsk",
       "title": "Lessons Learned: Embracing Imperfection in Presentations",
       "thumbnail": "https://i.ytimg.com/vi/NNo_IqkEXsk/mqdefault.jpg",
       "views": 444,
       "published": "2024-07-27T23:44:29Z",
-      "is_short": true
-    },
-    {
-      "id": "qt86Dm7tAf0",
-      "title": "Engaging Presentations 101 -  How to Captivate Your Audience and Ditch the Boring Slides",
-      "thumbnail": "https://i.ytimg.com/vi/qt86Dm7tAf0/mqdefault.jpg",
-      "views": 443,
-      "published": "2024-06-21T07:01:37Z",
       "is_short": true
     },
     {
@@ -679,7 +679,7 @@
       "id": "nQ6gTyzqQNc",
       "title": "Is your data visualization biased?  #dataanalytics #ai #data #dataanalytics #datavisualization",
       "thumbnail": "https://i.ytimg.com/vi/nQ6gTyzqQNc/mqdefault.jpg",
-      "views": 431,
+      "views": 432,
       "published": "2024-03-11T02:53:03Z",
       "is_short": true
     },
@@ -847,7 +847,7 @@
       "id": "Zy2c1LZfeEs",
       "title": "How to Get Started with Data Governance with New AI Regulations",
       "thumbnail": "https://i.ytimg.com/vi/Zy2c1LZfeEs/mqdefault.jpg",
-      "views": 210,
+      "views": 211,
       "published": "2024-05-31T23:18:35Z",
       "is_short": true
     },
@@ -1015,7 +1015,7 @@
       "id": "ERucaZjBHLY",
       "title": "HOW CAN ANALYSTS USE AI? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
       "thumbnail": "https://i.ytimg.com/vi/ERucaZjBHLY/mqdefault.jpg",
-      "views": 124,
+      "views": 125,
       "published": "2024-03-15T04:23:39Z",
       "is_short": true
     },
@@ -1167,7 +1167,7 @@
       "id": "ITlFotftmh8",
       "title": "What are data visualization pitfalls, and how can you avoid them? @allitorban6185  explains!",
       "thumbnail": "https://i.ytimg.com/vi/ITlFotftmh8/mqdefault.jpg",
-      "views": 86,
+      "views": 87,
       "published": "2024-01-30T17:16:45Z",
       "is_short": true
     },
@@ -1311,7 +1311,7 @@
       "id": "z4C_fYOJHz0",
       "title": "Mastering Content Creation with Keynote",
       "thumbnail": "https://i.ytimg.com/vi/z4C_fYOJHz0/mqdefault.jpg",
-      "views": 57,
+      "views": 58,
       "published": "2024-05-31T22:51:08Z",
       "is_short": true
     },
@@ -1825,7 +1825,7 @@
       "id": "gOBUW7YVv7I",
       "title": "I Asked Hiring Managers How to Land a Data Job: Here's What They Said",
       "thumbnail": "https://i.ytimg.com/vi/gOBUW7YVv7I/mqdefault.jpg",
-      "views": 24117,
+      "views": 24121,
       "published": "2024-12-03T16:30:13Z",
       "is_short": false
     },
@@ -1865,7 +1865,7 @@
       "id": "d2PPwgI8BNw",
       "title": "Navigating Your Data Career: Advancing From Entry Level To Senior Positions",
       "thumbnail": "https://i.ytimg.com/vi/d2PPwgI8BNw/mqdefault.jpg",
-      "views": 506,
+      "views": 507,
       "published": "2024-11-04T17:00:42Z",
       "is_short": false
     },
@@ -1873,7 +1873,7 @@
       "id": "TJ0igbeVe6I",
       "title": "Andrew Madson - Data-Centric AI: Accelerate Success with Apache Iceberg Data Products",
       "thumbnail": "https://i.ytimg.com/vi/TJ0igbeVe6I/mqdefault.jpg",
-      "views": 140,
+      "views": 141,
       "published": "2025-04-05T10:12:48Z",
       "is_short": false
     },
@@ -1889,7 +1889,7 @@
       "id": "8QzlrZ3a4cQ",
       "title": "Getting data right for AI + Fivetran buying spree with Andrew Madson",
       "thumbnail": "https://i.ytimg.com/vi/8QzlrZ3a4cQ/mqdefault.jpg",
-      "views": 97,
+      "views": 98,
       "published": "2025-10-03T05:08:25Z",
       "is_short": false
     }
