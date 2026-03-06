@@ -3,6 +3,7 @@
 // ============================================================
 export const EVENTS = [
     { name: "Denver Apache DataFusion Meetup", role: "Attendee", date: "2026-07-22", city: "Denver, CO" },
+    { name: "TDWI Munich 2026", role: "Speaker", date: "2026-06-23", endDate: "2026-06-25", city: "Munich, Germany" },
     { name: "NVIDIA GTC Side Event: Data Infrastructure for AI Agents", role: "Speaker", date: "2026-03-18", city: "Mountain View, CA" },
     { name: "Iceberg Summit 2026", role: "Speaker", date: "2026-04-08", endDate: "2026-04-09", city: "San Francisco, CA" },
     { name: "Apache Iceberg Europe Community Meetup - March 2026 London Edition", role: "Speaker", date: "2026-03-31", city: "London, UK" },
