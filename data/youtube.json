@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-05T06:50:41.079910+00:00",
+  "generated_at": "2026-03-09T07:00:19.111895+00:00",
   "full_length": [
     {
       "id": "M-1wD_Cm1M4",
       "title": "Insights x Design Ep. 18 (@statquest with Josh Starmer)",
       "thumbnail": "https://i.ytimg.com/vi/M-1wD_Cm1M4/mqdefault.jpg",
-      "views": 59009,
+      "views": 59013,
       "published": "2024-04-24T16:00:58Z",
       "is_short": false
     },
@@ -93,7 +93,7 @@
       "id": "tVOlwZuKRwg",
       "title": "IxD Ep. 27 (Yan Holtz - Data Viz Engineer)",
       "thumbnail": "https://i.ytimg.com/vi/tVOlwZuKRwg/mqdefault.jpg",
-      "views": 6918,
+      "views": 6919,
       "published": "2024-08-08T18:32:21Z",
       "is_short": false
     },
@@ -157,7 +157,7 @@
       "id": "0HvlmOtEEMU",
       "title": "Why Kafka Connect gets you into Iceberg fast",
       "thumbnail": "https://i.ytimg.com/vi/0HvlmOtEEMU/mqdefault.jpg",
-      "views": 327,
+      "views": 328,
       "published": "2026-02-14T20:23:25Z",
       "is_short": false
     },
@@ -197,7 +197,7 @@
       "id": "_KKRJySXcfo",
       "title": "What is query federation and why it matters",
       "thumbnail": "https://i.ytimg.com/vi/_KKRJySXcfo/mqdefault.jpg",
-      "views": 118,
+      "views": 120,
       "published": "2026-02-14T20:23:47Z",
       "is_short": false
     },
@@ -205,7 +205,7 @@
       "id": "iB22kKTEZQQ",
       "title": "Iceberg metadata explained: manifests, lists, and snapshots",
       "thumbnail": "https://i.ytimg.com/vi/iB22kKTEZQQ/mqdefault.jpg",
-      "views": 97,
+      "views": 98,
       "published": "2026-02-14T20:23:13Z",
       "is_short": false
     },
@@ -229,7 +229,7 @@
       "id": "rQHSGM1OT6w",
       "title": "StarRocks optimizations when federating to Iceberg",
       "thumbnail": "https://i.ytimg.com/vi/rQHSGM1OT6w/mqdefault.jpg",
-      "views": 64,
+      "views": 68,
       "published": "2026-02-14T20:24:44Z",
       "is_short": false
     },
@@ -237,7 +237,7 @@
       "id": "PYODIF3b8DA",
       "title": "How Iceberg deletion files work: positional vs equality",
       "thumbnail": "https://i.ytimg.com/vi/PYODIF3b8DA/mqdefault.jpg",
-      "views": 58,
+      "views": 57,
       "published": "2026-02-14T20:25:04Z",
       "is_short": false
     },
@@ -285,7 +285,7 @@
       "id": "x6lem1ijz5E",
       "title": "Attribute-based access with Cedar policies",
       "thumbnail": "https://i.ytimg.com/vi/x6lem1ijz5E/mqdefault.jpg",
-      "views": 15,
+      "views": 16,
       "published": "2026-02-14T20:24:36Z",
       "is_short": false
     }
@@ -303,7 +303,7 @@
       "id": "qBYozQtqIAw",
       "title": "What is Apache Polaris? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/qBYozQtqIAw/mqdefault.jpg",
-      "views": 26555,
+      "views": 26562,
       "published": "2025-10-16T23:51:10Z",
       "is_short": true
     },
@@ -327,7 +327,7 @@
       "id": "Z6C0Ef67z1Q",
       "title": "SQLMesh is changing the game!",
       "thumbnail": "https://i.ytimg.com/vi/Z6C0Ef67z1Q/mqdefault.jpg",
-      "views": 1879,
+      "views": 1882,
       "published": "2025-06-17T21:00:43Z",
       "is_short": true
     },
@@ -335,7 +335,7 @@
       "id": "1kSjUuzp-e0",
       "title": "A Day in the Life of Netflix (FUNNY) #ai #funny #shorts",
       "thumbnail": "https://i.ytimg.com/vi/1kSjUuzp-e0/mqdefault.jpg",
-      "views": 1238,
+      "views": 1239,
       "published": "2025-09-05T01:40:27Z",
       "is_short": true
     },
@@ -343,7 +343,7 @@
       "id": "3qi4ua6q9h0",
       "title": "Why does Apache Iceberg Exist? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/3qi4ua6q9h0/mqdefault.jpg",
-      "views": 1219,
+      "views": 1220,
       "published": "2025-10-22T19:53:39Z",
       "is_short": true
     },
@@ -375,7 +375,7 @@
       "id": "zcLReMVO7qo",
       "title": "@statquest  - Demystifying Data Science #datascience #statistics #ai",
       "thumbnail": "https://i.ytimg.com/vi/zcLReMVO7qo/mqdefault.jpg",
-      "views": 974,
+      "views": 986,
       "published": "2024-05-03T19:34:54Z",
       "is_short": true
     },
@@ -391,7 +391,7 @@
       "id": "ZQfN_nhyOSA",
       "title": "WILL AI REPLACE DATA ANALYSTS? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
       "thumbnail": "https://i.ytimg.com/vi/ZQfN_nhyOSA/mqdefault.jpg",
-      "views": 661,
+      "views": 666,
       "published": "2024-03-15T00:34:44Z",
       "is_short": true
     },
@@ -423,7 +423,7 @@
       "id": "zD4Y5z7Xmzw",
       "title": "Introducing Josh Starmer: Simplifying Data Science and Machine Learning",
       "thumbnail": "https://i.ytimg.com/vi/zD4Y5z7Xmzw/mqdefault.jpg",
-      "views": 542,
+      "views": 543,
       "published": "2024-08-12T21:51:13Z",
       "is_short": true
     },
@@ -439,7 +439,7 @@
       "id": "RT0zVHCZUkM",
       "title": "The Future of AI: Building Smaller, Efficient Models",
       "thumbnail": "https://i.ytimg.com/vi/RT0zVHCZUkM/mqdefault.jpg",
-      "views": 518,
+      "views": 519,
       "published": "2024-11-07T18:30:42Z",
       "is_short": true
     },
@@ -471,7 +471,7 @@
       "id": "HsYQry-A-9U",
       "title": "SQLMesh: Stop Data Pipeline Breakage with Virtual Environments",
       "thumbnail": "https://i.ytimg.com/vi/HsYQry-A-9U/mqdefault.jpg",
-      "views": 506,
+      "views": 507,
       "published": "2025-06-11T22:52:05Z",
       "is_short": true
     },
@@ -479,7 +479,7 @@
       "id": "gXqtJdNnFcw",
       "title": "Data Transformation is Broken #dataengineering #sqlmesh #dataanalysis #datatransformation #data",
       "thumbnail": "https://i.ytimg.com/vi/gXqtJdNnFcw/mqdefault.jpg",
-      "views": 488,
+      "views": 489,
       "published": "2025-06-18T22:25:49Z",
       "is_short": true
     },
@@ -559,7 +559,7 @@
       "id": "9FbSFGsMJns",
       "title": "The Art of Creating Interactive Data Visualizations",
       "thumbnail": "https://i.ytimg.com/vi/9FbSFGsMJns/mqdefault.jpg",
-      "views": 461,
+      "views": 462,
       "published": "2024-08-12T21:42:54Z",
       "is_short": true
     },
@@ -583,7 +583,7 @@
       "id": "qt86Dm7tAf0",
       "title": "Engaging Presentations 101 -  How to Captivate Your Audience and Ditch the Boring Slides",
       "thumbnail": "https://i.ytimg.com/vi/qt86Dm7tAf0/mqdefault.jpg",
-      "views": 445,
+      "views": 446,
       "published": "2024-06-21T07:01:37Z",
       "is_short": true
     },
@@ -775,7 +775,7 @@
       "id": "icYm0KtIMLM",
       "title": "What's a Tech Evangelist??? #ai #dataengineering #datascience",
       "thumbnail": "https://i.ytimg.com/vi/icYm0KtIMLM/mqdefault.jpg",
-      "views": 340,
+      "views": 342,
       "published": "2024-05-06T00:17:24Z",
       "is_short": true
     },
@@ -1300,6 +1300,14 @@
       "is_short": true
     },
     {
+      "id": "qLh4v1lFFhw",
+      "title": "Apache Iceberg: treating data lake files as durable tables",
+      "thumbnail": "https://i.ytimg.com/vi/qLh4v1lFFhw/mqdefault.jpg",
+      "views": 61,
+      "published": "2026-02-14T20:22:36Z",
+      "is_short": true
+    },
+    {
       "id": "jPYBtCu5oRI",
       "title": "Unlock Your Passion: Learn While Having Fun! 🎉✨",
       "thumbnail": "https://i.ytimg.com/vi/jPYBtCu5oRI/mqdefault.jpg",
@@ -1313,14 +1321,6 @@
       "thumbnail": "https://i.ytimg.com/vi/z4C_fYOJHz0/mqdefault.jpg",
       "views": 58,
       "published": "2024-05-31T22:51:08Z",
-      "is_short": true
-    },
-    {
-      "id": "qLh4v1lFFhw",
-      "title": "Apache Iceberg: treating data lake files as durable tables",
-      "thumbnail": "https://i.ytimg.com/vi/qLh4v1lFFhw/mqdefault.jpg",
-      "views": 56,
-      "published": "2026-02-14T20:22:36Z",
       "is_short": true
     },
     {
@@ -1500,19 +1500,19 @@
       "is_short": true
     },
     {
+      "id": "m2VhpTUxOY0",
+      "title": "Unveiling the Power of BAM in Statistics",
+      "thumbnail": "https://i.ytimg.com/vi/m2VhpTUxOY0/mqdefault.jpg",
+      "views": 32,
+      "published": "2024-05-31T21:49:04Z",
+      "is_short": true
+    },
+    {
       "id": "5OQhGahEXCk",
       "title": "Unlocking Creativity with Constraints",
       "thumbnail": "https://i.ytimg.com/vi/5OQhGahEXCk/mqdefault.jpg",
       "views": 31,
       "published": "2024-05-31T22:21:38Z",
-      "is_short": true
-    },
-    {
-      "id": "m2VhpTUxOY0",
-      "title": "Unveiling the Power of BAM in Statistics",
-      "thumbnail": "https://i.ytimg.com/vi/m2VhpTUxOY0/mqdefault.jpg",
-      "views": 31,
-      "published": "2024-05-31T21:49:04Z",
       "is_short": true
     },
     {
@@ -1660,6 +1660,14 @@
       "is_short": true
     },
     {
+      "id": "ya_qi6F-Y_I",
+      "title": "AI Manipulating Politics? #podcast #ai #politics  #dataanalytics #data",
+      "thumbnail": "https://i.ytimg.com/vi/ya_qi6F-Y_I/mqdefault.jpg",
+      "views": 20,
+      "published": "2024-02-07T17:03:02Z",
+      "is_short": true
+    },
+    {
       "id": "ErJsNQ_bBkg",
       "title": "From Astrophysics to Deepfakes: A Journey into Data Science",
       "thumbnail": "https://i.ytimg.com/vi/ErJsNQ_bBkg/mqdefault.jpg",
@@ -1668,11 +1676,11 @@
       "is_short": true
     },
     {
-      "id": "ya_qi6F-Y_I",
-      "title": "AI Manipulating Politics? #podcast #ai #politics  #dataanalytics #data",
-      "thumbnail": "https://i.ytimg.com/vi/ya_qi6F-Y_I/mqdefault.jpg",
+      "id": "eTAlzMob-qg",
+      "title": "What are personas, and how are they used in the real world?",
+      "thumbnail": "https://i.ytimg.com/vi/eTAlzMob-qg/mqdefault.jpg",
       "views": 19,
-      "published": "2024-02-07T17:03:02Z",
+      "published": "2023-12-19T08:21:16Z",
       "is_short": true
     },
     {
@@ -1681,14 +1689,6 @@
       "thumbnail": "https://i.ytimg.com/vi/Scg-ccU7bPI/mqdefault.jpg",
       "views": 18,
       "published": "2023-12-29T17:06:03Z",
-      "is_short": true
-    },
-    {
-      "id": "eTAlzMob-qg",
-      "title": "What are personas, and how are they used in the real world?",
-      "thumbnail": "https://i.ytimg.com/vi/eTAlzMob-qg/mqdefault.jpg",
-      "views": 18,
-      "published": "2023-12-19T08:21:16Z",
       "is_short": true
     },
     {
@@ -1825,7 +1825,7 @@
       "id": "gOBUW7YVv7I",
       "title": "I Asked Hiring Managers How to Land a Data Job: Here's What They Said",
       "thumbnail": "https://i.ytimg.com/vi/gOBUW7YVv7I/mqdefault.jpg",
-      "views": 24121,
+      "views": 24125,
       "published": "2024-12-03T16:30:13Z",
       "is_short": false
     },
