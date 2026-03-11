@@ -2475,6 +2475,22 @@ html[data-theme="dark"] .nav-links {
     }
 }
 
+/* Dark mode: fix section-light cards */
+html[data-theme="dark"] .section-light .card {
+    background-color: var(--color-card);
+}
+html[data-theme="dark"] .section-light .card:hover {
+    background-color: var(--color-card-hover);
+}
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .section-light .card {
+        background-color: var(--color-card);
+    }
+    html:not([data-theme="light"]) .section-light .card:hover {
+        background-color: var(--color-card-hover);
+    }
+}
+
 /* Theme Toggle Button */
 .nav-actions {
     display: flex;
