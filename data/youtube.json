@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-09T07:00:19.111895+00:00",
+  "generated_at": "2026-03-12T06:54:02.175079+00:00",
   "full_length": [
     {
       "id": "M-1wD_Cm1M4",
       "title": "Insights x Design Ep. 18 (@statquest with Josh Starmer)",
       "thumbnail": "https://i.ytimg.com/vi/M-1wD_Cm1M4/mqdefault.jpg",
-      "views": 59013,
+      "views": 59014,
       "published": "2024-04-24T16:00:58Z",
       "is_short": false
     },
@@ -21,7 +21,7 @@
       "id": "0kWEk8QTUGQ",
       "title": "Insights x Design Ep. 17 (Aurélien Vautier)",
       "thumbnail": "https://i.ytimg.com/vi/0kWEk8QTUGQ/mqdefault.jpg",
-      "views": 32006,
+      "views": 32007,
       "published": "2024-04-16T23:56:49Z",
       "is_short": false
     },
@@ -37,7 +37,7 @@
       "id": "4E2wn4MrJwg",
       "title": "IxD - Ep. 23 (@LightsOnData George Firican)",
       "thumbnail": "https://i.ytimg.com/vi/4E2wn4MrJwg/mqdefault.jpg",
-      "views": 26429,
+      "views": 26430,
       "published": "2024-05-30T21:41:34Z",
       "is_short": false
     },
@@ -69,7 +69,7 @@
       "id": "bZj696GiTM4",
       "title": "Insights x Design Ep. 24 (Susan Walsh - The Classification Guru)",
       "thumbnail": "https://i.ytimg.com/vi/bZj696GiTM4/mqdefault.jpg",
-      "views": 12854,
+      "views": 12856,
       "published": "2024-06-21T06:19:40Z",
       "is_short": false
     },
@@ -93,7 +93,7 @@
       "id": "tVOlwZuKRwg",
       "title": "IxD Ep. 27 (Yan Holtz - Data Viz Engineer)",
       "thumbnail": "https://i.ytimg.com/vi/tVOlwZuKRwg/mqdefault.jpg",
-      "views": 6919,
+      "views": 6920,
       "published": "2024-08-08T18:32:21Z",
       "is_short": false
     },
@@ -101,7 +101,7 @@
       "id": "iFbXTeriFVw",
       "title": "Insights x Design Ep. 12 (Eli Holder)",
       "thumbnail": "https://i.ytimg.com/vi/iFbXTeriFVw/mqdefault.jpg",
-      "views": 4223,
+      "views": 4224,
       "published": "2024-03-12T23:44:58Z",
       "is_short": false
     },
@@ -303,7 +303,7 @@
       "id": "qBYozQtqIAw",
       "title": "What is Apache Polaris? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/qBYozQtqIAw/mqdefault.jpg",
-      "views": 26562,
+      "views": 26565,
       "published": "2025-10-16T23:51:10Z",
       "is_short": true
     },
@@ -327,7 +327,7 @@
       "id": "Z6C0Ef67z1Q",
       "title": "SQLMesh is changing the game!",
       "thumbnail": "https://i.ytimg.com/vi/Z6C0Ef67z1Q/mqdefault.jpg",
-      "views": 1882,
+      "views": 1890,
       "published": "2025-06-17T21:00:43Z",
       "is_short": true
     },
@@ -375,7 +375,7 @@
       "id": "zcLReMVO7qo",
       "title": "@statquest  - Demystifying Data Science #datascience #statistics #ai",
       "thumbnail": "https://i.ytimg.com/vi/zcLReMVO7qo/mqdefault.jpg",
-      "views": 986,
+      "views": 990,
       "published": "2024-05-03T19:34:54Z",
       "is_short": true
     },
@@ -391,7 +391,7 @@
       "id": "ZQfN_nhyOSA",
       "title": "WILL AI REPLACE DATA ANALYSTS? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
       "thumbnail": "https://i.ytimg.com/vi/ZQfN_nhyOSA/mqdefault.jpg",
-      "views": 666,
+      "views": 669,
       "published": "2024-03-15T00:34:44Z",
       "is_short": true
     },
@@ -423,7 +423,7 @@
       "id": "zD4Y5z7Xmzw",
       "title": "Introducing Josh Starmer: Simplifying Data Science and Machine Learning",
       "thumbnail": "https://i.ytimg.com/vi/zD4Y5z7Xmzw/mqdefault.jpg",
-      "views": 543,
+      "views": 547,
       "published": "2024-08-12T21:51:13Z",
       "is_short": true
     },
@@ -441,6 +441,14 @@
       "thumbnail": "https://i.ytimg.com/vi/RT0zVHCZUkM/mqdefault.jpg",
       "views": 519,
       "published": "2024-11-07T18:30:42Z",
+      "is_short": true
+    },
+    {
+      "id": "HsYQry-A-9U",
+      "title": "SQLMesh: Stop Data Pipeline Breakage with Virtual Environments",
+      "thumbnail": "https://i.ytimg.com/vi/HsYQry-A-9U/mqdefault.jpg",
+      "views": 510,
+      "published": "2025-06-11T22:52:05Z",
       "is_short": true
     },
     {
@@ -468,18 +476,10 @@
       "is_short": true
     },
     {
-      "id": "HsYQry-A-9U",
-      "title": "SQLMesh: Stop Data Pipeline Breakage with Virtual Environments",
-      "thumbnail": "https://i.ytimg.com/vi/HsYQry-A-9U/mqdefault.jpg",
-      "views": 507,
-      "published": "2025-06-11T22:52:05Z",
-      "is_short": true
-    },
-    {
       "id": "gXqtJdNnFcw",
       "title": "Data Transformation is Broken #dataengineering #sqlmesh #dataanalysis #datatransformation #data",
       "thumbnail": "https://i.ytimg.com/vi/gXqtJdNnFcw/mqdefault.jpg",
-      "views": 489,
+      "views": 492,
       "published": "2025-06-18T22:25:49Z",
       "is_short": true
     },
@@ -559,7 +559,7 @@
       "id": "9FbSFGsMJns",
       "title": "The Art of Creating Interactive Data Visualizations",
       "thumbnail": "https://i.ytimg.com/vi/9FbSFGsMJns/mqdefault.jpg",
-      "views": 462,
+      "views": 463,
       "published": "2024-08-12T21:42:54Z",
       "is_short": true
     },
@@ -687,7 +687,7 @@
       "id": "AUuy8FJ8rU4",
       "title": "Revolutionary Data Contracts: Build or Buy? 🤔✨",
       "thumbnail": "https://i.ytimg.com/vi/AUuy8FJ8rU4/mqdefault.jpg",
-      "views": 429,
+      "views": 430,
       "published": "2024-11-19T21:37:34Z",
       "is_short": true
     },
@@ -775,7 +775,7 @@
       "id": "icYm0KtIMLM",
       "title": "What's a Tech Evangelist??? #ai #dataengineering #datascience",
       "thumbnail": "https://i.ytimg.com/vi/icYm0KtIMLM/mqdefault.jpg",
-      "views": 342,
+      "views": 344,
       "published": "2024-05-06T00:17:24Z",
       "is_short": true
     },
@@ -895,7 +895,7 @@
       "id": "ikV2wajxLHE",
       "title": "Mastering Data Presentations! #dataanalytics #presentation #datascience",
       "thumbnail": "https://i.ytimg.com/vi/ikV2wajxLHE/mqdefault.jpg",
-      "views": 170,
+      "views": 171,
       "published": "2024-05-13T00:54:19Z",
       "is_short": true
     },
@@ -996,19 +996,19 @@
       "is_short": true
     },
     {
+      "id": "AnU-FdwdXXw",
+      "title": "Designing Effective Visualizations: Best Practices for Tableau Dashboards",
+      "thumbnail": "https://i.ytimg.com/vi/AnU-FdwdXXw/mqdefault.jpg",
+      "views": 132,
+      "published": "2024-08-02T21:49:24Z",
+      "is_short": true
+    },
+    {
       "id": "3ByPxq_qvio",
       "title": "AI Expert Jaeden Schafer Weighs in on AI Robo-Calls! #ai #podcast #data #dataanalytics",
       "thumbnail": "https://i.ytimg.com/vi/3ByPxq_qvio/mqdefault.jpg",
       "views": 128,
       "published": "2024-02-14T16:23:10Z",
-      "is_short": true
-    },
-    {
-      "id": "AnU-FdwdXXw",
-      "title": "Designing Effective Visualizations: Best Practices for Tableau Dashboards",
-      "thumbnail": "https://i.ytimg.com/vi/AnU-FdwdXXw/mqdefault.jpg",
-      "views": 127,
-      "published": "2024-08-02T21:49:24Z",
       "is_short": true
     },
     {
@@ -1095,7 +1095,7 @@
       "id": "FEfYjwHZ-yY",
       "title": "SQL JOINS ARE CRITICAL FOR DATA ANALYSTS #dataanalytics #sql #data",
       "thumbnail": "https://i.ytimg.com/vi/FEfYjwHZ-yY/mqdefault.jpg",
-      "views": 98,
+      "views": 99,
       "published": "2023-12-21T06:34:27Z",
       "is_short": true
     },
@@ -1111,7 +1111,7 @@
       "id": "jXLI3_dbFkQ",
       "title": "Which to choose: Spark, Flink, or Kafka Connect?",
       "thumbnail": "https://i.ytimg.com/vi/jXLI3_dbFkQ/mqdefault.jpg",
-      "views": 95,
+      "views": 96,
       "published": "2026-02-14T20:22:56Z",
       "is_short": true
     },
@@ -1191,7 +1191,7 @@
       "id": "LxgzlcrWhH4",
       "title": "Unlocking the Future: AI-Driven Metadata Optimization",
       "thumbnail": "https://i.ytimg.com/vi/LxgzlcrWhH4/mqdefault.jpg",
-      "views": 72,
+      "views": 73,
       "published": "2024-11-19T21:39:46Z",
       "is_short": true
     },
@@ -1676,19 +1676,19 @@
       "is_short": true
     },
     {
+      "id": "Scg-ccU7bPI",
+      "title": "Does UX need a human in the loop to avoid the uncanny valley? #ux #ai #dataanalytics",
+      "thumbnail": "https://i.ytimg.com/vi/Scg-ccU7bPI/mqdefault.jpg",
+      "views": 19,
+      "published": "2023-12-29T17:06:03Z",
+      "is_short": true
+    },
+    {
       "id": "eTAlzMob-qg",
       "title": "What are personas, and how are they used in the real world?",
       "thumbnail": "https://i.ytimg.com/vi/eTAlzMob-qg/mqdefault.jpg",
       "views": 19,
       "published": "2023-12-19T08:21:16Z",
-      "is_short": true
-    },
-    {
-      "id": "Scg-ccU7bPI",
-      "title": "Does UX need a human in the loop to avoid the uncanny valley? #ux #ai #dataanalytics",
-      "thumbnail": "https://i.ytimg.com/vi/Scg-ccU7bPI/mqdefault.jpg",
-      "views": 18,
-      "published": "2023-12-29T17:06:03Z",
       "is_short": true
     },
     {
@@ -1825,7 +1825,7 @@
       "id": "gOBUW7YVv7I",
       "title": "I Asked Hiring Managers How to Land a Data Job: Here's What They Said",
       "thumbnail": "https://i.ytimg.com/vi/gOBUW7YVv7I/mqdefault.jpg",
-      "views": 24125,
+      "views": 24137,
       "published": "2024-12-03T16:30:13Z",
       "is_short": false
     },
@@ -1841,7 +1841,7 @@
       "id": "WXPw3BZPHv0",
       "title": "Future-proofing your career is understanding what value you bring! #data",
       "thumbnail": "https://i.ytimg.com/vi/WXPw3BZPHv0/mqdefault.jpg",
-      "views": 2059,
+      "views": 2060,
       "published": "2025-06-03T14:00:50Z",
       "is_short": false
     },
@@ -1857,7 +1857,7 @@
       "id": "THM5K8M8qA0",
       "title": "Transitioning to Analytics when You're Established, Experienced, and Possibly Well-Paid",
       "thumbnail": "https://i.ytimg.com/vi/THM5K8M8qA0/mqdefault.jpg",
-      "views": 880,
+      "views": 881,
       "published": "2025-08-01T16:00:06Z",
       "is_short": false
     },
