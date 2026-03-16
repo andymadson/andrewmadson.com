@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T06:54:02.175079+00:00",
+  "generated_at": "2026-03-16T07:15:24.068929+00:00",
   "full_length": [
     {
       "id": "M-1wD_Cm1M4",
@@ -21,7 +21,7 @@
       "id": "0kWEk8QTUGQ",
       "title": "Insights x Design Ep. 17 (Aurélien Vautier)",
       "thumbnail": "https://i.ytimg.com/vi/0kWEk8QTUGQ/mqdefault.jpg",
-      "views": 32007,
+      "views": 32008,
       "published": "2024-04-16T23:56:49Z",
       "is_short": false
     },
@@ -93,7 +93,7 @@
       "id": "tVOlwZuKRwg",
       "title": "IxD Ep. 27 (Yan Holtz - Data Viz Engineer)",
       "thumbnail": "https://i.ytimg.com/vi/tVOlwZuKRwg/mqdefault.jpg",
-      "views": 6920,
+      "views": 6921,
       "published": "2024-08-08T18:32:21Z",
       "is_short": false
     },
@@ -117,7 +117,7 @@
       "id": "4gPUehLj2oQ",
       "title": "IxD Ep. 30 (Mark Freeman - Gable AI)",
       "thumbnail": "https://i.ytimg.com/vi/4gPUehLj2oQ/mqdefault.jpg",
-      "views": 2951,
+      "views": 2952,
       "published": "2024-11-19T00:46:59Z",
       "is_short": false
     },
@@ -141,7 +141,7 @@
       "id": "4tmh5hw0PBg",
       "title": "Insights x Design Ep. 7 (AI Global Impact!)",
       "thumbnail": "https://i.ytimg.com/vi/4tmh5hw0PBg/mqdefault.jpg",
-      "views": 1065,
+      "views": 1066,
       "published": "2024-02-05T04:11:30Z",
       "is_short": false
     },
@@ -197,7 +197,7 @@
       "id": "_KKRJySXcfo",
       "title": "What is query federation and why it matters",
       "thumbnail": "https://i.ytimg.com/vi/_KKRJySXcfo/mqdefault.jpg",
-      "views": 120,
+      "views": 122,
       "published": "2026-02-14T20:23:47Z",
       "is_short": false
     },
@@ -205,7 +205,7 @@
       "id": "iB22kKTEZQQ",
       "title": "Iceberg metadata explained: manifests, lists, and snapshots",
       "thumbnail": "https://i.ytimg.com/vi/iB22kKTEZQQ/mqdefault.jpg",
-      "views": 98,
+      "views": 99,
       "published": "2026-02-14T20:23:13Z",
       "is_short": false
     },
@@ -213,7 +213,7 @@
       "id": "jGXFw-0z2BE",
       "title": "IxD Ep. 31 - Solomon Kahn (Delivery Layer CEO)",
       "thumbnail": "https://i.ytimg.com/vi/jGXFw-0z2BE/mqdefault.jpg",
-      "views": 82,
+      "views": 84,
       "published": "2024-12-09T04:01:33Z",
       "is_short": false
     },
@@ -237,7 +237,7 @@
       "id": "PYODIF3b8DA",
       "title": "How Iceberg deletion files work: positional vs equality",
       "thumbnail": "https://i.ytimg.com/vi/PYODIF3b8DA/mqdefault.jpg",
-      "views": 57,
+      "views": 59,
       "published": "2026-02-14T20:25:04Z",
       "is_short": false
     },
@@ -285,7 +285,7 @@
       "id": "x6lem1ijz5E",
       "title": "Attribute-based access with Cedar policies",
       "thumbnail": "https://i.ytimg.com/vi/x6lem1ijz5E/mqdefault.jpg",
-      "views": 16,
+      "views": 17,
       "published": "2026-02-14T20:24:36Z",
       "is_short": false
     }
@@ -303,7 +303,7 @@
       "id": "qBYozQtqIAw",
       "title": "What is Apache Polaris? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/qBYozQtqIAw/mqdefault.jpg",
-      "views": 26565,
+      "views": 26566,
       "published": "2025-10-16T23:51:10Z",
       "is_short": true
     },
@@ -343,7 +343,7 @@
       "id": "3qi4ua6q9h0",
       "title": "Why does Apache Iceberg Exist? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/3qi4ua6q9h0/mqdefault.jpg",
-      "views": 1220,
+      "views": 1227,
       "published": "2025-10-22T19:53:39Z",
       "is_short": true
     },
@@ -375,7 +375,7 @@
       "id": "zcLReMVO7qo",
       "title": "@statquest  - Demystifying Data Science #datascience #statistics #ai",
       "thumbnail": "https://i.ytimg.com/vi/zcLReMVO7qo/mqdefault.jpg",
-      "views": 990,
+      "views": 998,
       "published": "2024-05-03T19:34:54Z",
       "is_short": true
     },
@@ -423,7 +423,7 @@
       "id": "zD4Y5z7Xmzw",
       "title": "Introducing Josh Starmer: Simplifying Data Science and Machine Learning",
       "thumbnail": "https://i.ytimg.com/vi/zD4Y5z7Xmzw/mqdefault.jpg",
-      "views": 547,
+      "views": 548,
       "published": "2024-08-12T21:51:13Z",
       "is_short": true
     },
@@ -447,7 +447,7 @@
       "id": "HsYQry-A-9U",
       "title": "SQLMesh: Stop Data Pipeline Breakage with Virtual Environments",
       "thumbnail": "https://i.ytimg.com/vi/HsYQry-A-9U/mqdefault.jpg",
-      "views": 510,
+      "views": 512,
       "published": "2025-06-11T22:52:05Z",
       "is_short": true
     },
@@ -479,7 +479,7 @@
       "id": "gXqtJdNnFcw",
       "title": "Data Transformation is Broken #dataengineering #sqlmesh #dataanalysis #datatransformation #data",
       "thumbnail": "https://i.ytimg.com/vi/gXqtJdNnFcw/mqdefault.jpg",
-      "views": 492,
+      "views": 493,
       "published": "2025-06-18T22:25:49Z",
       "is_short": true
     },
@@ -487,7 +487,7 @@
       "id": "wKndW-P7K6I",
       "title": "Mastering the Art of Business Influence: Building Strong Mathematical Foundations",
       "thumbnail": "https://i.ytimg.com/vi/wKndW-P7K6I/mqdefault.jpg",
-      "views": 485,
+      "views": 486,
       "published": "2024-07-03T04:04:49Z",
       "is_short": true
     },
@@ -503,7 +503,7 @@
       "id": "ZFHdarUsixs",
       "title": "Unlocking Chart-Making Secrets: Inspiring Free Resources for the Community",
       "thumbnail": "https://i.ytimg.com/vi/ZFHdarUsixs/mqdefault.jpg",
-      "views": 475,
+      "views": 476,
       "published": "2024-08-06T22:05:46Z",
       "is_short": true
     },
@@ -535,7 +535,7 @@
       "id": "hDD6L56kUSE",
       "title": "The Art and Science of Effective Analytics Dashboards in Tableau",
       "thumbnail": "https://i.ytimg.com/vi/hDD6L56kUSE/mqdefault.jpg",
-      "views": 470,
+      "views": 472,
       "published": "2024-08-02T21:38:32Z",
       "is_short": true
     },
@@ -567,7 +567,7 @@
       "id": "4ZdT-Rt57Fk",
       "title": "Unveiling the Role of a Director of Data Strategy and Products",
       "thumbnail": "https://i.ytimg.com/vi/4ZdT-Rt57Fk/mqdefault.jpg",
-      "views": 454,
+      "views": 455,
       "published": "2024-08-08T19:18:54Z",
       "is_short": true
     },
@@ -767,7 +767,7 @@
       "id": "ZTJu6f9r_9s",
       "title": "The Power of Customer Service: Lessons Learned from Retail",
       "thumbnail": "https://i.ytimg.com/vi/ZTJu6f9r_9s/mqdefault.jpg",
-      "views": 345,
+      "views": 346,
       "published": "2024-07-03T16:25:17Z",
       "is_short": true
     },
@@ -783,7 +783,7 @@
       "id": "eo6cTrZTZd0",
       "title": "Why are Apache Iceberg Data Lakehouses so awesome?  #dataengineering #dataanalytics",
       "thumbnail": "https://i.ytimg.com/vi/eo6cTrZTZd0/mqdefault.jpg",
-      "views": 332,
+      "views": 333,
       "published": "2024-05-04T02:03:32Z",
       "is_short": true
     },
@@ -831,7 +831,7 @@
       "id": "uu8VeSY2TSg",
       "title": "What is an Iceberg REST Catalog? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/uu8VeSY2TSg/mqdefault.jpg",
-      "views": 239,
+      "views": 240,
       "published": "2025-10-30T04:29:27Z",
       "is_short": true
     },
@@ -847,7 +847,7 @@
       "id": "Zy2c1LZfeEs",
       "title": "How to Get Started with Data Governance with New AI Regulations",
       "thumbnail": "https://i.ytimg.com/vi/Zy2c1LZfeEs/mqdefault.jpg",
-      "views": 211,
+      "views": 216,
       "published": "2024-05-31T23:18:35Z",
       "is_short": true
     },
@@ -919,7 +919,7 @@
       "id": "jzwyTS-nhgc",
       "title": "AI Requires Data Quality and Trust!#ai #dataanalytics #datascience #dataengineering @SeattleDataGuy",
       "thumbnail": "https://i.ytimg.com/vi/jzwyTS-nhgc/mqdefault.jpg",
-      "views": 145,
+      "views": 146,
       "published": "2024-03-03T07:14:55Z",
       "is_short": true
     },
@@ -1100,19 +1100,19 @@
       "is_short": true
     },
     {
+      "id": "jXLI3_dbFkQ",
+      "title": "Which to choose: Spark, Flink, or Kafka Connect?",
+      "thumbnail": "https://i.ytimg.com/vi/jXLI3_dbFkQ/mqdefault.jpg",
+      "views": 97,
+      "published": "2026-02-14T20:22:56Z",
+      "is_short": true
+    },
+    {
       "id": "WNoR1_i21o8",
       "title": "Ultimate Lip Sync Dream: Robbie Williams Reacts to My Videos! #podcast #dataanalytics #dataquality",
       "thumbnail": "https://i.ytimg.com/vi/WNoR1_i21o8/mqdefault.jpg",
       "views": 97,
       "published": "2024-06-21T04:33:55Z",
-      "is_short": true
-    },
-    {
-      "id": "jXLI3_dbFkQ",
-      "title": "Which to choose: Spark, Flink, or Kafka Connect?",
-      "thumbnail": "https://i.ytimg.com/vi/jXLI3_dbFkQ/mqdefault.jpg",
-      "views": 96,
-      "published": "2026-02-14T20:22:56Z",
       "is_short": true
     },
     {
@@ -1260,6 +1260,14 @@
       "is_short": true
     },
     {
+      "id": "TPwHr9bcrvk",
+      "title": "Discover How to Save Money on Food Delivery and Optimize Data with Code Methodology",
+      "thumbnail": "https://i.ytimg.com/vi/TPwHr9bcrvk/mqdefault.jpg",
+      "views": 64,
+      "published": "2024-07-03T17:05:11Z",
+      "is_short": true
+    },
+    {
       "id": "7AmxPIZcEXE",
       "title": "How to Avoid Information Overload",
       "thumbnail": "https://i.ytimg.com/vi/7AmxPIZcEXE/mqdefault.jpg",
@@ -1281,14 +1289,6 @@
       "thumbnail": "https://i.ytimg.com/vi/UQ0z7BsPMHs/mqdefault.jpg",
       "views": 63,
       "published": "2026-02-14T20:24:38Z",
-      "is_short": true
-    },
-    {
-      "id": "TPwHr9bcrvk",
-      "title": "Discover How to Save Money on Food Delivery and Optimize Data with Code Methodology",
-      "thumbnail": "https://i.ytimg.com/vi/TPwHr9bcrvk/mqdefault.jpg",
-      "views": 63,
-      "published": "2024-07-03T17:05:11Z",
       "is_short": true
     },
     {
@@ -1412,6 +1412,14 @@
       "is_short": true
     },
     {
+      "id": "3cPW2X9706A",
+      "title": "Is AI Affecting Politics? #ai #politices #data #governance",
+      "thumbnail": "https://i.ytimg.com/vi/3cPW2X9706A/mqdefault.jpg",
+      "views": 41,
+      "published": "2024-02-06T16:52:12Z",
+      "is_short": true
+    },
+    {
       "id": "e_ZS-ipU7zU",
       "title": "A Mentor Makes All The Difference in Success",
       "thumbnail": "https://i.ytimg.com/vi/e_ZS-ipU7zU/mqdefault.jpg",
@@ -1420,11 +1428,11 @@
       "is_short": true
     },
     {
-      "id": "3cPW2X9706A",
-      "title": "Is AI Affecting Politics? #ai #politices #data #governance",
-      "thumbnail": "https://i.ytimg.com/vi/3cPW2X9706A/mqdefault.jpg",
-      "views": 39,
-      "published": "2024-02-06T16:52:12Z",
+      "id": "gVCV_NVYRyA",
+      "title": "Trustworthy Data: The Key to Success in Data Quality",
+      "thumbnail": "https://i.ytimg.com/vi/gVCV_NVYRyA/mqdefault.jpg",
+      "views": 38,
+      "published": "2024-07-03T23:50:29Z",
       "is_short": true
     },
     {
@@ -1433,14 +1441,6 @@
       "thumbnail": "https://i.ytimg.com/vi/GDrsNFGiNIw/mqdefault.jpg",
       "views": 38,
       "published": "2024-05-31T22:44:45Z",
-      "is_short": true
-    },
-    {
-      "id": "gVCV_NVYRyA",
-      "title": "Trustworthy Data: The Key to Success in Data Quality",
-      "thumbnail": "https://i.ytimg.com/vi/gVCV_NVYRyA/mqdefault.jpg",
-      "views": 37,
-      "published": "2024-07-03T23:50:29Z",
       "is_short": true
     },
     {
@@ -1825,7 +1825,7 @@
       "id": "gOBUW7YVv7I",
       "title": "I Asked Hiring Managers How to Land a Data Job: Here's What They Said",
       "thumbnail": "https://i.ytimg.com/vi/gOBUW7YVv7I/mqdefault.jpg",
-      "views": 24137,
+      "views": 24146,
       "published": "2024-12-03T16:30:13Z",
       "is_short": false
     },
@@ -1833,7 +1833,7 @@
       "id": "DDXDPK1fdl4",
       "title": "Exploring Data Science and Analytics: Insights with Tech Evangelist Andrew Madson.",
       "thumbnail": "https://i.ytimg.com/vi/DDXDPK1fdl4/mqdefault.jpg",
-      "views": 21814,
+      "views": 21815,
       "published": "2024-07-09T00:15:12Z",
       "is_short": false
     },
