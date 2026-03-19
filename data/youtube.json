@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T07:15:24.068929+00:00",
+  "generated_at": "2026-03-19T06:56:32.646921+00:00",
   "full_length": [
     {
       "id": "M-1wD_Cm1M4",
@@ -21,7 +21,7 @@
       "id": "0kWEk8QTUGQ",
       "title": "Insights x Design Ep. 17 (Aurélien Vautier)",
       "thumbnail": "https://i.ytimg.com/vi/0kWEk8QTUGQ/mqdefault.jpg",
-      "views": 32008,
+      "views": 32009,
       "published": "2024-04-16T23:56:49Z",
       "is_short": false
     },
@@ -37,7 +37,7 @@
       "id": "4E2wn4MrJwg",
       "title": "IxD - Ep. 23 (@LightsOnData George Firican)",
       "thumbnail": "https://i.ytimg.com/vi/4E2wn4MrJwg/mqdefault.jpg",
-      "views": 26430,
+      "views": 26431,
       "published": "2024-05-30T21:41:34Z",
       "is_short": false
     },
@@ -53,7 +53,7 @@
       "id": "_JW_hkkHYnE",
       "title": "Insights x Design Ep. 21 (Conor Grennan - Chief AI Architect)",
       "thumbnail": "https://i.ytimg.com/vi/_JW_hkkHYnE/mqdefault.jpg",
-      "views": 14307,
+      "views": 14308,
       "published": "2024-05-15T03:26:33Z",
       "is_short": false
     },
@@ -93,7 +93,7 @@
       "id": "tVOlwZuKRwg",
       "title": "IxD Ep. 27 (Yan Holtz - Data Viz Engineer)",
       "thumbnail": "https://i.ytimg.com/vi/tVOlwZuKRwg/mqdefault.jpg",
-      "views": 6921,
+      "views": 6922,
       "published": "2024-08-08T18:32:21Z",
       "is_short": false
     },
@@ -165,7 +165,7 @@
       "id": "tIa3lYcYc_g",
       "title": "How StarRocks reads Iceberg: metadata and pruning",
       "thumbnail": "https://i.ytimg.com/vi/tIa3lYcYc_g/mqdefault.jpg",
-      "views": 290,
+      "views": 291,
       "published": "2026-02-14T20:23:42Z",
       "is_short": false
     },
@@ -229,7 +229,7 @@
       "id": "rQHSGM1OT6w",
       "title": "StarRocks optimizations when federating to Iceberg",
       "thumbnail": "https://i.ytimg.com/vi/rQHSGM1OT6w/mqdefault.jpg",
-      "views": 68,
+      "views": 70,
       "published": "2026-02-14T20:24:44Z",
       "is_short": false
     },
@@ -285,7 +285,7 @@
       "id": "x6lem1ijz5E",
       "title": "Attribute-based access with Cedar policies",
       "thumbnail": "https://i.ytimg.com/vi/x6lem1ijz5E/mqdefault.jpg",
-      "views": 17,
+      "views": 19,
       "published": "2026-02-14T20:24:36Z",
       "is_short": false
     }
@@ -303,7 +303,7 @@
       "id": "qBYozQtqIAw",
       "title": "What is Apache Polaris? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/qBYozQtqIAw/mqdefault.jpg",
-      "views": 26566,
+      "views": 26567,
       "published": "2025-10-16T23:51:10Z",
       "is_short": true
     },
@@ -327,7 +327,7 @@
       "id": "Z6C0Ef67z1Q",
       "title": "SQLMesh is changing the game!",
       "thumbnail": "https://i.ytimg.com/vi/Z6C0Ef67z1Q/mqdefault.jpg",
-      "views": 1890,
+      "views": 1900,
       "published": "2025-06-17T21:00:43Z",
       "is_short": true
     },
@@ -343,7 +343,7 @@
       "id": "3qi4ua6q9h0",
       "title": "Why does Apache Iceberg Exist? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/3qi4ua6q9h0/mqdefault.jpg",
-      "views": 1227,
+      "views": 1230,
       "published": "2025-10-22T19:53:39Z",
       "is_short": true
     },
@@ -375,8 +375,16 @@
       "id": "zcLReMVO7qo",
       "title": "@statquest  - Demystifying Data Science #datascience #statistics #ai",
       "thumbnail": "https://i.ytimg.com/vi/zcLReMVO7qo/mqdefault.jpg",
-      "views": 998,
+      "views": 1000,
       "published": "2024-05-03T19:34:54Z",
+      "is_short": true
+    },
+    {
+      "id": "ZQfN_nhyOSA",
+      "title": "WILL AI REPLACE DATA ANALYSTS? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
+      "thumbnail": "https://i.ytimg.com/vi/ZQfN_nhyOSA/mqdefault.jpg",
+      "views": 674,
+      "published": "2024-03-15T00:34:44Z",
       "is_short": true
     },
     {
@@ -385,14 +393,6 @@
       "thumbnail": "https://i.ytimg.com/vi/3wTyoRMwgNw/mqdefault.jpg",
       "views": 671,
       "published": "2024-03-28T02:10:24Z",
-      "is_short": true
-    },
-    {
-      "id": "ZQfN_nhyOSA",
-      "title": "WILL AI REPLACE DATA ANALYSTS? @AlexTheAnalyst WEIGHS IN! #ai #dataanalytics #datascience #data",
-      "thumbnail": "https://i.ytimg.com/vi/ZQfN_nhyOSA/mqdefault.jpg",
-      "views": 669,
-      "published": "2024-03-15T00:34:44Z",
       "is_short": true
     },
     {
@@ -423,7 +423,7 @@
       "id": "zD4Y5z7Xmzw",
       "title": "Introducing Josh Starmer: Simplifying Data Science and Machine Learning",
       "thumbnail": "https://i.ytimg.com/vi/zD4Y5z7Xmzw/mqdefault.jpg",
-      "views": 548,
+      "views": 549,
       "published": "2024-08-12T21:51:13Z",
       "is_short": true
     },
@@ -447,7 +447,7 @@
       "id": "HsYQry-A-9U",
       "title": "SQLMesh: Stop Data Pipeline Breakage with Virtual Environments",
       "thumbnail": "https://i.ytimg.com/vi/HsYQry-A-9U/mqdefault.jpg",
-      "views": 512,
+      "views": 514,
       "published": "2025-06-11T22:52:05Z",
       "is_short": true
     },
@@ -479,7 +479,7 @@
       "id": "gXqtJdNnFcw",
       "title": "Data Transformation is Broken #dataengineering #sqlmesh #dataanalysis #datatransformation #data",
       "thumbnail": "https://i.ytimg.com/vi/gXqtJdNnFcw/mqdefault.jpg",
-      "views": 493,
+      "views": 496,
       "published": "2025-06-18T22:25:49Z",
       "is_short": true
     },
@@ -511,7 +511,7 @@
       "id": "MTYoeIY9PKg",
       "title": "How Accurate Classification and Taxonomy can Save You Money",
       "thumbnail": "https://i.ytimg.com/vi/MTYoeIY9PKg/mqdefault.jpg",
-      "views": 475,
+      "views": 476,
       "published": "2024-07-04T09:05:24Z",
       "is_short": true
     },
@@ -567,7 +567,7 @@
       "id": "4ZdT-Rt57Fk",
       "title": "Unveiling the Role of a Director of Data Strategy and Products",
       "thumbnail": "https://i.ytimg.com/vi/4ZdT-Rt57Fk/mqdefault.jpg",
-      "views": 455,
+      "views": 456,
       "published": "2024-08-08T19:18:54Z",
       "is_short": true
     },
@@ -775,7 +775,7 @@
       "id": "icYm0KtIMLM",
       "title": "What's a Tech Evangelist??? #ai #dataengineering #datascience",
       "thumbnail": "https://i.ytimg.com/vi/icYm0KtIMLM/mqdefault.jpg",
-      "views": 344,
+      "views": 345,
       "published": "2024-05-06T00:17:24Z",
       "is_short": true
     },
@@ -807,7 +807,7 @@
       "id": "Tbfe3Fo8WhU",
       "title": "WILL AI REPLACE DATA ANALYSTS? @AlexTheAnalyst GIVES HIS PREDICTION! #ai #dataanalytics #chatgpt",
       "thumbnail": "https://i.ytimg.com/vi/Tbfe3Fo8WhU/mqdefault.jpg",
-      "views": 260,
+      "views": 261,
       "published": "2024-03-18T17:53:25Z",
       "is_short": true
     },
@@ -831,7 +831,7 @@
       "id": "uu8VeSY2TSg",
       "title": "What is an Iceberg REST Catalog? #shorts",
       "thumbnail": "https://i.ytimg.com/vi/uu8VeSY2TSg/mqdefault.jpg",
-      "views": 240,
+      "views": 241,
       "published": "2025-10-30T04:29:27Z",
       "is_short": true
     },
@@ -1119,7 +1119,7 @@
       "id": "yFKm56vjftQ",
       "title": "POST OFFICE AI BOT  #ai #dataanalytics #podcast #politics #government",
       "thumbnail": "https://i.ytimg.com/vi/yFKm56vjftQ/mqdefault.jpg",
-      "views": 91,
+      "views": 93,
       "published": "2024-02-07T17:39:09Z",
       "is_short": true
     },
@@ -1415,7 +1415,7 @@
       "id": "3cPW2X9706A",
       "title": "Is AI Affecting Politics? #ai #politices #data #governance",
       "thumbnail": "https://i.ytimg.com/vi/3cPW2X9706A/mqdefault.jpg",
-      "views": 41,
+      "views": 42,
       "published": "2024-02-06T16:52:12Z",
       "is_short": true
     },
@@ -1740,19 +1740,19 @@
       "is_short": true
     },
     {
+      "id": "X9hRAdxg3TA",
+      "title": "Who will be UX leaders in 2024? #ux #data #predictions #dataanalytics",
+      "thumbnail": "https://i.ytimg.com/vi/X9hRAdxg3TA/mqdefault.jpg",
+      "views": 14,
+      "published": "2023-12-29T16:57:41Z",
+      "is_short": true
+    },
+    {
       "id": "GP4tQZQsFZc",
       "title": "Will AI transform data governance in 2024? #ai #data #dataanalytics #governance",
       "thumbnail": "https://i.ytimg.com/vi/GP4tQZQsFZc/mqdefault.jpg",
       "views": 13,
       "published": "2023-12-29T17:00:19Z",
-      "is_short": true
-    },
-    {
-      "id": "X9hRAdxg3TA",
-      "title": "Who will be UX leaders in 2024? #ux #data #predictions #dataanalytics",
-      "thumbnail": "https://i.ytimg.com/vi/X9hRAdxg3TA/mqdefault.jpg",
-      "views": 13,
-      "published": "2023-12-29T16:57:41Z",
       "is_short": true
     },
     {
@@ -1825,7 +1825,7 @@
       "id": "gOBUW7YVv7I",
       "title": "I Asked Hiring Managers How to Land a Data Job: Here's What They Said",
       "thumbnail": "https://i.ytimg.com/vi/gOBUW7YVv7I/mqdefault.jpg",
-      "views": 24146,
+      "views": 24148,
       "published": "2024-12-03T16:30:13Z",
       "is_short": false
     },
