@@ -4,6 +4,7 @@
 export const EVENTS = [
     { name: "Denver Apache DataFusion Meetup", role: "Attendee", date: "2026-07-22", city: "Denver, CO" },
     { name: "TDWI Munich 2026", role: "Speaker", date: "2026-06-23", endDate: "2026-06-25", city: "Munich, Germany" },
+    { name: "Data Dates: Spring Into Insights", role: "Speaker", date: "2026-04-16", city: "Palo Alto, CA" },
     { name: "Data Engineering Open Forum 2026", role: "Attendee", date: "2026-04-16", city: "San Francisco, CA" },
     { name: "NVIDIA GTC Side Event: Data Infrastructure for AI Agents", role: "Speaker", date: "2026-03-18", city: "Mountain View, CA" },
     { name: "Iceberg Summit 2026", role: "Speaker", date: "2026-04-08", endDate: "2026-04-09", city: "San Francisco, CA" },
@@ -89,6 +90,7 @@ export const CITIES = {
     "Nashville, TN": [36.163, -86.781],
     "New York, NY": [40.713, -74.006],
     "Oakland, CA": [37.804, -122.271],
+    "Palo Alto, CA": [37.442, -122.143],
     "Orlando, FL": [28.538, -81.379],
     "Phoenix, AZ": [33.449, -112.074],
     "Pittsburgh, PA": [40.441, -79.959],
