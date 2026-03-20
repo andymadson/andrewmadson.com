@@ -3,6 +3,7 @@
 // ============================================================
 export const EVENTS = [
     { name: "Denver Apache DataFusion Meetup", role: "Attendee", date: "2026-07-22", city: "Denver, CO" },
+    { name: "New York City Apache DataFusion Meetup", role: "Speaker", date: "2026-05-12", city: "New York, NY" },
     { name: "TDWI Munich 2026", role: "Speaker", date: "2026-06-23", endDate: "2026-06-25", city: "Munich, Germany" },
     { name: "Data Dates: Spring Into Insights", role: "Speaker", date: "2026-04-16", city: "Palo Alto, CA" },
     { name: "Data Engineering Open Forum 2026", role: "Attendee", date: "2026-04-16", city: "San Francisco, CA" },
